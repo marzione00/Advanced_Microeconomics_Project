@@ -5,6 +5,7 @@ library(tidyverse)
 
 
 buffer<-data.frame(matrix(ncol = 5))
+out<-data.frame(matrix(ncol = 5))
 colnames(buffer) <- c("time", "S","I","R","D")
 
 
@@ -35,7 +36,7 @@ parms <- c(beta=0.4,gamma=0.12,delta=0.1)
 xstart <- c(S=99999
             ,I=1,R=0,D=0)
 
-for(i in 0:30) {
+for(i in 0:40) {
   
 
 
@@ -53,7 +54,13 @@ ode(
 ) %>%
   as.data.frame() -> out
 
-buffer<-rbind(buffer,out)
+peppo<-as.data.frame(t(as.matrix(data.frame(Reduce(rbind,out)))))
+
+colnames(peppo) <- c("time", "S","I","R","D")
+
+peppo<-peppo[-8,]
+
+buffer<-rbind(buffer,peppo)
 
 #print(out$S)
 
@@ -65,10 +72,11 @@ xstart <- c(S=out$S[8],I=out$I[8],R=out$R[8],D=out$D[8])
 
 
 
-if(buffer[(i+1)*7,]$I > 1000) {
+if(buffer[(i+1)*7,]$I > 5000) {
   
   parms <- c(beta=0.4*0.05,gamma=0.12,delta=0.1)
   print(buffer[(i+1)*7,]$time)
+  print(buffer[(i+1)*7,]$I)
   
 }
 
