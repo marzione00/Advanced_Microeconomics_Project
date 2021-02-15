@@ -93,8 +93,6 @@ if(buffer[(i+1)*7,]$I < 1000) {
 
 
 
-
-
 buffer %>%
   gather(variable,value,-time) %>%
   ggplot(aes(x=time,y=value,color=variable))+
