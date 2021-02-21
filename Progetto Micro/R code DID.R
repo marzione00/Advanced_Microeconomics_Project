@@ -6,8 +6,7 @@ Vendite_READY_test <- read_excel("/Users/MacBook/Documents/University of Milan/P
 install.packages("ggplot2")
 library(ggplot2)
 
-#Vendite_READY$delta<-Vendite_READY$Alimentari-Vendite_READY$NAlimentare
-
+Vendite_READY$delta<-Vendite_READY$Alimentari-Vendite_READY$NAlimentare
 ggplot(data=Vendite_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=NAlimentare),color = "blue")+
   geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=delta),color = "green")
 
