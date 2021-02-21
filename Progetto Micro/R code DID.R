@@ -1,10 +1,10 @@
-setwd("/Users/MacBook/Documents/University of Milan/Progetto Micro")
-install.packages("readxl")
 library(readxl)
-Vendite_READY <- read_excel("/Users/MacBook/Documents/University of Milan/Progetto Micro/Vendite_READY.xlsx")
+library(ggplot2)
+
+Vendite_READY <- read_excel("Vendite_READY.xlsx")
 Vendite_READY_test <- read_excel("/Users/MacBook/Documents/University of Milan/Progetto Micro/Vendite_READY_test.xlsx")
 install.packages("ggplot2")
-library(ggplot2)
+
 
 Vendite_READY$delta<-Vendite_READY$Alimentari-Vendite_READY$NAlimentare
 ggplot(data=Vendite_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=NAlimentare),color = "blue")+
@@ -16,7 +16,8 @@ summary(did)
 
 
 #Abbigliamento
-Abbigliamento_READY <- read_excel("/Users/MacBook/Documents/University of Milan/Progetto Micro/Abbigliamento_READY.xlsx")
+Abbigliamento_READY <- read_excel("Abbigliamento_READY.xlsx")
+
 Abbigliamento_READY$delta1<-Abbigliamento_READY$Alimentari-Abbigliamento_READY$Abbigliamento
 ggplot(data=Abbigliamento_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=Abbigliamento),color = "blue")+
   geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=delta1),color = "green")
@@ -25,29 +26,77 @@ Abbigliamento <- read_excel("/Users/MacBook/Documents/University of Milan/Proget
 
 did1 <-lm(Alimentari ~  C + Time + Time2+Time3 + C*Time +C*Time2+C*Time3, data = Abbigliamento)
 summary(did1)
+
+
+
+Abbigliamento_PLACEBO <- read_excel("Abbigliamento_PLACEBO.xlsx")
+
+did2 <-lm(Alimentari ~  C + Time + Time2+Time3 + C*Time +C*Time2+C*Time3, data = Abbigliamento_PLACEBO  )
+summary(did2)
+
+
+Abbigliamento_READY_COMMON_TREND <- read_excel("Abbigliamento_COMMON_TREND.xlsx")
+
+slope<-lm(Alimentari- Abbigliamento ~ Month, data = Abbigliamento_READY_COMMON_TREND )
+summary(slope)
+
 #plot(did1)
 
 #Calzature
-Calzature_READY <- read_excel("/Users/MacBook/Documents/University of Milan/Progetto Micro/Calzature_READY.xlsx")
+Calzature_READY <- read_excel("Calzature_READY.xlsx")
 Calzature_READY$delta2<-Calzature_READY$Alimentari-Calzature_READY$Calzature
 ggplot(data=Calzature_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=Calzature),color = "blue")+
   geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=delta2),color = "green")
 
-Calzature <- read_excel("/Users/MacBook/Documents/University of Milan/Progetto Micro/Calzature.xlsx")
+Calzature <- read_excel("Calzature.xlsx")
 
 did2 <-lm(Alimentari ~  C + Time + Time2+Time3 + C*Time +C*Time2+C*Time3, data = Calzature)
 summary(did2)
+
+
+
+Calzature_PLACEBO <- read_excel("Calzature_PLACEBO.xlsx")
+
+did2 <-lm(Alimentari ~  C + Time + Time2+Time3 + C*Time +C*Time2+C*Time3, data = Calzature_PLACEBO  )
+summary(did2)
+
+
+Calzature_READY_COMMON_TREND <- read_excel("Calzature_READY_COMMON_TREND.xlsx")
+
+slope<-lm(Alimentari- Calzature ~ Month, data = Calzature_READY_COMMON_TREND )
+summary(slope)
+
+
+
 #plot(did2)
 
 #Fotoottica
-Fotoottica_READY <- read_excel("/Users/MacBook/Documents/University of Milan/Progetto Micro/Fotoottica_READY.xlsx")
+Fotoottica_READY <- read_excel("Fotoottica_READY.xlsx")
 Fotoottica_READY$delta3<-Fotoottica_READY$Alimentari-Fotoottica_READY$Fotoottica
 ggplot(data=Fotoottica_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=Fotoottica),color = "blue")+
   geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=delta3),color = "green")
 
-Fotoottica <- read_excel("/Users/MacBook/Documents/University of Milan/Progetto Micro/Fotoottica.xlsx")
+
+
+Fotoottica <- read_excel("Fotoottica.xlsx")
 did3 <-lm(Alimentari ~  C + Time + Time2+Time3 + C*Time +C*Time2+C*Time3, data = Fotoottica)
 summary(did3)
+
+
+Fotoottica_PLACEBO <- read_excel("Fotoottica_PLACEBO.xlsx")
+
+did2 <-lm(Alimentari ~  C + Time + Time2+Time3 + C*Time +C*Time2+C*Time3, data = Fotoottica_PLACEBO  )
+summary(did2)
+
+
+Fotoottica_READY_COMMON_TREND <- read_excel("Fotoottica_READY_COMMON_TREND.xlsx")
+
+slope<-lm(Alimentari- Fotoottica ~ Month, data = Fotoottica_READY_COMMON_TREND )
+summary(slope)
+
+
+
+
 #plot(did3)
 
 #Elettrodomestici
