@@ -100,14 +100,27 @@ summary(slope)
 #plot(did3)
 
 #Elettrodomestici
-Elettrodomestici_READY <- read_excel("/Users/MacBook/Documents/University of Milan/Progetto Micro/Elettrodomestici_READY.xlsx")
+Elettrodomestici_READY <- read_excel("Elettrodomestici_READY.xlsx")
 Elettrodomestici_READY$delta4<-Elettrodomestici_READY$Alimentari-Elettrodomestici_READY$Elettrodomestici
 ggplot(data=Elettrodomestici_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=Elettrodomestici),color = "blue")+
   geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=delta4),color = "green")
 
-Elettrodomestici <- read_excel("/Users/MacBook/Documents/University of Milan/Progetto Micro/Elettrodomestici.xlsx")
+Elettrodomestici <- read_excel("Elettrodomestici.xlsx")
 did4 <-lm(Alimentari ~  C + Time + Time2+Time3 + C*Time +C*Time2+C*Time3, data = Elettrodomestici)
 summary(did4)
+
+Elettrodomestici_PLACEBO <- read_excel("Elettrodomestici_PLACEBO.xlsx")
+
+did2 <-lm(Alimentari ~  C + Time + Time2+Time3 + C*Time +C*Time2+C*Time3, data = Elettrodomestici_PLACEBO  )
+summary(did2)
+
+
+Elettrodomestici_READY_COMMON_TREND <- read_excel("Elettrodomestici_READY_COMMON_TREND.xlsx")
+
+slope<-lm(Alimentari- Elettrodomestici ~ Month, data = Elettrodomestici_READY_COMMON_TREND )
+summary(slope)
+
+
 #plot(did4)
 
 #Mobili
