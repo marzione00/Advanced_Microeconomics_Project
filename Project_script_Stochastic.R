@@ -187,6 +187,7 @@ score
 selling_effect$Type <- DID_selling_matrix$Type
 selling_effect$Effect <- DID_selling_matrix$High*strong_lockdown_weeks+DID_selling_matrix$Medium*medium_lockdown_weeks
 selling_effect$Effect_error <- DID_selling_matrix_error$High*strong_lockdown_weeks+DID_selling_matrix_error$Medium*medium_lockdown_weeks+DID_selling_matrix_error$Low*soft_lockdown_weeks
+selling_effect$P_value <- 2 * pt(abs(selling_effect$Effect/selling_effect$Effect_error),64,lower.tail = FALSE)
 selling_effect$High <- strong_lockdown_weeks
 selling_effect$Medium <- medium_lockdown_weeks
 selling_effect$Low <- soft_lockdown_weeks
