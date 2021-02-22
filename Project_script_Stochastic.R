@@ -13,10 +13,11 @@ strong_lockdown_weeks<- 0
 no_lockdown_weeks<- 0
 lockdown_weeks<-0
 out<-data.frame(matrix(ncol = 5))
+selling_effect<-data.frame(matrix(ncol = 0,nrow=7))
 colnames(buffer) <- c("time", "S","I","R","D")
 pop_tot<-60000000
 delta_inf<-0
-#k<-c(1,1.2,1.8)
+#k<-c(1.5,1.5,1.5)
 k<-c(1,1,1)
 #rate_infection_threshold<-0.000001
 rate_infection_threshold<-0.000007
@@ -25,9 +26,21 @@ p_vector<-numeric(400)
 R_t<-numeric(52)
 
 
+#DID_selling_matrix <- read_excel("Risultati/DID_selling_matrix.xlsx")
+#as.data.frame(DID_selling_matrix)
+#save(DID_selling_matrix,file="DID_selling_matrix.rda")
+load("DID_selling_matrix.rda")
+
+#DID_selling_matrix_error <- read_excel("Risultati/DID_selling_matrix_error.xlsx")
+#as.data.frame(DID_selling_matrix_error)
+#save(DID_selling_matrix_error,file="DID_selling_matrix_error.rda")
+load("DID_selling_matrix_error.rda")
+
+
 #p_vector <- runif(400, 0.000, 1.000)
 #save(p_vector,file="p_vector.rda")
 load("p_vector.rda")
+
 
 closed.sir.model <- function (t, x, params) {
   ## first extract the state variables
@@ -168,8 +181,15 @@ lockdown_weeks
 buffer$D[370]
 
 
-score <- soft_lockdown_weeks+medium_lockdown_weeks*5+strong_lockdown_weeks*10
+score <- soft_lockdown_weeks+(1/7)+medium_lockdown_weeks*(1/0.25)+strong_lockdown_weeks*(1/0.025)
 score
+
+selling_effect$Type <- DID_selling_matrix$Type
+selling_effect$Effect <- DID_selling_matrix$High*strong_lockdown_weeks+DID_selling_matrix$Medium*medium_lockdown_weeks
+selling_effect$Effect_error <- DID_selling_matrix_error$High*strong_lockdown_weeks+DID_selling_matrix_error$Medium*medium_lockdown_weeks+DID_selling_matrix_error$Low*soft_lockdown_weeks
+selling_effect$High <- strong_lockdown_weeks
+selling_effect$Medium <- medium_lockdown_weeks
+selling_effect$Low <- soft_lockdown_weeks
 
 
 buffer %>%
