@@ -179,6 +179,10 @@ medium_lockdown_weeks
 strong_lockdown_weeks
 lockdown_weeks
 buffer$D[370]
+print("Costo morti kEUR")
+buffer$D[370]*300
+print("Costo ricoveri kEUR")
+buffer$R[370]*28.180
 
 
 score <- soft_lockdown_weeks+(1/7)+medium_lockdown_weeks*(1/0.25)+strong_lockdown_weeks*(1/0.025)
