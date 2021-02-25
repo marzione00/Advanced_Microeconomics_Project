@@ -66,7 +66,7 @@ closed.sir.model <- function (t, x, params) {
   #  L <- ifelse(I=> 10000, 0.5, 1)
 
 }
-parms <- c(beta=0.5,gamma=0.14,delta=0.01)
+parms <- c(beta=0.55,gamma=0.14,delta=0.01)
 xstart <- c(S=pop_tot
             ,I=1,R=0,D=0)
 
@@ -104,7 +104,7 @@ xstart <- c(S=out$S[8],I=out$I[8],R=out$R[8],D=out$D[8])
 
 if(buffer[(i+1)*7,]$I/pop_tot > rate_infection_threshold && p_vector[i+1] >= 0.5*k[1]) {
   
-  parms <- c(beta=0.5*0.7,gamma=0.14,delta=0.01)
+  parms <- c(beta=0.55*0.7,gamma=0.14,delta=0.01)
   #  print(buffer[(i+1)*7,]$time) 
   #  print(buffer[(i+1)*7,]$I)
 #  print("-LOW")
@@ -112,7 +112,7 @@ if(buffer[(i+1)*7,]$I/pop_tot > rate_infection_threshold && p_vector[i+1] >= 0.5
 
 if(buffer[(i+1)*7,]$I/pop_tot > rate_infection_threshold*10 & p_vector[i+1] >= 0.5*k[2]) {
   
-  parms <- c(beta=0.5*0.25,gamma=0.14,delta=0.01)
+  parms <- c(beta=0.55*0.25,gamma=0.14,delta=0.01)
 #  print(buffer[(i+1)*7,]$time) 
 #  print(buffer[(i+1)*7,]$I)
 #  print("-MEDIUM")
@@ -122,7 +122,7 @@ if(buffer[(i+1)*7,]$I/pop_tot > rate_infection_threshold*10 & p_vector[i+1] >= 0
 
 if(buffer[(i+1)*7,]$I/pop_tot > rate_infection_threshold*50 & p_vector[i+1] >= 0.5*k[3]) {
   
-  parms <- c(beta=0.5*0.025,gamma=0.14,delta=0.01)
+  parms <- c(beta=0.55*0.025,gamma=0.14,delta=0.01)
 #  print(buffer[(i+1)*7,]$time)
 #  print(buffer[(i+1)*7,]$I)
   
@@ -133,37 +133,37 @@ if(buffer[(i+1)*7,]$I/pop_tot > rate_infection_threshold*50 & p_vector[i+1] >= 0
 
 if(buffer[(i+1)*7,]$I/pop_tot < rate_infection_threshold*0.5 & p_vector[i+1] >= 0.5*k[1] ) {
   
-  parms <- c(beta=0.5,gamma=0.14,delta=0.01)
+  parms <- c(beta=0.55,gamma=0.14,delta=0.01)
   
 }
 
-if(parms == c(beta=0.5)) {
+if(parms == c(beta=0.55)) {
    no_lockdown_weeks <- no_lockdown_weeks +1
    R_t[i]=0.4/0.14
    print("NO RESTRICTION")
 }
 
   
-if(parms == c(beta=0.5*0.7)) {
+if(parms == c(beta=0.55*0.7)) {
     soft_lockdown_weeks <- soft_lockdown_weeks +1
     R_t[i]=0.4*0.5/0.14
     print("SOFT")
   }
 
-if(parms == c(beta=0.5*0.25)) {
+if(parms == c(beta=0.55*0.25)) {
   medium_lockdown_weeks <- medium_lockdown_weeks +1
     R_t[i]=0.4*0.1/0.14
     print("MEDIUM")
 }
 
-if(parms == c(beta=0.5*0.025)) {
+if(parms == c(beta=0.55*0.025)) {
   R_t[i]=0.4*0.05/0.14
   strong_lockdown_weeks <- strong_lockdown_weeks +1
   print("HIGH")
 }
 
 
-if(parms != c(beta=0.5)) {
+if(parms != c(beta=0.55)) {
   lockdown_weeks <- lockdown_weeks +1
 }
 
