@@ -19,6 +19,7 @@ pop_tot<-60000000
 delta_inf<-0
 #k<-c(1.5,1.5,1.5)
 k<-c(1,1,1)
+#k<-c(0.1,0.1,0.1)
 #rate_infection_threshold<-0.000001
 rate_infection_threshold<-0.000007
 score<-0
