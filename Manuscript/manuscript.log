@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  25 FEB 2021 18:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  26 FEB 2021 13:02
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -1028,28 +1028,28 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/iwona/m/sc/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
- (manuscript.bbl) [2]
-(manuscript.aux)
+ (manuscript.bbl [2])
+[3] (manuscript.aux)
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19334 strings out of 479334
- 349699 string characters out of 2865057
- 956342 words of memory out of 3000000
- 36453 multiletter control sequences out of 15000+200000
+ 19349 strings out of 479334
+ 349951 string characters out of 2865057
+ 962342 words of memory out of 3000000
+ 36461 multiletter control sequences out of 15000+200000
  474010 words of font info for 109 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 111i,22n,116p,10607b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 111i,22n,116p,10607b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/iwona/ec-iwona-sc.enc}{C:/Program Files/MiKTeX 2.9/fon
 ts/enc/dvips/iwona/ec-iwona.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonar.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on manuscript.pdf (2 pages, 71608 bytes).
+Output written on manuscript.pdf (3 pages, 89063 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 16409 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 73 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 16417 words of extra memory for PDF output out of 17280 (max. 10000000)
 

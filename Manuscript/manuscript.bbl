@@ -1,9 +1,44 @@
 \begin{thebibliography}{1}
 
-\bibitem{Figueredo:2009dg}
-A.~J. Figueredo and P.~S.~A. Wolf.
-\newblock Assortative pairing and life history strategy - a cross-cultural
-  study.
-\newblock {\em Human Nature}, 20:317--330, 2009.
+\bibitem{Correia2020}
+Sergio Correia, Stephan Luck, and Emil Verner.
+\newblock Pandemics depress the economy, public health interventions do not:
+  Evidence from the 1918 flu.
+\newblock {\em SSRN Electronic Journal}, 01 2020.
+
+\bibitem{karlsson2014impact}
+Martin Karlsson, Therese Nilsson, and Stefan Pichler.
+\newblock The impact of the 1918 spanish flu epidemic on economic performance
+  in sweden: An investigation into the consequences of an extraordinary
+  mortality shock.
+\newblock {\em Journal of health economics}, 36:1--19, 2014.
+
+\bibitem{li2021temporal}
+You Li, Harry Campbell, Durga Kulkarni, Alice Harpur, Madhurima Nundy, Xin
+  Wang, Harish Nair, Usher~Network for COVID, et~al.
+\newblock The temporal association of introducing and lifting
+  non-pharmaceutical interventions with the time-varying reproduction number
+  (r) of sars-cov-2: a modelling study across 131 countries.
+\newblock {\em The Lancet Infectious Diseases}, 21(2):193--202, 2021.
+
+\bibitem{brauner2021inferring}
+Jan~M Brauner, S{\"o}ren Mindermann, Mrinank Sharma, David Johnston, John
+  Salvatier, Tom{\'a}{\v{s}} Gaven{\v{c}}iak, Anna~B Stephenson, Gavin Leech,
+  George Altman, Vladimir Mikulik, et~al.
+\newblock Inferring the effectiveness of government interventions against
+  covid-19.
+\newblock {\em Science}, 371(6531), 2021.
+
+\bibitem{kabir2020evolutionary}
+KM~Ariful Kabir and Jun Tanimoto.
+\newblock Evolutionary game theory modelling to represent the behavioural
+  dynamics of economic shutdowns and shield immunity in the covid-19 pandemic.
+\newblock {\em Royal Society open science}, 7(9):201095, 2020.
+
+\bibitem{rowthorn2020cost}
+Robert Rowthorn and Jan Maciejowski.
+\newblock A cost--benefit analysis of the covid-19 disease.
+\newblock {\em Oxford Review of Economic Policy}, 36(Supplement\_1):S38--S55,
+  2020.
 
 \end{thebibliography}
