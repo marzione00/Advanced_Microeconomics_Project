@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Correia2020}
 Sergio Correia, Stephan Luck, and Emil Verner.
@@ -40,5 +40,36 @@ Robert Rowthorn and Jan Maciejowski.
 \newblock A cost--benefit analysis of the covid-19 disease.
 \newblock {\em Oxford Review of Economic Policy}, 36(Supplement\_1):S38--S55,
   2020.
+
+\bibitem{vynnycky2010introduction}
+Emilia Vynnycky and Richard White.
+\newblock {\em An introduction to infectious disease modelling}.
+\newblock OUP oxford, 2010.
+
+\bibitem{fernandez2020estimating}
+Jes{\'u}s Fern{\'a}ndez-Villaverde and Charles~I Jones.
+\newblock Estimating and simulating a sird model of covid-19 for many
+  countries, states, and cities.
+\newblock Technical report, National Bureau of Economic Research, 2020.
+
+\bibitem{al2020forecasting}
+Marwan Al-Raeei.
+\newblock The forecasting of covid-19 with mortality using sird epidemic model
+  for the united states, russia, china, and the syrian arab republic.
+\newblock {\em Aip Advances}, 10(6):065325, 2020.
+
+\bibitem{ferrari2020modelling}
+Luisa Ferrari, Giuseppe Gerardi, Giancarlo Manzi, Alessandra Micheletti,
+  Federica Nicolussi, and Silvia Salini.
+\newblock Modelling provincial covid-19 epidemic data in italy using an
+  adjusted time-dependent sird model.
+\newblock {\em arXiv preprint arXiv:2005.12170}, 2020.
+
+\bibitem{giordano2020modelling}
+Giulia Giordano, Franco Blanchini, Raffaele Bruno, Patrizio Colaneri,
+  Alessandro Di~Filippo, Angela Di~Matteo, and Marta Colaneri.
+\newblock Modelling the covid-19 epidemic and implementation of population-wide
+  interventions in italy.
+\newblock {\em Nature medicine}, 26(6):855--860, 2020.
 
 \end{thebibliography}

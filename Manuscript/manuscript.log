@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  26 FEB 2021 13:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  26 FEB 2021 18:27
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -857,16 +857,27 @@ Class scrartcl Info: amsthm's \deferred@thm@head patched.
 Package: varioref 2020/08/11 v1.6e package for extended references (FMi)
 \c@vrcnt=\count294
 )
+(C:\Program Files\MiKTeX 2.9\tex/latex/epigraph\epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(C:\Program Files\MiKTeX 2.9\tex/latex/nextpage\nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip115
+\afterepigraphskip=\skip116
+\epigraphwidth=\skip117
+\epigraphrule=\skip118
+)
 \c@definition=\count295
 \c@theorem=\count296
-Package hyperref Info: Option `colorlinks' set `true' on input line 74.
-Package hyperref Info: Option `breaklinks' set `true' on input line 74.
+Package hyperref Info: Option `colorlinks' set `true' on input line 76.
+Package hyperref Info: Option `breaklinks' set `true' on input line 76.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 74.
+(hyperref)                setting the option has no effect on input line 76.
 
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 74.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 76.
 ) (manuscript.aux)
 \openout1 = `manuscript.aux'.
 
@@ -1024,32 +1035,38 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 
-{C:/Users/Marzio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/Marzio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/iwona/m/sc/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
- (manuscript.bbl [2])
-[3] (manuscript.aux)
+ [3]
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/iwona/b/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+ (manuscript.bbl
+[4] [5]) [6] (manuscript.aux)
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19349 strings out of 479334
- 349951 string characters out of 2865057
- 962342 words of memory out of 3000000
- 36461 multiletter control sequences out of 15000+200000
- 474010 words of font info for 109 fonts, out of 3000000 for 9000
+ 19499 strings out of 479334
+ 352515 string characters out of 2865057
+ 963342 words of memory out of 3000000
+ 36584 multiletter control sequences out of 15000+200000
+ 494075 words of font info for 143 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 111i,22n,116p,10607b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 111i,22n,116p,10607b,645s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
-KTeX 2.9/fonts/enc/dvips/iwona/ec-iwona-sc.enc}{C:/Program Files/MiKTeX 2.9/fon
-ts/enc/dvips/iwona/ec-iwona.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonar.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on manuscript.pdf (3 pages, 89063 bytes).
+KTeX 2.9/fonts/enc/dvips/iwona/ec-iwona.enc}{C:/Program Files/MiKTeX 2.9/fonts/
+enc/dvips/iwona/ec-iwona-sc.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrij8a.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonab.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonar.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/palatino/uplri8a.pfb>
+Output written on manuscript.pdf (6 pages, 131442 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 16417 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 21545 words of extra memory for PDF output out of 24883 (max. 10000000)
 
