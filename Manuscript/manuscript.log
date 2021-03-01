@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  26 FEB 2021 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  1 MAR 2021 20:14
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -1043,30 +1043,38 @@ Package microtype Info: Character `029' is missing
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/iwona/b/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
- (manuscript.bbl
-[4] [5]) [6] (manuscript.aux)
+
+Overfull \hbox (5.4799pt too wide) in paragraph at lines 107--108
+\T1/pplj/m/n/12 demic dif-fu-sion the sim-plest one: the Susceptible-Infectious
+-Recovered-
+ []
+
+[4] [5] (manuscript.bbl [6]) [7] (manuscript.aux)
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19499 strings out of 479334
- 352515 string characters out of 2865057
- 963342 words of memory out of 3000000
- 36584 multiletter control sequences out of 15000+200000
- 494075 words of font info for 143 fonts, out of 3000000 for 9000
+ 19522 strings out of 479334
+ 352754 string characters out of 2865057
+ 965342 words of memory out of 3000000
+ 36588 multiletter control sequences out of 15000+200000
+ 497961 words of font info for 157 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 111i,22n,116p,10607b,645s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 111i,23n,116p,10607b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/iwona/ec-iwona.enc}{C:/Program Files/MiKTeX 2.9/fonts/
 enc/dvips/iwona/ec-iwona-sc.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrij8a.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonab.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonar.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/palatino/uplri8a.pfb>
-Output written on manuscript.pdf (6 pages, 131442 bytes).
+/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/euler/eufm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/eul
+er/eurm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrc8a.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonab.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/nowacki/iwona/iwonar.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+urw/palatino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/u
+plri8a.pfb>
+Output written on manuscript.pdf (7 pages, 154548 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
  21545 words of extra memory for PDF output out of 24883 (max. 10000000)
 

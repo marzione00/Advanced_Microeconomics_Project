@@ -7,16 +7,16 @@ library(zoo)
 
 pallete = c('red', 'blue', 'green', 'orange')
 
-Destagionalizzazione <- read_excel("GitHub/Advanced_Microeconomics_Project/Progetto Micro/Destagionalizzazione.xlsx")
-
+Destagionalizzazione <- read_excel("Destagionalizzazione.xlsx")
 
 TS_Alimentare = ts(Destagionalizzazione$alimentare,frequency = 12)
 
 TS_Alimentare_dec<-decompose(TS_Alimentare,type="additive")
+TS_Alimentare_dec$random[42:48]=0
 
-TS_Alimentare_dec$trend=TS_Alimentare_dec$trend-TS_Alimentare_dec$random
+TS_Alimentare_dec$trend=TS_Alimentare_dec$x-TS_Alimentare_dec$random-TS_Alimentare_dec$seasonal
 
-TS_Alimentare_dec$random[1:48]=0
+
 
 autoplot(TS_Alimentare_dec)
 
@@ -25,20 +25,30 @@ TS_Abbigliamento = ts(Destagionalizzazione$`abbigliamento e pellicce`,frequency 
 
 TS_Abbigliamento_dec<-decompose(TS_Abbigliamento,type="additive")
 
-TS_Abbigliamento_dec$trend[30:48]=TS_Abbigliamento_dec$trend[30:48]+TS_Abbigliamento_dec$random[30:48]
+#TS_Abbigliamento_dec$trend[30:48]=TS_Abbigliamento_dec$trend[30:48]+TS_Abbigliamento_dec$random[30:48]
 
 TS_Abbigliamento_dec$random[30:48]=0
 
+TS_Abbigliamento_dec$trend=TS_Abbigliamento_dec$x-TS_Abbigliamento_dec$random-TS_Abbigliamento_dec$seasonal
+
 autoplot(TS_Abbigliamento_dec)
+
+
+autoplot(TS_Abbigliamento_dec$trend)+ geom_line(aes(y=TS_Alimentare_dec$trend))
+
 
 
 TS_Calzature = ts(Destagionalizzazione$Calzature,frequency = 12)
 
 TS_Calzature_dec<-decompose(TS_Calzature,type="additive")
 
-TS_Calzature_dec$trend[30:48]=TS_Calzature_dec$trend[30:48]+TS_Calzature_dec$random[30:48]
+#TS_Calzature_dec$trend[30:48]=TS_Calzature_dec$trend[30:48]+TS_Calzature_dec$random[30:48]
 
-TS_Calzature_dec$random[30:48]=0
+TS_Calzature_dec$random[31:48]=0
+
+TS_Calzature_dec$trend=TS_Calzature_dec$x-TS_Calzature_dec$random-TS_Calzature_dec$seasonal
+
+autoplot(TS_Calzature_dec$trend)+ geom_line(aes(y=TS_Alimentare_dec$trend))
 
 autoplot(TS_Calzature_dec)
 
@@ -47,9 +57,13 @@ TS_Elettrodomestici = ts(Destagionalizzazione$Elettrodomestici,frequency = 12)
 
 TS_Elettrodomestici_dec<-decompose(TS_Elettrodomestici,type="additive")
 
-TS_Elettrodomestici_dec$trend[30:48]=TS_Elettrodomestici_dec$trend[30:48]+TS_Elettrodomestici_dec$random[30:48]
+#TS_Elettrodomestici_dec$trend[30:48]=TS_Elettrodomestici_dec$trend[30:48]+TS_Elettrodomestici_dec$random[30:48]
 
 TS_Elettrodomestici_dec$random[30:48]=0
+
+TS_Elettrodomestici_dec$trend=TS_Elettrodomestici_dec$x-TS_Elettrodomestici_dec$random-TS_Elettrodomestici_dec$seasonal
+
+autoplot(TS_Elettrodomestici_dec$trend)+ geom_line(aes(y=TS_Alimentare_dec$trend))
 
 autoplot(TS_Elettrodomestici_dec)
 
@@ -59,9 +73,13 @@ TS_Mobili = ts(Destagionalizzazione$Mobili,frequency = 12)
 
 TS_Mobili_dec<-decompose(TS_Mobili,type="additive")
 
-TS_Mobili_dec$trend[30:48]=TS_Mobili_dec$trend[30:48]+TS_Mobili_dec$random[30:48]
+#TS_Mobili_dec$trend[30:48]=TS_Mobili_dec$trend[30:48]+TS_Mobili_dec$random[30:48]
 
 TS_Mobili_dec$random[30:48]=0
+
+TS_Mobili_dec$trend=TS_Mobili_dec$x-TS_Mobili_dec$random-TS_Mobili_dec$seasonal
+
+autoplot(TS_Mobili_dec$trend)+ geom_line(aes(y=TS_Alimentare_dec$trend))
 
 autoplot(TS_Mobili_dec)
 
@@ -73,9 +91,13 @@ TS_Informatica = ts(Destagionalizzazione$Informatica,frequency = 12)
 
 TS_Informatica_dec<-decompose(TS_Informatica,type="additive")
 
-TS_Informatica_dec$trend[30:48]=TS_Informatica_dec$trend[30:48]+TS_Informatica_dec$random[30:48]
+#TS_Informatica_dec$trend[30:48]=TS_Informatica_dec$trend[30:48]+TS_Informatica_dec$random[30:48]
 
 TS_Informatica_dec$random[30:48]=0
+
+TS_Informatica_dec$trend=TS_Informatica_dec$x-TS_Informatica_dec$random-TS_Informatica_dec$seasonal
+
+autoplot(TS_Informatica_dec$trend)+ geom_line(aes(y=TS_Alimentare_dec$trend))
 
 autoplot(TS_Informatica_dec)
 
@@ -86,9 +108,13 @@ TS_Fotoottica = ts(Destagionalizzazione$Fotoottica,frequency = 12)
 
 TS_Fotoottica_dec<-decompose(TS_Fotoottica,type="additive")
 
-TS_Fotoottica_dec$trend[30:48]=TS_Fotoottica_dec$trend[30:48]+TS_Fotoottica_dec$random[30:48]
+#TS_Fotoottica_dec$trend[30:48]=TS_Fotoottica_dec$trend[30:48]+TS_Fotoottica_dec$random[30:48]
 
 TS_Fotoottica_dec$random[30:48]=0
+
+TS_Fotoottica_dec$trend=TS_Fotoottica_dec$x-TS_Fotoottica_dec$random-TS_Fotoottica_dec$seasonal
+
+autoplot(TS_Fotoottica_dec$trend)+ geom_line(aes(y=TS_Alimentare_dec$trend))
 
 autoplot(TS_Fotoottica_dec)
 
@@ -102,6 +128,10 @@ TS_Casalinghi_dec$trend[30:48]=TS_Casalinghi_dec$trend[30:48]+TS_Casalinghi_dec$
 
 TS_Casalinghi_dec$random[30:48]=0
 
+TS_Casalinghi_dec$trend=TS_Casalinghi_dec$x-TS_Casalinghi_dec$random-TS_Casalinghi_dec$seasonal
+
+autoplot(TS_Casalinghi_dec$trend)+ geom_line(aes(y=TS_Alimentare_dec$trend))
+
 autoplot(TS_Casalinghi_dec)
 
 
@@ -113,6 +143,10 @@ TS_Utilenseria_dec<-decompose(TS_Utilenseria,type="additive")
 TS_Utilenseria_dec$trend[30:48]=TS_Utilenseria_dec$trend[30:48]+TS_Utilenseria_dec$random[30:48]
 
 TS_Utilenseria_dec$random[30:48]=0
+
+TS_Utilenseria_dec$trend=TS_Utilenseria_dec$x-TS_Utilenseria_dec$random-TS_Utilenseria_dec$seasonal
+
+autoplot(TS_Utilenseria_dec$trend)+ geom_line(aes(y=TS_Alimentare_dec$trend))
 
 autoplot(TS_Utilenseria_dec)
 
@@ -126,6 +160,10 @@ TS_Cartoleria_dec<-decompose(TS_Utilenseria,type="additive")
 TS_Cartoleria_dec$trend[30:48]=TS_Cartoleria_dec$trend[30:48]+TS_Cartoleria_dec$random[30:48]
 
 TS_Cartoleria_dec$random[30:48]=0
+
+TS_Cartoleria_dec$trend=TS_Cartoleria_dec$x-TS_Cartoleria_dec$random-TS_Cartoleria_dec$seasonal
+
+autoplot(TS_Cartoleria_dec$trend)+ geom_line(aes(y=TS_Alimentare_dec$trend))
 
 autoplot(TS_Cartoleria_dec)
 

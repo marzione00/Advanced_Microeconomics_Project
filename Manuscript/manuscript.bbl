@@ -72,4 +72,16 @@ Giulia Giordano, Franco Blanchini, Raffaele Bruno, Patrizio Colaneri,
   interventions in italy.
 \newblock {\em Nature medicine}, 26(6):855--860, 2020.
 
+\bibitem{kermack1927contribution}
+William~Ogilvy Kermack and Anderson~G McKendrick.
+\newblock A contribution to the mathematical theory of epidemics.
+\newblock {\em Proceedings of the royal society of london. Series A, Containing
+  papers of a mathematical and physical character}, 115(772):700--721, 1927.
+
+\bibitem{neves2020predicting}
+Armando~GM Neves and Gustavo Guerrero.
+\newblock Predicting the evolution of the covid-19 epidemic with the a-sir
+  model: Lombardy, italy and sao paulo state, brazil.
+\newblock {\em Physica D: Nonlinear Phenomena}, 413:132693, 2020.
+
 \end{thebibliography}
