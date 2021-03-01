@@ -1,166 +1,224 @@
 library(readxl)
+library(xlsx)
 library(fpp)
 library(ggplot2)
+library(zoo)
+
+
+pallete = c('red', 'blue', 'green', 'orange')
 
 Destagionalizzazione <- read_excel("GitHub/Advanced_Microeconomics_Project/Progetto Micro/Destagionalizzazione.xlsx")
 
 
-ts_beer = ts(Destagionalizzazione$alimentare,frequency = 12)
+TS_Alimentare = ts(Destagionalizzazione$alimentare,frequency = 12)
 
+TS_Alimentare_dec<-decompose(TS_Alimentare,type="additive")
 
-dec<-decompose(ts_beer,type="additive")
+TS_Alimentare_dec$trend=TS_Alimentare_dec$trend-TS_Alimentare_dec$random
 
-plot(dec)
+TS_Alimentare_dec$random[1:48]=0
 
+autoplot(TS_Alimentare_dec)
 
-ts_beer_2 = ts(Destagionalizzazione$`abbigliamento e pellicce`,frequency = 12)
 
-dec_2<-decompose(ts_beer_2,type="additive")
+TS_Abbigliamento = ts(Destagionalizzazione$`abbigliamento e pellicce`,frequency = 12)
 
-plot(dec_2)
+TS_Abbigliamento_dec<-decompose(TS_Abbigliamento,type="additive")
 
+TS_Abbigliamento_dec$trend[30:48]=TS_Abbigliamento_dec$trend[30:48]+TS_Abbigliamento_dec$random[30:48]
 
-ts_beer_3 = ts(Destagionalizzazione$Calzature,frequency = 12)
+TS_Abbigliamento_dec$random[30:48]=0
 
-dec_3<-decompose(ts_beer_2,type="additive")
+autoplot(TS_Abbigliamento_dec)
 
-plot(dec_3)
 
+TS_Calzature = ts(Destagionalizzazione$Calzature,frequency = 12)
 
-ts_beer_4 = ts(Destagionalizzazione$Elettrodomestici,frequency = 12)
+TS_Calzature_dec<-decompose(TS_Calzature,type="additive")
 
-dec_4<-decompose(ts_beer_4,type="additive")
+TS_Calzature_dec$trend[30:48]=TS_Calzature_dec$trend[30:48]+TS_Calzature_dec$random[30:48]
 
-plot(dec_4)
+TS_Calzature_dec$random[30:48]=0
 
+autoplot(TS_Calzature_dec)
 
-ts_beer_5 = ts(Destagionalizzazione$Mobili,frequency = 12)
 
-dec_5<-decompose(ts_beer_5,type="additive")
+TS_Elettrodomestici = ts(Destagionalizzazione$Elettrodomestici,frequency = 12)
 
-plot(dec_5)
+TS_Elettrodomestici_dec<-decompose(TS_Elettrodomestici,type="additive")
 
-ts_beer_6 = ts(Destagionalizzazione$Informatica,frequency = 12)
+TS_Elettrodomestici_dec$trend[30:48]=TS_Elettrodomestici_dec$trend[30:48]+TS_Elettrodomestici_dec$random[30:48]
 
-dec_6<-decompose(ts_beer_6,type="additive")
+TS_Elettrodomestici_dec$random[30:48]=0
 
-plot(dec_6)
+autoplot(TS_Elettrodomestici_dec)
 
-ts_beer_7 = ts(Destagionalizzazione$Fotoottica,frequency = 12)
 
-dec_7<-decompose(ts_beer_7,type="additive")
 
-plot(dec_7)
+TS_Mobili = ts(Destagionalizzazione$Mobili,frequency = 12)
 
-ts_beer_8 = ts(Destagionalizzazione$Casalinghi,frequency = 12)
+TS_Mobili_dec<-decompose(TS_Mobili,type="additive")
 
-dec_8<-decompose(ts_beer_8,type="additive")
+TS_Mobili_dec$trend[30:48]=TS_Mobili_dec$trend[30:48]+TS_Mobili_dec$random[30:48]
 
-plot(dec_8)
+TS_Mobili_dec$random[30:48]=0
 
-ts_beer_9 = ts(Destagionalizzazione$Utilenseria,frequency = 12)
+autoplot(TS_Mobili_dec)
 
-dec_9<-decompose(ts_beer_9,type="additive")
 
-plot(dec_9)
 
-ts_beer_10 = ts(Destagionalizzazione$Profumeria,frequency = 12)
 
-dec_10<-decompose(ts_beer_10,type="additive")
 
-plot(dec_10)
+TS_Informatica = ts(Destagionalizzazione$Informatica,frequency = 12)
 
+TS_Informatica_dec<-decompose(TS_Informatica,type="additive")
 
-ts_beer_11 = ts(Destagionalizzazione$Cartoleria,frequency = 12)
+TS_Informatica_dec$trend[30:48]=TS_Informatica_dec$trend[30:48]+TS_Informatica_dec$random[30:48]
 
-dec_11<-decompose(ts_beer_11,type="additive")
+TS_Informatica_dec$random[30:48]=0
 
-plot(dec_11)
+autoplot(TS_Informatica_dec)
 
 
-ts_beer_12 = ts(Destagionalizzazione$Gioc,frequency = 12)
 
-dec_12<-decompose(ts_beer_12,type="additive")
 
-plot(dec_12)
+TS_Fotoottica = ts(Destagionalizzazione$Fotoottica,frequency = 12)
 
+TS_Fotoottica_dec<-decompose(TS_Fotoottica,type="additive")
 
-dec_2$random[38:48]=0
+TS_Fotoottica_dec$trend[30:48]=TS_Fotoottica_dec$trend[30:48]+TS_Fotoottica_dec$random[30:48]
 
-peppo<-(dec_2$x-dec_2$seasonal-dec_2$random) - (dec$x-dec$seasonal-dec$random)
+TS_Fotoottica_dec$random[30:48]=0
 
-plot(peppo)
+autoplot(TS_Fotoottica_dec)
 
 
-dec_3$random[38:48]=0
 
-peppo2<-dec_3$trend-dec$trend
+TS_Casalinghi = ts(Destagionalizzazione$Casalinghi,frequency = 12)
 
-plot(as.ts(peppo2))
+TS_Casalinghi_dec<-decompose(TS_Casalinghi,type="additive")
 
+TS_Casalinghi_dec$trend[30:48]=TS_Casalinghi_dec$trend[30:48]+TS_Casalinghi_dec$random[30:48]
 
-dec_4$random[38:48]=0
+TS_Casalinghi_dec$random[30:48]=0
 
-peppo3<-dec_4$trend-dec$trend
+autoplot(TS_Casalinghi_dec)
 
-plot(as.ts(peppo3))
 
 
-dec_5$random[38:48]=0
+TS_Utilenseria = ts(Destagionalizzazione$Utilenseria,frequency = 12)
 
-peppo4<-dec_5$trend-dec$trend
+TS_Utilenseria_dec<-decompose(TS_Utilenseria,type="additive")
 
-plot(as.ts(peppo4))
+TS_Utilenseria_dec$trend[30:48]=TS_Utilenseria_dec$trend[30:48]+TS_Utilenseria_dec$random[30:48]
 
+TS_Utilenseria_dec$random[30:48]=0
 
-dec_6$random[38:48]=0
+autoplot(TS_Utilenseria_dec)
 
-peppo5<-dec_6$trend-dec$trend
 
-plot(as.ts(peppo5))
 
 
-dec_7$random[38:48]=0
+TS_Cartoleria = ts(Destagionalizzazione$Cartoleria,frequency = 12)
 
-peppo6<-dec_7$trend-dec$trend
+TS_Cartoleria_dec<-decompose(TS_Utilenseria,type="additive")
 
-plot(as.ts(peppo6))
+TS_Cartoleria_dec$trend[30:48]=TS_Cartoleria_dec$trend[30:48]+TS_Cartoleria_dec$random[30:48]
 
+TS_Cartoleria_dec$random[30:48]=0
 
-dec_8$random[38:48]=0
+autoplot(TS_Cartoleria_dec)
 
-peppo7<-dec_8$trend-dec$trend
 
-plot(as.ts(peppo7))
 
 
-dec_9$random[38:48]=0
 
-peppo8<-dec_9$trend-dec$trend
+TS_Giocattoli = ts(Destagionalizzazione$Giocattoli,frequency = 12)
 
-plot(as.ts(peppo8))
+TS_Giocattoli_dec<-decompose(TS_Giocattoli,type="additive")
 
+TS_Giocattoli_dec$trend[30:48]=TS_Giocattoli_dec$trend[30:48]+TS_Giocattoli_dec$random[30:48]
 
-dec_10$random[38:48]=0
+TS_Giocattoli_dec$random[30:48]=0
 
-peppo9<-dec_10$trend-dec$trend
+autoplot(TS_Giocattoli_dec)
 
-plot(as.ts(peppo9))
 
 
+Abbigliamento_vs_Alimentare<-(TS_Abbigliamento_dec$trend) - (TS_Alimentare_dec$trend)
 
-dec_11$random[38:48]=0
+autoplot(Abbigliamento_vs_Alimentare)
 
-peppo10<-dec_11$trend-dec$trend
+write.xlsx(Abbigliamento_vs_Alimentare, file = "Vendite_destag_outcome.xlsx",sheetName='Abbigliamento', append = FALSE)
 
-plot(as.ts(peppo10))
 
 
-dec_12$random[38:48]=0
 
-peppo11<-dec_12$trend-dec$trend
+Calzature_vs_Alimentare<-TS_Calzature_dec$trend-TS_Alimentare_dec$trend
 
-plot(as.ts(peppo11))
+autoplot(Calzature_vs_Alimentare)
+
+write.xlsx(Calzature_vs_Alimentare, file = "Vendite_destag_outcome.xlsx",sheetName='Calzature', append = TRUE)
+
+
+
+Elettrodomestici_vs_Alimentare<-TS_Elettrodomestici_dec$trend-TS_Alimentare_dec$trend
+
+autoplot(Elettrodomestici_vs_Alimentare)
+
+write.xlsx(Elettrodomestici_vs_Alimentare, file = "Vendite_destag_outcome.xlsx",sheetName='Elettrodomestici', append = TRUE)
+
+
+Mobili_vs_Alimentare<-TS_Mobili_dec$trend-TS_Alimentare_dec$trend
+
+autoplot(Mobili_vs_Alimentare)
+
+write.xlsx(Mobili_vs_Alimentare, file = "Vendite_destag_outcome.xlsx",sheetName='Mobili', append = TRUE)
+
+
+Fotoottica_vs_Alimentare<-TS_Fotoottica_dec$trend-TS_Alimentare_dec$trend
+
+autoplot(Fotoottica_vs_Alimentare)
+
+write.xlsx(Fotoottica_vs_Alimentare, file = "Vendite_destag_outcome.xlsx",sheetName='Fotoottica', append = TRUE)
+
+
+Casalinghi_vs_Alimentare<-TS_Casalinghi_dec$trend-TS_Alimentare_dec$trend
+
+autoplot(Casalinghi_vs_Alimentare)
+
+write.xlsx(Casalinghi_vs_Alimentare, file = "Vendite_destag_outcome.xlsx",sheetName='Casalinghi', append = TRUE)
+
+
+
+
+
+Utilenseria_vs_Alimentare<-TS_Utilenseria_dec$trend-TS_Alimentare_dec$trend
+
+autoplot(Utilenseria_vs_Alimentare)
+
+write.xlsx(Utilenseria_vs_Alimentare, file = "Vendite_destag_outcome.xlsx",sheetName='Utilenseria', append = TRUE)
+
+
+
+
+Cartoleria_vs_Alimentare<-TS_Cartoleria_dec$trend-TS_Alimentare_dec$trend
+
+autoplot(Cartoleria_vs_Alimentare)
+
+write.xlsx(Cartoleria_vs_Alimentare, file = "Vendite_destag_outcome.xlsx",sheetName='Cartoleria', append = TRUE)
+
+
+
+
+Giocattoli_vs_Alimentare<-TS_Giocattoli_dec$trend-TS_Alimentare_dec$trend
+
+autoplot(Giocattoli_vs_Alimentare)
+
+write.xlsx(Giocattoli_vs_Alimentare, file = "Vendite_destag_outcome.xlsx",sheetName='Giocattoli', append = TRUE)
+
+
+
 
 
 
