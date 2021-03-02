@@ -52,7 +52,7 @@
 
 
 \begin{frame}
-\frametitle{Regression}
+\frametitle{Trend Check}
 \begin{itemize}
 \item T Variabile temporale: n numero di mesi prima di Febbraio (ultimo mese senza lock-down)
 \item $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio (MEDIUM), T2 Aprile (HIGH) e T3 Giugno (LOW). Nei grafici questo periodo è segnato dalle barre tratteggiate.
@@ -165,28 +165,44 @@ $\delta_{T6}$ (Plc T= -1) & 11.65 & 12.12
 \end{frame}
 
 
+\begin{frame}
+\frametitle{DID estimation}
+\begin{itemize}
+\item C dummy per il gruppo di controllo (Alimentari), $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio (MEDIUM), T2 Aprile (HIGH) e T3 Giugno (LOW)
+
+\end{itemize}
+\begin{equation*}
+Y=C+T_{1}+T_{2}+T_{3}+\delta_{1}(T_{1}\times C)+\delta_{2}(T_{2}\times C)+\delta_{3}(T_{3}\times C)+\epsilon
+\end{equation*}
+\begin{table}[]
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l}
+                 & $\delta_{1}$     & $\sigma_{\delta_{1}} $   & $\delta_{2}  $    &$ \sigma_{\delta_{2}}  $   & $\delta_{3}     $ & $\sigma_{\delta_{3}} $    \\ \hline
+Abbigliamento    & -40.16 & 2.01 & -60.07 & 2.77 & -16.46 & 2.77  \\ \hline
+Calzature        & -38.70 & 1.73 & -65.78 & 2.39 & -20.62 & 2.39  \\ \hline
+Elettrodomestici & -20.32 & 2.5  & -27.34 & 3.45 & -3.68  & 3.45  \\ \hline
+Fotoottica       & -34.14 & 2.55 & -52.32 & 3.52 & -7.8   & 3.52 \\ \cline{1-1}
+\end{tabular}
+\end{table}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{DID estimation - placebo}
+\begin{table}[]
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l}
+                 & $\delta_{4}$     & $\sigma_{\delta_{4}} $   & $\delta_{5}  $    &$ \sigma_{\delta_{5}}  $   & $\delta_{6}     $ & $\sigma_{\delta_{6}} $    \\ \hline
+Abbigliamento     & 3.94 & 12.65 & 4.87 & 17.47 & 0.70  & 17.47 \\ \hline
+Calzature        & 5.04 & 13.14 & 5.31 & 18.15 & 2.00  & 18.16 \\ \hline
+Elettrodomestici   & 1.13 & 6.26  & 4.63 & 8.65  & -0.81 & 8.65  \\ \hline
+Fotoottica        & 0.84 & 10.98 & 1.71 & 15.18 & 0.69  & 15.18 \\ \cline{1-1}
+\end{tabular}
+\end{table}
+\end{frame}
 
 
 
 
-
-%\subsection{Stars Feature}
-
-%\begin{frame}
-%\frametitle{Theoretical background - Star features }
-%\begin{columns}
-%\column{0.4\textwidth}
-%\begin{itemize}
-%\item \textbf{Main features}: For this work the main features of star are the stellar luminosity (S\_L), its temperature (S\_T) and spectral type (S\_S\_T)
-%\item\textbf{H-R diagram}: with these features the Hertzsprung-Russell diagram classify the stars (the temperature and spectral type of a star are two faces of the same medal)
-%\end{itemize}
-%\column{0.45\textwidth}
-%\includegraphics[width=\linewidth,]{Pic/S_T_T_explanation.png}
-%\begin{center}
-%Image taken from \cite{HR_diagram}
-%\end{center}
-%\end{columns}
-%\end{frame}
 
 
 

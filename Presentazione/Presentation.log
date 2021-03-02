@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  2 MAR 2021 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  2 MAR 2021 19:25
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -1270,17 +1270,17 @@ Package pdftex.def Info: Pic/Elettrodomestici_Matrix.pdf  used on input line 13
 
  <./Pic/Elettrodomestici_RAW.pdf> <./Pic/Elettrodomestici.pdf> <./Pic/Elettrodo
 mestici_Matrix.pdf>]
-<Pic/Fotoottica_RAW.pdf, id=224, 632.3625pt x 405.515pt>
+<Pic/Fotoottica_RAW.pdf, id=225, 632.3625pt x 405.515pt>
 File: Pic/Fotoottica_RAW.pdf Graphic file (type pdf)
 <use Pic/Fotoottica_RAW.pdf>
 Package pdftex.def Info: Pic/Fotoottica_RAW.pdf  used on input line 165.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
-<Pic/Fotoottica.pdf, id=225, 632.3625pt x 405.515pt>
+<Pic/Fotoottica.pdf, id=226, 632.3625pt x 405.515pt>
 File: Pic/Fotoottica.pdf Graphic file (type pdf)
 <use Pic/Fotoottica.pdf>
 Package pdftex.def Info: Pic/Fotoottica.pdf  used on input line 165.
 (pdftex.def)             Requested size: 142.25612pt x 113.80948pt.
-<Pic/Fotoottica_Matrix.pdf, id=226, 632.3625pt x 405.515pt>
+<Pic/Fotoottica_Matrix.pdf, id=227, 632.3625pt x 405.515pt>
 File: Pic/Fotoottica_Matrix.pdf Graphic file (type pdf)
 <use Pic/Fotoottica_Matrix.pdf>
 Package pdftex.def Info: Pic/Fotoottica_Matrix.pdf  used on input line 165.
@@ -1292,7 +1292,11 @@ Overfull \vbox (0.9842pt too high) detected at line 165
 [6
 
  <./Pic/Fotoottica_RAW.pdf> <./Pic/Fotoottica.pdf> <./Pic/Fotoottica_Matrix.pdf
->]
+>] [7
+
+] [8
+
+]
 \tf@nav=\write7
 \openout7 = `Presentation.nav'.
 
@@ -1310,25 +1314,26 @@ Package logreq Info: Writing requests to 'Presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28254 strings out of 479334
- 533684 string characters out of 2865057
- 1047730 words of memory out of 3000000
- 45132 multiletter control sequences out of 15000+200000
+ 28262 strings out of 479334
+ 533750 string characters out of 2865057
+ 1050730 words of memory out of 3000000
+ 45136 multiletter control sequences out of 15000+200000
  410178 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,1861b,1646s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols
-/msam10.pfb>
-Output written on Presentation.pdf (6 pages, 193015 bytes).
+ 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pf
+b>
+Output written on Presentation.pdf (8 pages, 216550 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
+ 359 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
  147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
