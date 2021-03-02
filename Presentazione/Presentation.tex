@@ -166,7 +166,7 @@ $\delta_{T6}$ (Plc T= -1) & 11.65 & 12.12
 
 
 \begin{frame}
-\frametitle{DID estimation}
+\frametitle{DID estimation with deseasonalized data}
 \begin{itemize}
 \item C dummy per il gruppo di controllo (Alimentari), $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio (MEDIUM), T2 Aprile (HIGH) e T3 Giugno (LOW)
 
@@ -186,9 +186,30 @@ Fotoottica       & -34.14 & 2.55 & -52.32 & 3.52 & -7.8   & 3.52 \\ \cline{1-1}
 \end{frame}
 
 
+\begin{frame}
+\frametitle{DID estimation with RAW data}
+\begin{itemize}
+\item C dummy per il gruppo di controllo (Alimentari), $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio (MEDIUM), T2 Aprile (HIGH) e T3 Giugno (LOW)
+\item Errore decisamente maggiore rispetto ai dati de-stagionalizzati
+\end{itemize}
+\begin{equation*}
+Y=C+T_{1}+T_{2}+T_{3}+\delta_{1}(T_{1}\times C)+\delta_{2}(T_{2}\times C)+\delta_{3}(T_{3}\times C)+\epsilon
+\end{equation*}
+\begin{table}[]
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l}
+                 & $\delta_{1}$     & $\sigma_{\delta_{1}} $   & $\delta_{2}  $    &$ \sigma_{\delta_{2}}  $   & $\delta_{3}     $ & $\sigma_{\delta_{3}} $    \\ \hline
+Abbigliamento    & -60.70 & 13.32 & -90.89 & 13.32 & -15.69 & 13.32  \\ \hline
+Calzature        & -57.37 & 14.95 & -95.97 & 20.76 & -11.70 & 8.67  \\ \hline
+Elettrodomestici & -41.81 & 16.47  & -68.26 & 22.88 & 3.24  & 9.56  \\ \hline
+Fotoottica       & -45.33 & 9.22 & -76.48 & 12.80 & -3.77   & 5.35 \\ \cline{1-1}
+\end{tabular}
+\end{table}
+\end{frame}
+
+
 
 \begin{frame}
-\frametitle{DID estimation - placebo}
+\frametitle{DID estimation - placebo (deseasonalized data)}
 \begin{table}[]
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l|l|l|l}
                  & $\delta_{4}$     & $\sigma_{\delta_{4}} $   & $\delta_{5}  $    &$ \sigma_{\delta_{5}}  $   & $\delta_{6}     $ & $\sigma_{\delta_{6}} $    \\ \hline

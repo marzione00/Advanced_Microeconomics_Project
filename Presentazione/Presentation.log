@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  2 MAR 2021 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  2 MAR 2021 21:10
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -1296,6 +1296,8 @@ Overfull \vbox (0.9842pt too high) detected at line 165
 
 ] [8
 
+] [9
+
 ]
 \tf@nav=\write7
 \openout7 = `Presentation.nav'.
@@ -1314,10 +1316,10 @@ Package logreq Info: Writing requests to 'Presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28262 strings out of 479334
- 533750 string characters out of 2865057
- 1050730 words of memory out of 3000000
- 45136 multiletter control sequences out of 15000+200000
+ 28266 strings out of 479334
+ 533783 string characters out of 2865057
+ 1051730 words of memory out of 3000000
+ 45138 multiletter control sequences out of 15000+200000
  410178 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,1861b,1646s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1331,9 +1333,9 @@ onts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pf
 b>
-Output written on Presentation.pdf (8 pages, 216550 bytes).
+Output written on Presentation.pdf (9 pages, 224131 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
