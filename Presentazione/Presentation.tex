@@ -1,0 +1,197 @@
+\documentclass[compress]{beamer}
+\usepackage{hyperref}
+\hypersetup{
+    pdftitle = {Results}, % <-- Missing in PDF
+    pdfauthor = {Marzio De Corato},
+    pdfsubject = {Deseasoning and DID}
+}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+%\author{Marzio De Corato}
+\usepackage{varwidth}
+\usepackage{beamerthemesplit} 
+
+\usepackage[english]{babel}
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{bibliography.bib}
+
+\useoutertheme{miniframes}
+
+
+\usetheme[progressbar=frametitle]{Madrid}
+\usefonttheme{professionalfonts}
+\setbeamertemplate{itemize items}[triangle]
+\setbeamertemplate{enumerate items}[default]
+\usecolortheme{beaver}
+
+
+%Information to be included in the title page:
+
+
+\title[Deseasoning and DID]{}
+
+\author{Marzio De Corato e Giulia Hadjiandrea}
+\date{}
+
+\title{Destagionalizzazione e DID}
+
+\setbeamertemplate{enumerate items}[default]
+\usecolortheme{beaver}
+
+\begin{document}
+
+
+\frame{\titlepage}
+
+\usebackgroundtemplate{ } 
+
+%\author{Marzio De Corato}
+
+\section{Intro}
+
+
+\begin{frame}
+\frametitle{Regression}
+\begin{itemize}
+\item T Variabile temporale: n numero di mesi prima di Febbraio (ultimo mese senza lock-down)
+\item $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio (MEDIUM), T2 Aprile (HIGH) e T3 Giugno (LOW). Nei grafici questo periodo è segnato dalle barre tratteggiate.
+\item $Y_{x}$ volume di vendite per il settore x 
+\end{itemize}
+\begin{equation}
+Y_{x}-Y_{Alimentare}=\alpha+\delta_{before T1}T+\delta_{T1}T_{1}+\delta_{T2}T_{2}+\delta_{T3}T_{3}+\epsilon
+\end{equation}
+\end{frame}
+
+\begin{frame}
+\frametitle{Abbigliamento}
+\begin{columns}[t]
+\column{.5\textwidth}
+\centering
+\includegraphics[width=5cm,height=3.5cm]{Pic/Abbigliamento_RAW.pdf}\\
+\includegraphics[width=5cm,height=4cm]{Pic/Abbigliamento.pdf}
+\column{.5\textwidth}
+\centering
+\includegraphics[width=5cm,height=3.5cm]{Pic/Abbigliamento_Matrix.pdf}\\
+\begin{itemize}
+\item Rosso: Alimentari
+\end{itemize}
+\begin{table}[]
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\delta$ Slope before T1 & -0.33  & 0.07  \\ \hline
+$\delta_{T1}$   & -40.16 & 2.30  \\ \hline
+$\delta_{T2}$   & -60.07 & 3.1   \\ \hline
+$\delta_{T3}$   & -16.45 & 3.17 
+\end{tabular}
+\end{table}
+
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Calzature}
+\begin{columns}[t]
+\column{.5\textwidth}
+\centering
+\includegraphics[width=5cm,height=3.5cm]{Pic/Calzature_RAW.pdf}\\
+\includegraphics[width=5cm,height=4cm]{Pic/Calzature.pdf}
+\column{.5\textwidth}
+\centering
+\includegraphics[width=5cm,height=3.5cm]{Pic/Calzature_Matrix.pdf}\\
+\begin{itemize}
+\item Rosso: Alimentari
+\end{itemize}
+\begin{table}[]
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\delta$ Slope before T1 & -0.18  & 0.08  \\ \hline
+$\delta_{T1}$   & -38.70 & 1.86   \\ \hline
+$\delta_{T2}$   & -65.78 & 2.57  \\ \hline
+$\delta_{T3}$   & -20.62 & 2.57 
+\end{tabular}
+\end{table}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Elettrodomestici}
+\begin{columns}[t]
+\column{.5\textwidth}
+\centering
+\includegraphics[width=5cm,height=3.5cm]{Pic/Elettrodomestici_RAW.pdf}\\
+\includegraphics[width=5cm,height=4cm]{Pic/Elettrodomestici.pdf}
+\column{.5\textwidth}
+\centering
+\includegraphics[width=5cm,height=3.5cm]{Pic/Elettrodomestici_Matrix.pdf}\\
+\begin{itemize}
+\item Rosso: Alimentari
+\end{itemize}
+\begin{table}[]
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\delta$ Slope before T1 & -0.12  & 0.06  \\ \hline
+$\delta_{T1}$   & -20.32 & 2.62   \\ \hline
+$\delta_{T2}$   & -27.34 & 3.62  \\ \hline
+$\delta_{T3}$   & -3.68 & 3.62
+\end{tabular}
+\end{table}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Fotoottica}
+\begin{columns}[t]
+\column{.5\textwidth}
+\centering
+\includegraphics[width=5cm,height=3.5cm]{Pic/Fotoottica_RAW.pdf}\\
+\includegraphics[width=5cm,height=4cm]{Pic/Fotoottica.pdf}
+\column{.5\textwidth}
+\centering
+\includegraphics[width=5cm,height=3.5cm]{Pic/Fotoottica_Matrix.pdf}\\
+\begin{itemize}
+\item Rosso: Alimentari
+\end{itemize}
+\begin{table}[]
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\delta$ Slope before T1 & -0.40  & 0.07  \\ \hline
+$\delta_{T1}$   & -34.14 & 2.76   \\ \hline
+$\delta_{T2}$   & -52.32 & 3.82  \\ \hline
+$\delta_{T3}$   & -7.86 & 3.82
+\end{tabular}
+\end{table}
+\end{columns}
+\end{frame}
+
+
+
+
+
+
+
+%\subsection{Stars Feature}
+
+%\begin{frame}
+%\frametitle{Theoretical background - Star features }
+%\begin{columns}
+%\column{0.4\textwidth}
+%\begin{itemize}
+%\item \textbf{Main features}: For this work the main features of star are the stellar luminosity (S\_L), its temperature (S\_T) and spectral type (S\_S\_T)
+%\item\textbf{H-R diagram}: with these features the Hertzsprung-Russell diagram classify the stars (the temperature and spectral type of a star are two faces of the same medal)
+%\end{itemize}
+%\column{0.45\textwidth}
+%\includegraphics[width=\linewidth,]{Pic/S_T_T_explanation.png}
+%\begin{center}
+%Image taken from \cite{HR_diagram}
+%\end{center}
+%\end{columns}
+%\end{frame}
+
+
+
+
+\end{document}
