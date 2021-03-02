@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  2 MAR 2021 15:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  2 MAR 2021 16:29
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -1208,37 +1208,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Pic/Abbigliamento_RAW.pdf, id=93, 632.3625pt x 405.515pt>
 File: Pic/Abbigliamento_RAW.pdf Graphic file (type pdf)
 <use Pic/Abbigliamento_RAW.pdf>
-Package pdftex.def Info: Pic/Abbigliamento_RAW.pdf  used on input line 90.
+Package pdftex.def Info: Pic/Abbigliamento_RAW.pdf  used on input line 89.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
 <Pic/Abbigliamento.pdf, id=94, 632.3625pt x 405.515pt>
 File: Pic/Abbigliamento.pdf Graphic file (type pdf)
 <use Pic/Abbigliamento.pdf>
-Package pdftex.def Info: Pic/Abbigliamento.pdf  used on input line 90.
-(pdftex.def)             Requested size: 142.25612pt x 113.80948pt.
+Package pdftex.def Info: Pic/Abbigliamento.pdf  used on input line 89.
+(pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
 <Pic/Abbigliamento_Matrix.pdf, id=95, 632.3625pt x 405.515pt>
 File: Pic/Abbigliamento_Matrix.pdf Graphic file (type pdf)
 <use Pic/Abbigliamento_Matrix.pdf>
-Package pdftex.def Info: Pic/Abbigliamento_Matrix.pdf  used on input line 90.
+Package pdftex.def Info: Pic/Abbigliamento_Matrix.pdf  used on input line 89.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
- [3
+
+Overfull \vbox (0.9842pt too high) detected at line 89
+ []
+
+[3
 
  <./Pic/Abbigliamento_RAW.pdf> <./Pic/Abbigliamento.pdf> <./Pic/Abbigliamento_M
 atrix.pdf>]
 <Pic/Calzature_RAW.pdf, id=137, 632.3625pt x 405.515pt>
 File: Pic/Calzature_RAW.pdf Graphic file (type pdf)
 <use Pic/Calzature_RAW.pdf>
-Package pdftex.def Info: Pic/Calzature_RAW.pdf  used on input line 116.
+Package pdftex.def Info: Pic/Calzature_RAW.pdf  used on input line 114.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
 <Pic/Calzature.pdf, id=138, 632.3625pt x 405.515pt>
 File: Pic/Calzature.pdf Graphic file (type pdf)
 <use Pic/Calzature.pdf>
-Package pdftex.def Info: Pic/Calzature.pdf  used on input line 116.
+Package pdftex.def Info: Pic/Calzature.pdf  used on input line 114.
 (pdftex.def)             Requested size: 142.25612pt x 113.80948pt.
 <Pic/Calzature_Matrix.pdf, id=139, 632.3625pt x 405.515pt>
 File: Pic/Calzature_Matrix.pdf Graphic file (type pdf)
 <use Pic/Calzature_Matrix.pdf>
-Package pdftex.def Info: Pic/Calzature_Matrix.pdf  used on input line 116.
+Package pdftex.def Info: Pic/Calzature_Matrix.pdf  used on input line 114.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
+
+Overfull \vbox (0.9842pt too high) detected at line 114
+ []
 
 [4
 
@@ -1246,18 +1253,18 @@ Package pdftex.def Info: Pic/Calzature_Matrix.pdf  used on input line 116.
 <Pic/Elettrodomestici_RAW.pdf, id=181, 632.3625pt x 405.515pt>
 File: Pic/Elettrodomestici_RAW.pdf Graphic file (type pdf)
 <use Pic/Elettrodomestici_RAW.pdf>
-Package pdftex.def Info: Pic/Elettrodomestici_RAW.pdf  used on input line 142.
+Package pdftex.def Info: Pic/Elettrodomestici_RAW.pdf  used on input line 139.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
 <Pic/Elettrodomestici.pdf, id=182, 632.3625pt x 405.515pt>
 File: Pic/Elettrodomestici.pdf Graphic file (type pdf)
 <use Pic/Elettrodomestici.pdf>
-Package pdftex.def Info: Pic/Elettrodomestici.pdf  used on input line 142.
+Package pdftex.def Info: Pic/Elettrodomestici.pdf  used on input line 139.
 (pdftex.def)             Requested size: 142.25612pt x 113.80948pt.
 <Pic/Elettrodomestici_Matrix.pdf, id=183, 632.3625pt x 405.515pt>
 File: Pic/Elettrodomestici_Matrix.pdf Graphic file (type pdf)
 <use Pic/Elettrodomestici_Matrix.pdf>
-Package pdftex.def Info: Pic/Elettrodomestici_Matrix.pdf  used on input line 14
-2.
+Package pdftex.def Info: Pic/Elettrodomestici_Matrix.pdf  used on input line 13
+9.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
  [5
 
@@ -1266,19 +1273,23 @@ mestici_Matrix.pdf>]
 <Pic/Fotoottica_RAW.pdf, id=224, 632.3625pt x 405.515pt>
 File: Pic/Fotoottica_RAW.pdf Graphic file (type pdf)
 <use Pic/Fotoottica_RAW.pdf>
-Package pdftex.def Info: Pic/Fotoottica_RAW.pdf  used on input line 168.
+Package pdftex.def Info: Pic/Fotoottica_RAW.pdf  used on input line 165.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
 <Pic/Fotoottica.pdf, id=225, 632.3625pt x 405.515pt>
 File: Pic/Fotoottica.pdf Graphic file (type pdf)
 <use Pic/Fotoottica.pdf>
-Package pdftex.def Info: Pic/Fotoottica.pdf  used on input line 168.
+Package pdftex.def Info: Pic/Fotoottica.pdf  used on input line 165.
 (pdftex.def)             Requested size: 142.25612pt x 113.80948pt.
 <Pic/Fotoottica_Matrix.pdf, id=226, 632.3625pt x 405.515pt>
 File: Pic/Fotoottica_Matrix.pdf Graphic file (type pdf)
 <use Pic/Fotoottica_Matrix.pdf>
-Package pdftex.def Info: Pic/Fotoottica_Matrix.pdf  used on input line 168.
+Package pdftex.def Info: Pic/Fotoottica_Matrix.pdf  used on input line 165.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
- [6
+
+Overfull \vbox (0.9842pt too high) detected at line 165
+ []
+
+[6
 
  <./Pic/Fotoottica_RAW.pdf> <./Pic/Fotoottica.pdf> <./Pic/Fotoottica_Matrix.pdf
 >]
@@ -1301,7 +1312,7 @@ Package logreq Info: Writing requests to 'Presentation.run.xml'.
 Here is how much of TeX's memory you used:
  28254 strings out of 479334
  533684 string characters out of 2865057
- 1046730 words of memory out of 3000000
+ 1047730 words of memory out of 3000000
  45132 multiletter control sequences out of 15000+200000
  410178 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1315,7 +1326,7 @@ ublic/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols
 /msam10.pfb>
-Output written on Presentation.pdf (6 pages, 192376 bytes).
+Output written on Presentation.pdf (6 pages, 193015 bytes).
 PDF statistics:
  301 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
