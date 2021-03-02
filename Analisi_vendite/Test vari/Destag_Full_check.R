@@ -30,19 +30,19 @@ Controllo_Giocattoli<-lm(Data$Giocattoli[1:19]-Data$Alimentari[1:19]~Data$Time[1
 summary(Controllo_Giocattoli)
 
 
-reg2<-lm(Data$Abbigliamento-Data$Alimentari~Data$T1+Data$T2+Data$T3)
+reg2<-lm(Data$Abbigliamento-Data$Alimentari~Data$Time+Data$T1+Data$T2+Data$T3)
 summary(reg2)
 
-reg3<-lm(Data$Calzature-Data$Alimentari~Data$T1+Data$T2+Data$T3)
+reg3<-lm(Data$Calzature-Data$Alimentari~Data$Time+Data$T1+Data$T2+Data$T3)
 summary(reg3)
 
-reg4<-lm(Data$Elettrodomestici-Data$Alimentari~Data$T1+Data$T2+Data$T3)
+reg4<-lm(Data$Elettrodomestici-Data$Alimentari~Data$Time+Data$T1+Data$T2+Data$T3)
 summary(reg4)
 
-reg5<-lm(Data$Mobili-Data$Alimentari~Data$T1+Data$T2+Data$T3)
+reg5<-lm(Data$Mobili-Data$Alimentari~Data$Time+Data$T1+Data$T2+Data$T3)
 summary(reg5)
 
-reg6<-lm(Data$Fotoottica-Data$Alimentari~Data$T1+Data$T2+Data$T3)
+reg6<-lm(Data$Fotoottica-Data$Alimentari~Data$Time+Data$T1+Data$T2+Data$T3)
 summary(reg6)
 
 reg7<-lm(Data$Casalinghi-Data$Alimentari~Data$T1+Data$T2+Data$T3)
