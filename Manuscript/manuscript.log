@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  2 MAR 2021 20:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  3 MAR 2021 09:25
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -1089,13 +1089,13 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19561 strings out of 479334
- 353322 string characters out of 2865057
+ 19562 strings out of 479334
+ 353338 string characters out of 2865057
  966342 words of memory out of 3000000
- 36616 multiletter control sequences out of 15000+200000
+ 36617 multiletter control sequences out of 15000+200000
  498581 words of font info for 159 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 111i,23n,116p,10607b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 111i,23n,116p,10607b,645s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{C:/Program Files/Mi
 KTeX 2.9/fonts/enc/dvips/iwona/ec-iwona.enc}{C:/Program Files/MiKTeX 2.9/fonts/
 enc/dvips/iwona/ec-iwona-sc.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public
@@ -1107,7 +1107,7 @@ es/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/nowacki/iwona/iwonab.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/i
 wona/iwonar.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on manuscript.pdf (8 pages, 168530 bytes).
+Output written on manuscript.pdf (8 pages, 168920 bytes).
 PDF statistics:
  164 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)

@@ -16,5 +16,64 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{draca2011panic}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DM}{%
+         family={Draca},
+         familyi={D\bibinitperiod},
+         given={Mirko},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Machin},
+         familyi={M\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Witt},
+         familyi={W\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DMMSWR1}
+    \strng{fullhash}{DMMSWR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{5}
+    \field{pages}{2157\bibrangedash 81}
+    \field{title}{Panic on the streets of London: Police, crime, and the July
+  2005 terror attacks}
+    \field{volume}{101}
+    \field{journaltitle}{American Economic Review}
+    \field{year}{2011}
+  \endentry
+
+  \entry{wooldridge2012introductory}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WJM}{%
+         family={Wooldridge},
+         familyi={W\bibinitperiod},
+         given={Jeffrey\bibnamedelima M},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJM1}
+    \strng{fullhash}{WJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{pages}{673\bibrangedash 690}
+    \field{title}{Introductory econometrics: a modern approach (upper level
+  economics titles)}
+    \field{volume}{41}
+    \field{journaltitle}{Southwestern College Publishing, Nashville, T АTN}
+    \field{year}{2012}
+  \endentry
+\enddatalist
 \endinput

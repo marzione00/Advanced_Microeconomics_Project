@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  2 MAR 2021 21:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  3 MAR 2021 19:35
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -1016,6 +1016,8 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 ))
 (C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamerouterthememiniframes.sty)
+   defining Unicode char U+200A (decimal 8202)
+
 (C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamerthemeMadrid.sty
 (C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamercolorthemeorchid.sty)
 (C:\Program Files\MiKTeX 2.9\tex/latex/beamer\beamerinnerthemerounded.sty)
@@ -1191,13 +1193,13 @@ Package biblatex Info: Reference segment=0 on input line 42.
  (Presentation.nav) [1
 
 {C:/Users/Marzio/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 
 
 (C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
@@ -1205,88 +1207,88 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
 
 ]
-<Pic/Abbigliamento_RAW.pdf, id=93, 632.3625pt x 405.515pt>
+<Pic/Abbigliamento_RAW.pdf, id=97, 632.3625pt x 405.515pt>
 File: Pic/Abbigliamento_RAW.pdf Graphic file (type pdf)
 <use Pic/Abbigliamento_RAW.pdf>
-Package pdftex.def Info: Pic/Abbigliamento_RAW.pdf  used on input line 89.
+Package pdftex.def Info: Pic/Abbigliamento_RAW.pdf  used on input line 90.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
-<Pic/Abbigliamento.pdf, id=94, 632.3625pt x 405.515pt>
+<Pic/Abbigliamento.pdf, id=98, 632.3625pt x 405.515pt>
 File: Pic/Abbigliamento.pdf Graphic file (type pdf)
 <use Pic/Abbigliamento.pdf>
-Package pdftex.def Info: Pic/Abbigliamento.pdf  used on input line 89.
+Package pdftex.def Info: Pic/Abbigliamento.pdf  used on input line 90.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
-<Pic/Abbigliamento_Matrix.pdf, id=95, 632.3625pt x 405.515pt>
+<Pic/Abbigliamento_Matrix.pdf, id=99, 632.3625pt x 405.515pt>
 File: Pic/Abbigliamento_Matrix.pdf Graphic file (type pdf)
 <use Pic/Abbigliamento_Matrix.pdf>
-Package pdftex.def Info: Pic/Abbigliamento_Matrix.pdf  used on input line 89.
+Package pdftex.def Info: Pic/Abbigliamento_Matrix.pdf  used on input line 90.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
 
-Overfull \vbox (0.9842pt too high) detected at line 89
+Overfull \vbox (0.9842pt too high) detected at line 90
  []
 
 [3
 
  <./Pic/Abbigliamento_RAW.pdf> <./Pic/Abbigliamento.pdf> <./Pic/Abbigliamento_M
 atrix.pdf>]
-<Pic/Calzature_RAW.pdf, id=137, 632.3625pt x 405.515pt>
+<Pic/Calzature_RAW.pdf, id=141, 632.3625pt x 405.515pt>
 File: Pic/Calzature_RAW.pdf Graphic file (type pdf)
 <use Pic/Calzature_RAW.pdf>
-Package pdftex.def Info: Pic/Calzature_RAW.pdf  used on input line 114.
+Package pdftex.def Info: Pic/Calzature_RAW.pdf  used on input line 115.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
-<Pic/Calzature.pdf, id=138, 632.3625pt x 405.515pt>
+<Pic/Calzature.pdf, id=142, 632.3625pt x 405.515pt>
 File: Pic/Calzature.pdf Graphic file (type pdf)
 <use Pic/Calzature.pdf>
-Package pdftex.def Info: Pic/Calzature.pdf  used on input line 114.
+Package pdftex.def Info: Pic/Calzature.pdf  used on input line 115.
 (pdftex.def)             Requested size: 142.25612pt x 113.80948pt.
-<Pic/Calzature_Matrix.pdf, id=139, 632.3625pt x 405.515pt>
+<Pic/Calzature_Matrix.pdf, id=143, 632.3625pt x 405.515pt>
 File: Pic/Calzature_Matrix.pdf Graphic file (type pdf)
 <use Pic/Calzature_Matrix.pdf>
-Package pdftex.def Info: Pic/Calzature_Matrix.pdf  used on input line 114.
+Package pdftex.def Info: Pic/Calzature_Matrix.pdf  used on input line 115.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
 
-Overfull \vbox (0.9842pt too high) detected at line 114
+Overfull \vbox (0.9842pt too high) detected at line 115
  []
 
 [4
 
  <./Pic/Calzature_RAW.pdf> <./Pic/Calzature.pdf> <./Pic/Calzature_Matrix.pdf>]
-<Pic/Elettrodomestici_RAW.pdf, id=181, 632.3625pt x 405.515pt>
+<Pic/Elettrodomestici_RAW.pdf, id=185, 632.3625pt x 405.515pt>
 File: Pic/Elettrodomestici_RAW.pdf Graphic file (type pdf)
 <use Pic/Elettrodomestici_RAW.pdf>
-Package pdftex.def Info: Pic/Elettrodomestici_RAW.pdf  used on input line 139.
+Package pdftex.def Info: Pic/Elettrodomestici_RAW.pdf  used on input line 140.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
-<Pic/Elettrodomestici.pdf, id=182, 632.3625pt x 405.515pt>
+<Pic/Elettrodomestici.pdf, id=186, 632.3625pt x 405.515pt>
 File: Pic/Elettrodomestici.pdf Graphic file (type pdf)
 <use Pic/Elettrodomestici.pdf>
-Package pdftex.def Info: Pic/Elettrodomestici.pdf  used on input line 139.
+Package pdftex.def Info: Pic/Elettrodomestici.pdf  used on input line 140.
 (pdftex.def)             Requested size: 142.25612pt x 113.80948pt.
-<Pic/Elettrodomestici_Matrix.pdf, id=183, 632.3625pt x 405.515pt>
+<Pic/Elettrodomestici_Matrix.pdf, id=187, 632.3625pt x 405.515pt>
 File: Pic/Elettrodomestici_Matrix.pdf Graphic file (type pdf)
 <use Pic/Elettrodomestici_Matrix.pdf>
-Package pdftex.def Info: Pic/Elettrodomestici_Matrix.pdf  used on input line 13
-9.
+Package pdftex.def Info: Pic/Elettrodomestici_Matrix.pdf  used on input line 14
+0.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
  [5
 
  <./Pic/Elettrodomestici_RAW.pdf> <./Pic/Elettrodomestici.pdf> <./Pic/Elettrodo
 mestici_Matrix.pdf>]
-<Pic/Fotoottica_RAW.pdf, id=225, 632.3625pt x 405.515pt>
+<Pic/Fotoottica_RAW.pdf, id=229, 632.3625pt x 405.515pt>
 File: Pic/Fotoottica_RAW.pdf Graphic file (type pdf)
 <use Pic/Fotoottica_RAW.pdf>
-Package pdftex.def Info: Pic/Fotoottica_RAW.pdf  used on input line 165.
+Package pdftex.def Info: Pic/Fotoottica_RAW.pdf  used on input line 166.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
-<Pic/Fotoottica.pdf, id=226, 632.3625pt x 405.515pt>
+<Pic/Fotoottica.pdf, id=230, 632.3625pt x 405.515pt>
 File: Pic/Fotoottica.pdf Graphic file (type pdf)
 <use Pic/Fotoottica.pdf>
-Package pdftex.def Info: Pic/Fotoottica.pdf  used on input line 165.
+Package pdftex.def Info: Pic/Fotoottica.pdf  used on input line 166.
 (pdftex.def)             Requested size: 142.25612pt x 113.80948pt.
-<Pic/Fotoottica_Matrix.pdf, id=227, 632.3625pt x 405.515pt>
+<Pic/Fotoottica_Matrix.pdf, id=231, 632.3625pt x 405.515pt>
 File: Pic/Fotoottica_Matrix.pdf Graphic file (type pdf)
 <use Pic/Fotoottica_Matrix.pdf>
-Package pdftex.def Info: Pic/Fotoottica_Matrix.pdf  used on input line 165.
+Package pdftex.def Info: Pic/Fotoottica_Matrix.pdf  used on input line 166.
 (pdftex.def)             Requested size: 142.25612pt x 99.58408pt.
 
-Overfull \vbox (0.9842pt too high) detected at line 165
+Overfull \vbox (0.9842pt too high) detected at line 166
  []
 
 [6
@@ -1297,6 +1299,54 @@ Overfull \vbox (0.9842pt too high) detected at line 165
 ] [8
 
 ] [9
+
+]
+<Pic/CIG_TOT.pdf, id=357, 572.1375pt x 414.54875pt>
+File: Pic/CIG_TOT.pdf Graphic file (type pdf)
+<use Pic/CIG_TOT.pdf>
+Package pdftex.def Info: Pic/CIG_TOT.pdf  used on input line 231.
+(pdftex.def)             Requested size: 284.53154pt x 199.16457pt.
+ [10
+
+ <./Pic/CIG_TOT.pdf>]
+<Pic/Manifattura_CIG.pdf, id=389, 572.1375pt x 414.54875pt>
+File: Pic/Manifattura_CIG.pdf Graphic file (type pdf)
+<use Pic/Manifattura_CIG.pdf>
+Package pdftex.def Info: Pic/Manifattura_CIG.pdf  used on input line 246.
+(pdftex.def)             Requested size: 142.26576pt x 99.58228pt.
+<Pic/Commercio_CIG.pdf, id=390, 572.1375pt x 414.54875pt>
+File: Pic/Commercio_CIG.pdf Graphic file (type pdf)
+<use Pic/Commercio_CIG.pdf>
+Package pdftex.def Info: Pic/Commercio_CIG.pdf  used on input line 246.
+(pdftex.def)             Requested size: 142.26576pt x 99.58228pt.
+<Pic/Costruzioni_CIG.pdf, id=391, 572.1375pt x 414.54875pt>
+File: Pic/Costruzioni_CIG.pdf Graphic file (type pdf)
+<use Pic/Costruzioni_CIG.pdf>
+Package pdftex.def Info: Pic/Costruzioni_CIG.pdf  used on input line 246.
+(pdftex.def)             Requested size: 142.26576pt x 99.58228pt.
+<Pic/Immob_CIG.pdf, id=392, 572.1375pt x 414.54875pt>
+File: Pic/Immob_CIG.pdf Graphic file (type pdf)
+<use Pic/Immob_CIG.pdf>
+Package pdftex.def Info: Pic/Immob_CIG.pdf  used on input line 246.
+(pdftex.def)             Requested size: 142.26576pt x 99.58228pt.
+ [11
+
+ <./Pic/Manifattura_CIG.pdf> <./Pic/Commercio_CIG.pdf> <./Pic/Costruzioni_CIG.p
+df> <./Pic/Immob_CIG.pdf>]
+
+! Package inputenc Error: Unicode character А (U+0410)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.252 \end{frame}
+                 
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[12
 
 ]
 \tf@nav=\write7
@@ -1310,17 +1360,17 @@ Overfull \vbox (0.9842pt too high) detected at line 165
 
  (Presentation.aux)
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 0B3B3DC2752348436D98E323E287BF7C;68.
+(rerunfilecheck)             Checksum: 5EAC89DE1B0EC36E37D52F986379308E;161.
 Package logreq Info: Writing requests to 'Presentation.run.xml'.
 \openout1 = `Presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28266 strings out of 479334
- 533783 string characters out of 2865057
- 1051730 words of memory out of 3000000
- 45138 multiletter control sequences out of 15000+200000
- 410178 words of font info for 52 fonts, out of 3000000 for 9000
+ 28542 strings out of 479334
+ 539742 string characters out of 2865057
+ 1051896 words of memory out of 3000000
+ 45399 multiletter control sequences out of 15000+200000
+ 410534 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,15n,132p,1861b,1646s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
@@ -1330,12 +1380,12 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
 /type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pf
-b>
-Output written on Presentation.pdf (9 pages, 224131 bytes).
+cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Presentation.pdf (12 pages, 278555 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 

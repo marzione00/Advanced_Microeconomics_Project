@@ -17,7 +17,7 @@
 \addbibresource{bibliography.bib}
 
 \useoutertheme{miniframes}
-
+\DeclareUnicodeCharacter{200A}{!!!FIX ME!!!} 
 
 \usetheme[progressbar=frametitle]{Madrid}
 \usefonttheme{professionalfonts}
@@ -57,6 +57,7 @@
 \item T Variabile temporale: n numero di mesi prima di Febbraio (ultimo mese senza lock-down)
 \item $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio (MEDIUM), T2 Aprile (HIGH) e T3 Giugno (LOW). Nei grafici questo periodo è segnato dalle barre tratteggiate.
 \item $Y_{x}$ volume di vendite per il settore x 
+\item I dati sono stati raccolti dal sito ISTAT 
 \end{itemize}
 \begin{equation}
 Y_{x}-Y_{Alimentare}=\alpha+\delta_{before T1}T+\delta_{T1}T_{1}+\delta_{T2}T_{2}+\delta_{T3}T_{3}+\epsilon
@@ -169,6 +170,7 @@ $\delta_{T6}$ (Plc T= -1) & 11.65 & 12.12
 \frametitle{DID estimation with deseasonalized data}
 \begin{itemize}
 \item C dummy per il gruppo di controllo (Alimentari), $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio (MEDIUM), T2 Aprile (HIGH) e T3 Giugno (LOW)
+\item DID a più tempi come già sviluppato con successo da Draca et. al in \cite{draca2011panic} and da Wooldridge in  \cite{wooldridge2012introductory}
 
 \end{itemize}
 \begin{equation*}
@@ -221,6 +223,33 @@ Fotoottica        & 0.84 & 10.98 & 1.71 & 15.18 & 0.69  & 15.18 \\ \cline{1-1}
 \end{table}
 \end{frame}
 
+\begin{frame}
+\frametitle{DID - Cassa integrazione}
+\centering
+\includegraphics[width=10cm,height=7cm]{Pic/CIG_TOT.pdf}\\
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{DID - Cassa integrazione}
+\begin{columns}[t]
+\column{.5\textwidth}
+\centering
+\includegraphics[width=5cm,height=3.5cm]{Pic/Manifattura_CIG.pdf}\\
+\includegraphics[width=5cm,height=3.5cm]{Pic/Commercio_CIG.pdf}
+\column{.5\textwidth}
+\centering
+\includegraphics[width=5cm,height=3.5cm]{Pic/Costruzioni_CIG.pdf}\\
+\includegraphics[width=5cm,height=3.5cm]{Pic/Immob_CIG.pdf}
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{References}
+\printbibliography
+\end{frame}
 
 
 
