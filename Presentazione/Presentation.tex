@@ -11,6 +11,9 @@
 %\author{Marzio De Corato}
 \usepackage{varwidth}
 \usepackage{beamerthemesplit} 
+\usepackage{xcolor}
+
+\definecolor{ao(english)}{rgb}{0.0, 0.5, 0.0}
 
 \usepackage[english]{babel}
 \usepackage[backend=bibtex]{biblatex}
@@ -52,12 +55,12 @@
 
 
 \begin{frame}
-\frametitle{Trend Check}
+\frametitle{Pre-Trend Check for performing DID}
 \begin{itemize}
 \item T Variabile temporale: n numero di mesi prima di Febbraio (ultimo mese senza lock-down)
-\item $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio (MEDIUM), T2 Aprile (HIGH) e T3 Giugno (LOW). Nei grafici questo periodo è segnato dalle barre tratteggiate.
+\item $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio \textcolor{orange}{MEDIUM}, T2 Aprile  \textcolor{red}{HIGH} e T3 Giugno \textcolor{ao(english)}{LOW}. Nei grafici questo periodo è segnato dalle barre tratteggiate.
 \item $Y_{x}$ volume di vendite per il settore x 
-\item I dati sono stati raccolti dal sito ISTAT 
+\item I dati sono stati raccolti dal sito ISTAT e destagionalizzati con il pacchetto R \textit{Forecasting: Principles and Practice - ffp} 
 \end{itemize}
 \begin{equation}
 Y_{x}-Y_{Alimentare}=\alpha+\delta_{before T1}T+\delta_{T1}T_{1}+\delta_{T2}T_{2}+\delta_{T3}T_{3}+\epsilon
@@ -169,8 +172,11 @@ $\delta_{T6}$ (Plc T= -1) & 11.65 & 12.12
 \begin{frame}
 \frametitle{DID estimation with deseasonalized data}
 \begin{itemize}
-\item C dummy per il gruppo di controllo (Alimentari), $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio (MEDIUM), T2 Aprile (HIGH) e T3 Giugno (LOW)
+\item C dummy per il gruppo di controllo/trattamento, $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown: T1 per Marzo e Maggio \textcolor{orange}{MEDIUM}, T2 Aprile  \textcolor{red}{HIGH} e T3 Giugno \textcolor{ao(english)}{LOW}.
+\item Y volume vendite (settore x vs alimentari(controllo) )
+\item La pendenza pretrend è di due ordini di grandezza inferiore rispetto a quella degli eventi T1 e T2
 \item DID a più tempi come già sviluppato con successo da Draca et. al in \cite{draca2011panic} and da Wooldridge in  \cite{wooldridge2012introductory}
+
 
 \end{itemize}
 \begin{equation*}
@@ -227,6 +233,7 @@ Fotoottica        & 0.84 & 10.98 & 1.71 & 15.18 & 0.69  & 15.18 \\ \cline{1-1}
 \frametitle{DID - Cassa integrazione}
 \begin{itemize}
 \item Blu cassa integrazione ordinaria(CIG), Rosso Straordinaria Ristrutturazione e Crisi, Purple Straordinaria Solidarietà
+\item I dati sono stati raccolti dal sito Osservatorio Cassa Integrazione Guadagni (INPS)
 \end{itemize}
 \centering
 \includegraphics[width=9cm,height=6cm]{Pic/CIG_TOT.pdf}\\
@@ -246,6 +253,44 @@ Fotoottica        & 0.84 & 10.98 & 1.71 & 15.18 & 0.69  & 15.18 \\ \cline{1-1}
 \includegraphics[width=5cm,height=3.5cm]{Pic/Costruzioni_CIG.pdf}\\
 \includegraphics[width=5cm,height=3.5cm]{Pic/Immob_CIG.pdf}
 \end{columns}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{DID - Cassa integrazione}
+\begin{itemize}
+\item C dummy per il gruppo di controllo/trattamento, $T1$,$T2$ e $T3$ dummy per i 3 livelli di lockdown:  T1 Aprile  \textcolor{red}{HIGH}, T2 Maggio \textcolor{orange}{MEDIUM}, T3 Giugno \textcolor{ao(english)}{LOW}. Questo, a differenza delle vendite, perche le CIG sono più lente nell'attivarsi
+\item Come gruppo di controllo si sono usate le CIG Straordinarie - Solidarietà (purple nei grafici precedenti) 
+\item Y ore CIG erogate (Ordinaria vs Straordinaria Solidarietà (controllo))
+
+\item DID a più tempi come già sviluppato con successo da Draca et. al in \cite{draca2011panic} and da Wooldridge in  \cite{wooldridge2012introductory}
+\end{itemize}
+\begin{equation*}
+Y=C+T_{1}+T_{2}+T_{3}+\delta_{1}(T_{1}\times C)+\delta_{2}(T_{2}\times C)+\delta_{3}(T_{3}\times C)+\epsilon
+\end{equation*}
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{DID - Cassa integrazione}
+\begin{equation*}
+Y=C+T_{1}+T_{2}+T_{3}+\delta_{1}(T_{1}\times C)+\delta_{2}(T_{2}\times C)+\delta_{3}(T_{3}\times C)+\epsilon
+\end{equation*}
+\begin{table}[]
+\begin{tabular}{l|l|l|l|l|l|l}
+            & $\delta_{T1}$ (M) &  $\sigma$ (M)  & $\delta_{T2}$ (M) &    $\sigma$ (M) & $\delta_{T3}$ (M) &   $\sigma$ (M)  \\ \hline
+Totale      & 706.8  & 3.5 & 217.8  & 3.5 & 144.3  & 3.5 \\ \hline
+Manifattura & 494.1  & 3.1 & 162.3  & 3.1 & 111.4  & 3.1 \\ \hline
+Commercio   & 16.4   & 2.5 & 3.7    & 2.5 & 2.9    & 2.5 \\ \hline
+Costruzioni & 13.4   & 0.8 & 2.9    & 0.8 & 1.4    & 0.8 \\ \hline
+Immobiliare & 0      & 0   & 12.3   & 0.1 & 5.7    & 0.1
+\end{tabular}
+\end{table}
+\begin{itemize}
+\item Il settore immobiliare sembra che abbia reagito più lentamente (+1  mese)
+\end{itemize}
 \end{frame}
 
 

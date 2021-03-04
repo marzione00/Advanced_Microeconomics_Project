@@ -8,7 +8,10 @@ Vendite_READY <- read_excel("Vendite_READY.xlsx")
 
 Vendite_READY$delta<-Vendite_READY$Alimentari-Vendite_READY$NAlimentare
 ggplot(data=Vendite_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=NAlimentare),color = "blue")+
-  geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=delta),color = "green")
+  geom_line(size=2,color = "red")+  geom_vline(xintercept = 1, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
+  geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+ggtitle("Vendite Alimentari vs Dati mon Alimentari Non Destagionalizzati")+theme_bw()
 
 did <-lm(Alimentari ~  C + Time + Time2+Time3 + C*Time +C*Time2+C*Time3, data = Vendite_READY_test)
 summary(did)
@@ -20,7 +23,10 @@ Abbigliamento_READY <- read_excel("Abbigliamento_READY.xlsx")
 
 Abbigliamento_READY$delta1<-Abbigliamento_READY$Alimentari-Abbigliamento_READY$Abbigliamento
 ggplot(data=Abbigliamento_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=Abbigliamento),color = "blue")+
-  geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=delta1),color = "green")
+  geom_line(size=2,color = "red")+  geom_vline(xintercept = 1, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
+  geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+ggtitle("Vendite Alimentari vs Abbigliamento Dati Non Destagionalizzati")+theme_bw()
 
 Abbigliamento <- read_excel("Abbigliamento.xlsx")
 
@@ -46,7 +52,11 @@ summary(slope)
 Calzature_READY <- read_excel("Calzature_READY.xlsx")
 Calzature_READY$delta2<-Calzature_READY$Alimentari-Calzature_READY$Calzature
 ggplot(data=Calzature_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=Calzature),color = "blue")+
-  geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=delta2),color = "green")
+  geom_line(size=2,color = "red")+  geom_vline(xintercept = 1, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
+  geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+ggtitle("Vendite Alimentari vs Calzature Dati Non Destagionalizzati")+theme_bw()
+
 
 Calzature <- read_excel("Calzature.xlsx")
 
@@ -74,7 +84,11 @@ summary(slope)
 Fotoottica_READY <- read_excel("Fotoottica_READY.xlsx")
 Fotoottica_READY$delta3<-Fotoottica_READY$Alimentari-Fotoottica_READY$Fotoottica
 ggplot(data=Fotoottica_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=Fotoottica),color = "blue")+
-  geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=delta3),color = "green")
+  geom_line(size=2,color = "red")+  geom_vline(xintercept = 1, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
+  geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+ggtitle("Vendite Alimentari vs Fotoottica Dati Non Destagionalizzati")+theme_bw()
+
 
 
 
@@ -103,7 +117,13 @@ summary(slope)
 Elettrodomestici_READY <- read_excel("Elettrodomestici_READY.xlsx")
 Elettrodomestici_READY$delta4<-Elettrodomestici_READY$Alimentari-Elettrodomestici_READY$Elettrodomestici
 ggplot(data=Elettrodomestici_READY,aes(x=Data,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=Elettrodomestici),color = "blue")+
-  geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Data,y=delta4),color = "green")
+  geom_line(size=2,color = "red")+  geom_vline(xintercept = 1, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
+  geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+ggtitle("Vendite Alimentari vs Elettrodomestici Dati Non Destagionalizzati")+theme_bw()
+
+
+
 
 Elettrodomestici <- read_excel("Elettrodomestici.xlsx")
 did4 <-lm(Alimentari ~  C + Time + Time2+Time3 + C*Time +C*Time2+C*Time3, data = Elettrodomestici)
