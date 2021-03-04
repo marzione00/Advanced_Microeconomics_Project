@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  3 MAR 2021 22:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  4 MAR 2021 09:05
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -1301,34 +1301,34 @@ Overfull \vbox (0.9842pt too high) detected at line 166
 ] [9
 
 ]
-<Pic/CIG_TOT.pdf, id=357, 572.1375pt x 414.54875pt>
+<Pic/CIG_TOT.pdf, id=357, 650.43pt x 413.545pt>
 File: Pic/CIG_TOT.pdf Graphic file (type pdf)
 <use Pic/CIG_TOT.pdf>
 Package pdftex.def Info: Pic/CIG_TOT.pdf  used on input line 234.
-(pdftex.def)             Requested size: 256.0714pt x 170.7125pt.
+(pdftex.def)             Requested size: 256.07838pt x 170.7156pt.
  [10
 
  <./Pic/CIG_TOT.pdf>]
-<Pic/Manifattura_CIG.pdf, id=389, 572.1375pt x 414.54875pt>
+<Pic/Manifattura_CIG.pdf, id=389, 650.43pt x 413.545pt>
 File: Pic/Manifattura_CIG.pdf Graphic file (type pdf)
 <use Pic/Manifattura_CIG.pdf>
 Package pdftex.def Info: Pic/Manifattura_CIG.pdf  used on input line 249.
-(pdftex.def)             Requested size: 142.26576pt x 99.58228pt.
-<Pic/Commercio_CIG.pdf, id=390, 572.1375pt x 414.54875pt>
+(pdftex.def)             Requested size: 142.26135pt x 99.58095pt.
+<Pic/Commercio_CIG.pdf, id=390, 650.43pt x 413.545pt>
 File: Pic/Commercio_CIG.pdf Graphic file (type pdf)
 <use Pic/Commercio_CIG.pdf>
 Package pdftex.def Info: Pic/Commercio_CIG.pdf  used on input line 249.
-(pdftex.def)             Requested size: 142.26576pt x 99.58228pt.
-<Pic/Costruzioni_CIG.pdf, id=391, 572.1375pt x 414.54875pt>
+(pdftex.def)             Requested size: 142.26135pt x 99.58095pt.
+<Pic/Costruzioni_CIG.pdf, id=391, 650.43pt x 413.545pt>
 File: Pic/Costruzioni_CIG.pdf Graphic file (type pdf)
 <use Pic/Costruzioni_CIG.pdf>
 Package pdftex.def Info: Pic/Costruzioni_CIG.pdf  used on input line 249.
-(pdftex.def)             Requested size: 142.26576pt x 99.58228pt.
-<Pic/Immob_CIG.pdf, id=392, 572.1375pt x 414.54875pt>
+(pdftex.def)             Requested size: 142.26135pt x 99.58095pt.
+<Pic/Immob_CIG.pdf, id=392, 650.43pt x 413.545pt>
 File: Pic/Immob_CIG.pdf Graphic file (type pdf)
 <use Pic/Immob_CIG.pdf>
 Package pdftex.def Info: Pic/Immob_CIG.pdf  used on input line 249.
-(pdftex.def)             Requested size: 142.26576pt x 99.58228pt.
+(pdftex.def)             Requested size: 142.26135pt x 99.58095pt.
  [11
 
  <./Pic/Manifattura_CIG.pdf> <./Pic/Commercio_CIG.pdf> <./Pic/Costruzioni_CIG.p
@@ -1383,7 +1383,7 @@ onts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Presentation.pdf (12 pages, 280232 bytes).
+Output written on Presentation.pdf (12 pages, 280239 bytes).
 PDF statistics:
  507 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
