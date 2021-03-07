@@ -119,4 +119,10 @@ Jeffrey~M Wooldridge.
   titles).
 \newblock {\em Southwestern College Publishing, Nashville, T АTN}, 2012.
 
+\bibitem{istat}
+\url{"https://www.istat.it"}.
+
+\bibitem{forecast}
+\url{"hhttps://cran.r-project.org/web/packages/forecast/index.html"}.
+
 \end{thebibliography}
