@@ -132,7 +132,7 @@ know as the basic reproduction factor. This number, that is the average number o
 
 The economic impact for each epidemiological scenario is shaped as follow: a first set of parameters, as the economic value of a death and of being infected by COVID-19 ,was taken directly from the reports/documentation of official sources; other parameters as the effect on selling for different areas and on the unemployment benefit (Cassa Integrazione Guadagni) were evaluated with empirical approaches from raw data. Concerning the first set, the number of deaths is multiplied by the maximum compensation value provided by the Court of Milan \cite{tribunaleMilano} for manslaughter (300k EUR). This choice is based on the idea that, if the PM act improperly, can be incriminated for manslaughter (with the consent of parliament that has to validate the incrimination) and than, if judged guilty, charged by this amount for each death\footnote{In principle the judge also keep into account the age of the deaths: this in principle require a model in which also the age of people is keep into account. In this case however a system of partial differential equation should be solved making the calculation and the computational cost incredibly high.}. Beside this impact there is also the cost associated to the medical care of each ill people, for this we considered the average value calculated by National Anti-Corruption Authority (ANAC) \cite{Anac}: 28.180 kEUR \footnote{It is worth noting that, in principle, there is also another import health-care impact due to the fact that the ill people for COVID-19 saturate the health system thus making it unreachable for other disease. This spillover translates in to more death and more ill people with respect to the baseline situation where there isn't an pandemic: however, by now, this effect is difficult to quantify and so we did not included in to the present model}. Among the different sectors affected by the pandemic and the consequent lock-down, we focused on the selling for the following ATECO-2007 \cite{Ateco2007} categories\footnote{The category Equipment for information technology/telephony and telecommunications was omitted since there is no point to argue that the lock-down affected, in reverse there it is more likely to argue that is increased due to the fact that people was forced to work remotely \cite{guo2020digitalization}}  \footnote{In the rest part of the paper these categories will be referred as the part of the name labelled in blue. 
 }: \textcolor{blue}{Food}, \textcolor{blue}{Clothing} and furs, \textcolor{blue}{Footwear}/leather and travel articles, \textcolor{blue}{Furniture}/textile articles/furnishings for the home, 
-\textcolor{blue}{Appliances}/radios/televisions and tape recorders, \textcolor{blue}{Photo-optics}/films/compact discs/ audio-video cassettes and musical instruments, Durable and non-durable \textcolor{blue}{Household kinds}, \textcolor{blue}{Household tools} and hardware, \textcolor{blue}{Stationery products}/ books/ newspapers and magazines, \textcolor{blue}{Games}/toys/sports and camping articles. The choice to use the selling as a parameter for the evaluation of the lock-down lies on the fact that with them it is possible to capture not only the contraction for each sector but also the loss for the public treasury due to to the reduced incomes from the VAT\footnote{For this purpose another sector that in principle can be also considered is the contraction of fuel selling, due to the reduced mobility, where in addition to the VAT there is also a fixed taxation (accisa). Such calculation may be considered as a future outlook of this work}. Beside the selling we also considered the unemployment benefit for the following ATECO sectors: \textcolor{blue}{Manufacturing} activities, \textcolor{blue}{Construction} , \textcolor{blue}{Wholesale} and retail trade/ repair of motor vehicles-motorcycles and personal and household goods, \textcolor{blue}{Real estate} activities, rental, IT, research, business services\footnote{On contrary with respect to the category Equipment for information technology of selling, here the IT contribution is overwhelmed by the other ones (e.g Real Estate), making it negligible. Thus, in this case we included the whole sector}. In this case the choice to use also this parameter is based on the fact that this is the first aid provided by the government for the firms that were damaged by the contraction in demand as well as by the fact that for different sector of them the production was also banned by law during the lock-down\footnote{In principle one can be also interested to disentangle these two effects: in this case an interesting option is to study the second-wave of the epidemics in Italy that happened in the second half of the 2020. Contrary with respect to the first wave, the lock-down did not banned by law the production. As told previously this option was not considered by the authors since the most of the economic data were available, with the temporal resolution considered in this work, only at national level.}. For the empirical evaluation of the impact on selling and unemployment benefit we performed a Difference-In-Difference (DID) where multiple times where considered as used in Refs. \cite{draca2011panic} and \cite{wooldridge2012introductory}. The following regression was performed: 
+\textcolor{blue}{Appliances}/radios/televisions and tape recorders, \textcolor{blue}{Photo-optics}/films/compact discs/ audio-video cassettes and musical instruments, Durable and non-durable \textcolor{blue}{Household kinds}, \textcolor{blue}{Household tools} and hardware,  \textcolor{blue}{Games}/toys/sports and camping articles. The choice to use the selling as a parameter for the evaluation of the lock-down lies on the fact that with them it is possible to capture not only the contraction for each sector but also the loss for the public treasury due to to the reduced incomes from the VAT\footnote{For this purpose another sector that in principle can be also considered is the contraction of fuel selling, due to the reduced mobility, where in addition to the VAT there is also a fixed taxation (accisa). Such calculation may be considered as a future outlook of this work}. Beside the selling we also considered the unemployment benefit for the following ATECO sectors: \textcolor{blue}{Manufacturing} activities, \textcolor{blue}{Construction} , \textcolor{blue}{Wholesale} and retail trade/ repair of motor vehicles-motorcycles and personal and household goods, \textcolor{blue}{Real estate} activities, rental, IT, research, business services\footnote{On contrary with respect to the category Equipment for information technology of selling, here the IT contribution is overwhelmed by the other ones (e.g Real Estate), making it negligible. Thus, in this case we included the whole sector}. In this case the choice to use also this parameter is based on the fact that this is the first aid provided by the government for the firms that were damaged by the contraction in demand as well as by the fact that for different sector of them the production was also banned by law during the lock-down \footnote{In principle one can be also interested to disentangle these two effects: in this case an interesting option is to study the second-wave of the epidemics in Italy that happened in the second half of the 2020. Contrary with respect to the first wave, the lock-down did not banned by law the production. As told previously this option was not considered by the authors since the most of the economic data were available, with the temporal resolution considered in this work, only at national level.}. For the empirical evaluation of the impact on selling and unemployment benefit we performed a Difference-In-Difference (DID) where multiple times where considered as used in Refs. \cite{draca2011panic} and \cite{wooldridge2012introductory}. The following regression was performed: 
 \begin{equation}
 Y_{outcome}=\alpha+\sum_{i=1}^{3}\beta_{i}T_{i}+\sum_{i=1}^{3}\delta_{i}(C \cdot T_{i})+\epsilon
 \label{DID-eq}
@@ -154,7 +154,7 @@ As done for the section Model and methods we will divide the discussion of the r
 
 \paragraph{DID}
 
-For each sales category we run the regression reported in the Eq.  \ref{DID-eq} on de-seasoned data reported in Fig \ref{Selling_plots}:  the coefficients obtained are reported in Tab.  As one can point out from the plots,  it is true that there is a pre-trend in the data before the event,  however as proved numerically in the Supporting Info,  the slope of this pre-trend is almost two order of magnitude lesser with respect to the slope in the lock-down T$_{1}$ and $T_{2}$.  As consequence this pre-trend,  compared to the lock-down effect,  can be considered negligible. 
+For each sales category we run the regression reported in the Eq.  \ref{DID-eq} on de-seasoned data reported in Fig \ref{Selling_plots} and \ref{Selling_plots_II}.  The coefficients obtained are reported in Tab.  \ref{selling_DID_table_delta}.  As one can point out from the plots,  it is true that there is a pre-trend in the data before the event,  however as proved numerically in the Supporting Info,  the slope of this pre-trend is almost two order of magnitude lesser with respect to the slope in the lock-down T$_{1}$ and $T_{2}$.  As consequence this pre-trend,  compared to the lock-down effect,  can be considered negligible. 
 
 
 \paragraph{Scenarios}
@@ -190,18 +190,60 @@ For each sales category we run the regression reported in the Eq.  \ref{DID-eq} 
           \caption{\textcolor{Blue}{Photo-optics} (blue)}
          \label{fig:three sin x}
      \end{subfigure}
-          \begin{subfigure}[b]{0.45\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{Figures/Mobili.pdf}}
-         \caption{\textcolor{Purple}{Household kinds} (purple)}
-         \label{fig:three sin x}
-     \end{subfigure}
-\caption{Selling data, with baseline of 2015,  as provided by \cite{istat} de-seasoned via Forecast package \cite{forecast} for the categories  analysed in this paper compared with \textcolor{red}{food} (red) category.  The timing for each lock-down is marked with a dashed line: red for high, orange medium and green for low.  Note that despite there is a pre-trend this is negligible with respect to the slope of medium and high lock-down slopes}
+\caption{Selling data (I), with baseline of 2015,  as provided by \cite{istat} de-seasoned via Forecast package \cite{forecast} for the categories  analysed in this paper compared with \textcolor{red}{food} (red) category.  The timing for each lock-down is marked with a dashed line: red for high, orange medium and green for low.  Note that despite there is a pre-trend this is negligible with respect to the slope of medium and high lock-down slopes}
 \label{Selling_plots}
 \end{figure}
 
 
+
+\begin{figure}
+     \centering
+     \hfill
+     \begin{subfigure}[b]{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{Figures/Mobili.pdf}}
+         \caption{\textcolor{OliveGreen}{Household kids} (Orchid)}
+         \label{fig:three sin x}
+     \end{subfigure}
+        \begin{subfigure}[b]{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{Figures/Utilenseria.pdf}
+         \caption{ \textcolor{Orange}{Household tools} (Light green)}
+         \label{fig:y equals x}
+     \end{subfigure}
+             \begin{subfigure}[b]{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{Figures/Giocattoli.pdf}
+         \caption{ \textcolor{Thistle}{Games} (Thistle)}
+         \label{fig:y equals x}
+     \end{subfigure}
+\caption{Selling data (II), with baseline of 2015,  as provided by \cite{istat} de-seasoned via Forecast package \cite{forecast} for the categories  analysed in this paper compared with \textcolor{red}{food} (red) category.  The timing for each lock-down is marked with a dashed line: red for high, orange medium and green for low.  Note that despite there is a pre-trend this is negligible with respect to the slope of medium and high lock-down slopes}
+\label{Selling_plots_II}
+\end{figure}
+
+\begin{landscape}
+\begin{table}[]
+\caption{
+\begin{flushleft}
+$\delta$ cofficients as obtained by the DID  regression, for the selling data de-seasoned,  according to equation \ref{DID-eq} \\ for the different lock-down timings. The values of the  intercept ($\alpha$), C and T$_{i}$ are provided in the Supporting Info. 
+\end{flushleft}
+}
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l}
+                                       & $\delta_{1} $&   $ \sigma_{\delta_{1}}$   & t      & $\delta_{2} $ & $\sigma_{\delta_{2}$ & t      &  $\delta_{3}$ & $\sigma_{\delta_{3}$  & t     \\ \hline
+{\color[HTML]{3531FF} Clothing}        & -60.07 & 2.77  & -21.64 & 40.16  & 2.01  & -19.99 & -16.45 & 2.77  & -5.92 \\ \hline
+{\color[HTML]{009901} Footwear}        & -65.78 & 2.39  & -27.49 & -20.62 & 1.73  & -22.35 & -20.62 & 2.39  & -8.62 \\ \hline
+{\color[HTML]{F56B00} Appliances}      & -27.34 & 3.45  & -7.90  & -20.32 & 2.50  & -8.11  & -3.68  & 3.45  & 1.06  \\ \hline
+{\color[HTML]{00009B} Photo-optics}    & -52.32 & 3.52  & -14.84 & -34.14 & 2.55  & -13.38 & -7.86  & 3.52  & 2.23  \\ \hline
+{\color[HTML]{6200C9} Household kids}  & -18.99 & 2.07  & -9.13  & -10.51 & 1.50  & -6.98  & -3.61  & 2.07  & -1.74 \\ \hline
+{\color[HTML]{00D2CB} Household tools} & -30.23 & 4.85  & -6.23  & -13.02 & 3.51  & -3.70  & 2.33   & 4.85  & 0.48  \\ \hline
+{\color[HTML]{FFC9FD} Games}           & -30.23 & 4.85  & -6.22  & -13.02 & 3.51  & -3.70  & 2.33   & 4.85  & 0.48 
+
+\end{tabular}
+\label{selling_DID_table_delta}
+\end{table}
+\end{landscape}
 \newpage
+
 
 \bibliographystyle{unsrt}
 

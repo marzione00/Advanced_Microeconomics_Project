@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.28)  7 MAR 2021 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.28)  8 MAR 2021 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -627,6 +627,27 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 \Gin@req@height=\dimen165
 \Gin@req@width=\dimen166
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+
+! LaTeX Error: Option clash for package xcolor.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 
+     
+The package xcolor has already been loaded with options:
+  [dvipsnames,]
+There has now been an attempt to load it with options
+  [table,xcdraw]
+Adding the global options:
+  dvipsnames,,table,xcdraw
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
 (/usr/local/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip103
@@ -773,14 +794,14 @@ Package: nextpage 2009/09/03 v1.1a additional page commands
 )
 \c@definition=\count287
 \c@theorem=\count288
-Package hyperref Info: Option `colorlinks' set `true' on input line 79.
-Package hyperref Info: Option `breaklinks' set `true' on input line 79.
+Package hyperref Info: Option `colorlinks' set `true' on input line 83.
+Package hyperref Info: Option `breaklinks' set `true' on input line 83.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 79.
+(hyperref)                setting the option has no effect on input line 83.
 
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 79.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 83.
 ) (./manuscript.aux
 
 LaTeX Warning: Label `fig:y equals x' multiply defined.
@@ -799,6 +820,18 @@ LaTeX Warning: Label `fig:three sin x' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig:three sin x' multiply defined.
+
+
+LaTeX Warning: Label `fig:y equals x' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:y equals x' multiply defined.
+
+
+LaTeX Warning: Label `fig:y equals x' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:y equals x' multiply defined.
 
 )
 \openout1 = `manuscript.aux'.
@@ -998,16 +1031,16 @@ LaTeX Warning: Citation `huang1998empirical' on page 8 undefined on input line
 LaTeX Warning: Citation `inps' on page 8 undefined on input line 147.
 
 [8]
-<Figures/Abbigliamento.pdf, id=131, 492.84125pt x 413.545pt>
+<Figures/Abbigliamento.pdf, id=133, 323.2075pt x 474.77374pt>
 File: Figures/Abbigliamento.pdf Graphic file (type pdf)
 <use Figures/Abbigliamento.pdf>
 Package pdftex.def Info: Figures/Abbigliamento.pdf  used on input line 169.
-(pdftex.def)             Requested size: 166.49887pt x 139.70738pt.
-<Figures/Calzature.pdf, id=132, 492.84125pt x 413.545pt>
+(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
+<Figures/Calzature.pdf, id=134, 323.2075pt x 474.77374pt>
 File: Figures/Calzature.pdf Graphic file (type pdf)
 <use Figures/Calzature.pdf>
 Package pdftex.def Info: Figures/Calzature.pdf  used on input line 176.
-(pdftex.def)             Requested size: 166.49887pt x 139.70738pt.
+(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
 
 ! Extra }, or forgotten \endgroup.
 l.176 ...width=\textwidth]{Figures/Calzature.pdf}}
@@ -1018,16 +1051,16 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Elettrodomestici.pdf, id=133, 492.84125pt x 413.545pt>
+<Figures/Elettrodomestici.pdf, id=135, 323.2075pt x 474.77374pt>
 File: Figures/Elettrodomestici.pdf Graphic file (type pdf)
 <use Figures/Elettrodomestici.pdf>
 Package pdftex.def Info: Figures/Elettrodomestici.pdf  used on input line 182.
-(pdftex.def)             Requested size: 166.49887pt x 139.70738pt.
-<Figures/Fotoottica.pdf, id=134, 492.84125pt x 413.545pt>
+(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
+<Figures/Fotoottica.pdf, id=136, 323.2075pt x 474.77374pt>
 File: Figures/Fotoottica.pdf Graphic file (type pdf)
 <use Figures/Fotoottica.pdf>
 Package pdftex.def Info: Figures/Fotoottica.pdf  used on input line 189.
-(pdftex.def)             Requested size: 166.49887pt x 139.70738pt.
+(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
 ! Extra }, or forgotten \endgroup.
 l.189 ...idth=\textwidth]{Figures/Fotoottica.pdf}}
                                                   
@@ -1037,13 +1070,13 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Mobili.pdf, id=135, 492.84125pt x 413.545pt>
+<Figures/Mobili.pdf, id=141, 323.2075pt x 474.77374pt>
 File: Figures/Mobili.pdf Graphic file (type pdf)
 <use Figures/Mobili.pdf>
-Package pdftex.def Info: Figures/Mobili.pdf  used on input line 195.
-(pdftex.def)             Requested size: 166.49887pt x 139.70738pt.
+Package pdftex.def Info: Figures/Mobili.pdf  used on input line 204.
+(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
 ! Extra }, or forgotten \endgroup.
-l.195 ...cs[width=\textwidth]{Figures/Mobili.pdf}}
+l.204 ...cs[width=\textwidth]{Figures/Mobili.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1051,9 +1084,133 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+<Figures/Utilenseria.pdf, id=142, 323.2075pt x 474.77374pt>
+File: Figures/Utilenseria.pdf Graphic file (type pdf)
+<use Figures/Utilenseria.pdf>
+Package pdftex.def Info: Figures/Utilenseria.pdf  used on input line 210.
+(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
+<Figures/Giocattoli.pdf, id=143, 323.2075pt x 474.77374pt>
+File: Figures/Giocattoli.pdf Graphic file (type pdf)
+<use Figures/Giocattoli.pdf>
+Package pdftex.def Info: Figures/Giocattoli.pdf  used on input line 216.
+(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
 [9] [10 <./Figures/Abbigliamento.pdf> <./Figures/Calzature.pdf> <./Figures/Elet
-trodomestici.pdf> <./Figures/Fotoottica.pdf> <./Figures/Mobili.pdf>]
-(./manuscript.bbl [11]
+trodomestici.pdf> <./Figures/Fotoottica.pdf>] [11 <./Figures/Mobili.pdf> <./Fig
+ures/Utilenseria.pdf> <./Figures/Giocattoli.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 225.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.232 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+                                                   & t      &  $\delta_{3}$ ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.232 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+                                                    & t     \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[12] (./manuscript.bbl [13
+
+
+]
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 96
 .
 
@@ -1107,12 +1264,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
  forecast /
  []
 
-) [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
+) [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
  (./manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1122,14 +1279,14 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
- 17081 strings out of 480994
- 323301 string characters out of 5912142
- 889202 words of memory out of 5000000
- 32165 multiletter control sequences out of 15000+600000
- 649465 words of font info for 171 fonts, out of 8000000 for 9000
+ 17132 strings out of 480994
+ 324179 string characters out of 5912142
+ 889359 words of memory out of 5000000
+ 32195 multiletter control sequences out of 15000+600000
+ 653074 words of font info for 183 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  62i,23n,87p,10105b,631s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -1139,18 +1296,19 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/te
 xmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/201
 9/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2019/texmf-dist/
-fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
-pe1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/no
-wacki/iwona/iwonar.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pala
-tino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/up
-lr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
-fb>
-Output written on manuscript.pdf (12 pages, 202115 bytes).
+019/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2019/texmf-dist
+/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
+ype1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/n
+owacki/iwona/iwonar.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pal
+atino/uplb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/u
+plr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplri8a.
+pfb>
+Output written on manuscript.pdf (14 pages, 217305 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 233 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 25674 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 309 PDF objects out of 1000 (max. 8388607)
+ 258 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 25684 words of extra memory for PDF output out of 29859 (max. 10000000)
 
