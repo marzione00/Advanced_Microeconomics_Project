@@ -18,8 +18,8 @@ colnames(buffer) <- c("time", "S","I","R","D")
 pop_tot<-60000000
 delta_inf<-0
 #k<-c(1.5,1.5,1.5)
-k<-c(1,1,1)
-#k<-c(0.1,0.1,0.1)
+#k<-c(1,1,1)
+k<-c(0.1,0.1,0.1)
 #rate_infection_threshold<-0.000001
 rate_infection_threshold<-0.000007
 score<-0
@@ -196,6 +196,9 @@ selling_effect$P_value <- 2 * pt(abs(selling_effect$Effect/selling_effect$Effect
 selling_effect$High <- strong_lockdown_weeks
 selling_effect$Medium <- medium_lockdown_weeks
 selling_effect$Low <- soft_lockdown_weeks
+
+ggplot(selling_effect, aes(x=Type, y=Effect)) + geom_pointrange(aes(ymin=Effect-Effect_error, ymax=Effect+Effect_error,color = Type))+theme_bw(base_size = 18) + theme(legend.position = "none")+ coord_flip() +scale_color_manual(values=c('green','darkblue','orange','blue','palevioletred1','purple','cyan'))
+
 
 
 buffer %>%

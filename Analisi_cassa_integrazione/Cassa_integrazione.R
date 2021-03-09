@@ -11,8 +11,8 @@ geom_line(size=2,color = "blue",aes(x=Time,y=CIG_O))+
   geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
   geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
   geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+
-ggtitle("Ore CIG COVID (ord) vs non COVID (str1) (str2) - Manifattura")+
-theme_bw() 
+  labs(y = "Hours Paid ")+ labs(x = "Time (months)")+
+theme_bw(base_size = 18) 
 
 Dati_cassa_integrazione_Manifattura_DID <- read_excel("Cassa_integrazione_Ordered.xlsx",sheet = "Manifattura_DID")
 
@@ -29,8 +29,8 @@ ggplot(data=Dati_cassa_integrazione_Commercio  ,aes(x=Time,y=CIG_S))+geom_line(s
   geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
   geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
   geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+
-  ggtitle("Ore CIG COVID (ord) vs non COVID (str1) (str2) - Commercio")+
-  theme_bw() 
+  labs(y = "Hours Paid ")+ labs(x = "Time (months)")+
+  theme_bw(base_size = 18) 
 
 Dati_cassa_integrazione_Commercio_DID <- read_excel("Cassa_integrazione_Ordered.xlsx",sheet = "Commercio_DID")
 
@@ -47,8 +47,8 @@ ggplot(data=Dati_cassa_integrazione_Costruzioni   ,aes(x=Time,y=CIG_S))+geom_lin
   geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
   geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
   geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+
-  ggtitle("Ore CIG COVID (ord) vs non COVID (str1) (str2) - Costruzioni ")+
-  theme_bw() 
+  labs(y = "Hours Paid ")+ labs(x = "Time (months)")+
+  theme_bw(base_size = 18) 
 
 Dati_cassa_integrazione_Costruzioni_DID <- read_excel("Cassa_integrazione_Ordered.xlsx",sheet = "Costruzioni_DID")
 
@@ -64,8 +64,8 @@ ggplot(data=Dati_cassa_integrazione_Immobiliare   ,aes(x=Time,y=CIG_S))+geom_lin
   geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
   geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
   geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+
-  ggtitle("Ore CIG COVID (ord) vs non COVID (str1) (str2)  - Immob., Nol.,Info. etc. ")+
-  theme_bw() 
+  labs(y = "Hours Paid ")+ labs(x = "Time (months)")+
+  theme_bw(base_size = 18) 
 
 Dati_cassa_integrazione_Immobiliare_DID <- read_excel("Cassa_integrazione_Ordered.xlsx",sheet = "Immobiliare_DID")
 
@@ -81,8 +81,8 @@ ggplot(data=Dati_cassa_integrazione_Full  ,aes(x=Time,y=CIG_S))+geom_line(size=2
   geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
   geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
   geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+
-  ggtitle("Ore CIG COVID (ord) vs non COVID (str) - Full ")+
-  theme_bw() 
+  labs(y = "Hours Paid ")+ labs(x = "Time (months)")+
+  theme_bw(base_size = 18) 
 
 
 Dati_cassa_integrazione_Full_DID <- read_excel("Cassa_integrazione_Ordered.xlsx",sheet = "Full_DID")

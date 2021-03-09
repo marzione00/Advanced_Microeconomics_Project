@@ -63,7 +63,7 @@ summary(Utilenseria_placebo)
 Dati_Giocattoli <- read_excel("Dati_destagionalizzati_DID.xlsx", sheet = "Giocattoli")
 
 
-Giocattoli <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Utilenseria )
+Giocattoli <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Giocattoli )
 summary(Giocattoli)
 
 Giocattoli_placebo <-lm(Outcome ~  C + T4 + T5+T6 + C*T4 +C*T5+C*T6, data = Dati_Giocattoli )
