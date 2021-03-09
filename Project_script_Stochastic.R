@@ -3,6 +3,7 @@ library(optimization)
 library(tidyverse)
 library(MASS)
 library(ggplot2)
+library(readxl)
 
 
 
@@ -14,12 +15,13 @@ no_lockdown_weeks<- 0
 lockdown_weeks<-0
 out<-data.frame(matrix(ncol = 5))
 selling_effect<-data.frame(matrix(ncol = 0,nrow=7))
+CIG_effect<-data.frame(matrix(ncol = 0,nrow=4))
 colnames(buffer) <- c("time", "S","I","R","D")
 pop_tot<-60000000
 delta_inf<-0
-#k<-c(1.5,1.5,1.5)
+k<-c(1.5,1.5,1.5)
 #k<-c(1,1,1)
-k<-c(0.1,0.1,0.1)
+#k<-c(0.1,0.1,0.1)
 #rate_infection_threshold<-0.000001
 rate_infection_threshold<-0.000007
 score<-0
@@ -36,6 +38,17 @@ load("DID_selling_matrix.rda")
 #as.data.frame(DID_selling_matrix_error)
 #save(DID_selling_matrix_error,file="DID_selling_matrix_error.rda")
 load("DID_selling_matrix_error.rda")
+
+
+#DID_CIG_matrix <- read_excel("Risultati/DID_CIG_matrix.xlsx")
+#as.data.frame(DID_CIG_matrix)
+#save(DID_CIG_matrix,file="DID_CIG_matrix.rda")
+load("DID_CIG_matrix.rda")
+
+#DID_CIG_matrix_error <- read_excel("Risultati/DID_CIG_matrix_error.xlsx")
+#as.data.frame(DID_CIG_matrix_error)
+#save(DID_CIG_matrix_error ,file="DID_CIG_matrix_error.rda")
+load("DID_CIG_matrix_error.rda")
 
 
 #p_vector <- runif(400, 0.000, 1.000)
@@ -190,8 +203,8 @@ score <- soft_lockdown_weeks+(1/7)+medium_lockdown_weeks*(1/0.25)+strong_lockdow
 score
 
 selling_effect$Type <- DID_selling_matrix$Type
-selling_effect$Effect <- DID_selling_matrix$High*strong_lockdown_weeks+DID_selling_matrix$Medium*medium_lockdown_weeks
-selling_effect$Effect_error <- DID_selling_matrix_error$High*strong_lockdown_weeks+DID_selling_matrix_error$Medium*medium_lockdown_weeks+DID_selling_matrix_error$Low*soft_lockdown_weeks
+selling_effect$Effect <- DID_selling_matrix$High*strong_lockdown_weeks*0.25+DID_selling_matrix$Medium*medium_lockdown_weeks*0.25
+selling_effect$Effect_error <- DID_selling_matrix_error$High*strong_lockdown_weeks*0.25+DID_selling_matrix_error$Medium*medium_lockdown_weeks*0.25+DID_selling_matrix_error$Low*soft_lockdown_weeks*0.25
 selling_effect$P_value <- 2 * pt(abs(selling_effect$Effect/selling_effect$Effect_error),64,lower.tail = FALSE)
 selling_effect$High <- strong_lockdown_weeks
 selling_effect$Medium <- medium_lockdown_weeks
@@ -199,13 +212,23 @@ selling_effect$Low <- soft_lockdown_weeks
 
 ggplot(selling_effect, aes(x=Type, y=Effect)) + geom_pointrange(aes(ymin=Effect-Effect_error, ymax=Effect+Effect_error,color = Type))+theme_bw(base_size = 18) + theme(legend.position = "none")+ coord_flip() +scale_color_manual(values=c('green','darkblue','orange','blue','palevioletred1','purple','cyan'))
 
+CIG_effect$Type <- DID_CIG_matrix$Type
+CIG_effect$Effect <- DID_CIG_matrix$High*strong_lockdown_weeks*0.25+DID_CIG_matrix$Medium*medium_lockdown_weeks*0.25+DID_CIG_matrix$Low*soft_lockdown_weeks*0.25
+CIG_effect$Effect_error <- DID_CIG_matrix_error$High*strong_lockdown_weeks*0.25+DID_CIG_matrix_error$Medium*medium_lockdown_weeks*0.25+DID_CIG_matrix_error$Low*soft_lockdown_weeks*0.25
+CIG_effect$P_value <- 2 * pt(abs(CIG_effect$Effect/CIG_effect$Effect_error),64,lower.tail = FALSE)
+CIG_effect$High <- strong_lockdown_weeks
+CIG_effect$Medium <- medium_lockdown_weeks
+CIG_effect$Low <- soft_lockdown_weeks
+
+ggplot(CIG_effect, aes(x=Type, y=Effect)) + geom_pointrange(aes(ymin=Effect-Effect_error, ymax=Effect+Effect_error,color = Type))+theme_bw(base_size = 18) + theme(legend.position = "none")+ coord_flip() +scale_color_manual(values=c('green','darkblue','orange','blue','palevioletred1','purple','cyan'))
+
 
 
 buffer %>%
   gather(variable,value,-time) %>%
   ggplot(aes(x=time,y=value,color=variable))+geom_line(size=2)+
    scale_y_log10() +
-  labs(x='time (days)',y='Log number of individuals')
+  labs(x='time (days)',y='Log number of individuals')+theme_bw(base_size = 18)
 
 
 buffer %>%
