@@ -123,6 +123,23 @@ Jeffrey~M Wooldridge.
 \url{"https://www.istat.it"}.
 
 \bibitem{forecast}
-\url{"hhttps://cran.r-project.org/web/packages/forecast/index.html"}.
+\url{"https://cran.r-project.org/web/packages/forecast/index.html"}.
+
+\bibitem{huang1998empirical}
+Norden~E Huang, Zheng Shen, Steven~R Long, Manli~C Wu, Hsing~H Shih, Quanan
+  Zheng, Nai-Chyuan Yen, Chi~Chao Tung, and Henry~H Liu.
+\newblock The empirical mode decomposition and the hilbert spectrum for
+  nonlinear and non-stationary time series analysis.
+\newblock {\em Proceedings of the Royal Society of London. Series A:
+  mathematical, physical and engineering sciences}, 454(1971):903--995, 1998.
+
+\bibitem{inps}
+\url{"https://www.inps.it/osservatoristatistici/5"}.
+
+\bibitem{Vespignani}
+Duygu Balcan and Alessandro Vespignani.
+\newblock Phase transitions in contagion processes mediated by recurrent
+  mobility patterns.
+\newblock {\em Nature physics}, 7(7):581--586, 2011.
 
 \end{thebibliography}

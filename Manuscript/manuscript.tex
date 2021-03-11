@@ -75,11 +75,13 @@ BCOR5mm, % Binding correction
 
 %\setcounter{tocdepth}{2} % Set the depth of the table of contents to show sections and subsections only
 
-%\tableofcontents % Print the table of contents
+
 
 %\listoffigures % Print the list of figures%
 
 %\listoftables % Print the list of tables
+
+
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT
@@ -89,13 +91,18 @@ BCOR5mm, % Binding correction
 
 Within a standard compartmental model for the description of the dynamic of an epidemics (Susceptible-Infectious-Recovered-Dead), we considered a policy-maker (PM) that impose stochastically two types of lock-down with increasing force. The probability by which the PM apply the lock-down reflects the different attitudes of a PM to face an epidemics (e.g. \textit{laissez-faire} vs very strict): thus depending on this probabilistic-parameter different scenario were simulated.  For each of them we predicted a selected set of economic impacts by using parameters estimated via econometric techniques (Difference-in -Difference) on the microeconomic data of Italy. The comparison of the different impacts provide a bird's-eye view on the socio-economic consequences of the PM attitude
 
+\newpage
 
+\epigraph{"It was then that, in a moment, I saw what I must have been harboring in my hidden thoughts for a considerable time. On the one hand, Trantor possessed an extraordinarily complex social system, being a populous world made up of eight hundred smaller worlds. It was in itself a system complex enough to make psychohistory meaningful and yet it was simple enough, compared to the Empire as a whole, to make psychohistory perhaps practical"\\
+I.Asimov, Prelude to foundation }
+
+\newpage 
+
+\tableofcontents % Print the table of contents
 
 \newpage % Start the article content on the second page, remove this if you have a longer abstract that goes onto the second page
 
 
-\epigraph{"It was then that, in a moment, I saw what I must have been harboring in my hidden thoughts for a considerable time. On the one hand, Trantor possessed an extraordinarily complex social system, being a populous world made up of eight hundred smaller worlds. It was in itself a system complex enough to make psychohistory meaningful and yet it was simple enough, compared to the Empire as a whole, to make psychohistory perhaps practical"\\
-I.Asimov, Prelude to foundation }
 
 
 \newpage
@@ -154,11 +161,15 @@ As done for the section Model and methods we will divide the discussion of the r
 
 \subsection{DID}
 
-For each sales category we run the regression reported in the Eq.  \ref{DID-eq} on de-seasoned data reported in Fig \ref{Selling_plots} and \ref{Selling_plots_II}.  The coefficients obtained are reported in Tab.  \ref{selling_DID_table_delta}.  As one can point out from the plots,  it is true that there is a pre-trend in the data before the event,  however as proved numerically in the Supporting Info,  the slope of this pre-trend is almost two order of magnitude lesser with respect to the slope in the lock-down T$_{1}$ and $T_{2}$.  As consequence this pre-trend,  compared to the lock-down effect,  can be considered negligible.  In order to make a further control,  a placebo test was performed by choosing timing before the pandemic of COVID19.  As illustrated in the Supporting Info,  this test was successful.  We than run the DID regression also for the subsidies: the plot of the data and the DID coefficients are reported in Fig \ref{CIG_sector_plots} and in Tab \ref{CIG_DID}.  Also in this case the placebo tests were successfully performed.
+For each sales category we run the regression reported in the Eq.  \ref{DID-eq} on de-seasoned data reported in Fig \ref{Selling_plots} and \ref{Selling_plots_II}.  The coefficients obtained are reported in Tab.  \ref{selling_DID_table_delta}.  As one can point out from the plots,  it is true that there is a pre-trend in the data before the event,  however as proved numerically in the Supporting Info,  the slope of this pre-trend is almost two order of magnitude lesser with respect to the slope in the lock-down T$_{1}$ and $T_{2}$.  As consequence this pre-trend,  compared to the lock-down effect,  can be considered negligible.  In order to make a further control,  a placebo test was performed by choosing timing before the pandemic of COVID19.  As illustrated in the Supporting Info,  this test was successful.  By inspecting the Tab.  \ref{selling_DID_table_delta} we see that the most severe damage of lock-down hit the clothing,  and the footwear.  On the other side the Household kids and the Household tools seems lesser affected by the lock-down. 
 
 
-\paragraph{Scenarios}
+We than run the DID regression also for the subsidies: the plot of the data and the DID coefficients are reported in Fig \ref{CIG_sector_plots} and in Tab \ref{CIG_DID}.  Also in this case the placebo tests were successfully performed.
 
+
+\subsection{Scenarios}
+
+Now that we have the parameters for the economic impact given by the lock-downs,  we are ready to discuss the simulations that output the epidemiological and economic consequences of the attitude of PM.  In Tab.  \ref{Table_Epidemiological_effect} and \ref{Table_Epidemiological_cost}  the outcomes of the epidemiological model are given,  while the SIRD curves for the scenarios are provided in Fig.  \ref{SIRD_scenario}; on the other side the effect on selling and subsidies for both scenarios are given in Fig. \ref{Selling_sector_effects} and \ref{CIG_sector_effects}.  In order to assure the \textit{ceteris pariubus} condition we used for both scenario the same set of random number.  First,  we see that where the PM is more reactive we have small different waves of epidemics,  while if the PM is poorly reactive only one intense wave is present (basically the standard wave of SIRD model).  Since this change happens in a discontinuous way,  as the reactivity of the PM is changed,  we can consider this as a phase transition of a physical system.  This explains our choice to consider only two scenarios: indeed we considered only a sample for each phase of the system.  It is worth nothing that a similar result,  in a different epidemiological model,  was obtained by Balcan and Vespignani in Ref.  \cite{Vespignani}.   A possible explanation of this similar behaviour is that both model have a stochastic component,  that as pointed out by Balcan and Vespignani, give the phase transition: indeed while in their model this was directly related to the contagion probability,  here this is indirectly made stochastically by the decision of PM that modify the $\beta$ parameter and so the transmission rate.  We see that in the small wave scenario,  the attitude of the PM largely reduce the overall number of deaths and infects by a consistent use of the confinement,  this obviously has it immediate drawback on the economic data: the loses for selling and the use of subsidies are widely large with respect to the one-wave scenario.  In principle one can be attempted to find the PM attitude that minimize the overall cost (deaths,  infected,  selling and subsidies): in the author view this scenario is not realistic since,  actually,  the Italian (but also many other European) criminal law does not allow this option: although there is an economic cost for a life in terms of compensation the actual criminal law does not consider an amount of money comparable to a money sum,  on contrary it gives a value ex post not ex ante.  For this reason here we considered the epidemiological consequences separated with respect to the economic ones  A more intriguing issue is where the economic cost is causally associated to an number indirect of deaths (for instance if people does not have the money for food or other first necessity goods ),  in this case the two factor (epidemiological and economic) can be,  in principle,  summed.  We say in principle because the jurisprudence is here very reduced or totally missing since the pandemics are rare events.  For the present study these indirect deaths are,  by now,  not easily to quantify and thus we did not considered this option.  
 
 \paragraph{Conclusions}
 
@@ -176,7 +187,7 @@ For each sales category we run the regression reported in the Eq.  \ref{DID-eq} 
      \hfill
      \begin{subfigure}[b]{0.45\textwidth}
          \centering
-         \includegraphics[width=\textwidth]{Figures/Calzature.pdf}}
+         \includegraphics[width=\textwidth]{Figures/Calzature.pdf}
          \caption{\textcolor{OliveGreen}{Footwear} (green)}
          \label{fig:three sin x}
      \end{subfigure}
@@ -313,7 +324,7 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
          \caption{Lazy PM}
      \end{subfigure}
 \caption{Comparison between the epidemiological scenarios obtained via a SIRD model (Susceptible-Infectious-Recovered-Dead) where the PM impose stochastically the different levels of the lock-down.  In the left panel an active PM is considered: this is modelled by making more likeable that the PM impose the lock-down as the number of infected goes over the different thresholds.  On the contrary,  in the left panel a lazy PM that prefer the \textit{laissez-faire} approach is considered: in this case,  differently with respect to the previous scenario, the probability that the PM impose the lock-down  is less likely.  }
-\label{CIG_sector_plots}
+\label{SIRD_scenario}
 \end{figure}
 
 
@@ -331,7 +342,7 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
          \caption{Lazy PM}
      \end{subfigure}
 \caption{Comparison between the sales effects for the scenarios where an active vs lazy PM is considered.  These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks, obtianed from the SIRD scenario ,with the coefficients obtained from the DID (divided by 4).  The error bars were calculated by considering the error propagation  }
-\label{CIG_sector_plots}
+\label{Selling_sector_effects}
 \end{figure}
 
 \begin{figure}
@@ -348,8 +359,36 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
          \caption{Lazy PM}
      \end{subfigure}
 \caption{Comparison between the subsides effects for the scenarios where an active vs lazy PM is considered.  These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks, obtianed from the SIRD scenario ,with the coefficients obtained from the DID (divided by 4).  The error bars were calculated by considering the error propagation}
-\label{CIG_sector_plots}
+\label{CIG_sector_effects}
 \end{figure}
+
+\begin{table}[]
+\begin{center}
+\caption{Comparison of epidemiological consequences for a reactive vs non-reactive PM with respect to the overcoming of the epidemiological thresholds. The values are reported as percentage with respect to the total population considered in the model (60 M) }
+\begin{tabular}{c|c|c}
+         & Active & Lazy  \\ \hline
+Deaths   & 0,06   & 6,50  \\ \hline
+Infected & 0,92   & 91,01 \\ \hline
+\label{Table_Epidemiological_effect}
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[]
+\begin{center}
+\caption{Cost associated with deaths and infected people that need to be assisted in terms of $10^{9}$ EUR.  The  value of life correspond to the maximum compensation according to Milan court \cite{tribunaleMilano},  while the cost for infected people was taken from ANAC report \cite{Anac}}
+
+\begin{tabular}{c|c|c}
+         & Active & Lazy \\ \hline
+Deaths   & 11     & 1170 \\ \hline
+Infected & 15     & 1538 \\ \hline
+Total    & 26     & 2708 \\ \hline
+\label{Table_Epidemiological_cost}
+\end{tabular}
+\end{center}
+\end{table}
+
 
 \clearpage
 \newpage
