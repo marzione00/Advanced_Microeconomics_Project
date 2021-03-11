@@ -2,9 +2,9 @@
 \contentsline {section}{\numberline {2}{Model and methods}}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}{Epidemiological model}}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}{Economic model}}{7}{subsection.2.2}%
-\contentsline {section}{\numberline {3}{Data description}}{9}{section.3}%
+\contentsline {section}{\numberline {3}{Data description}}{10}{section.3}%
 \contentsline {section}{\numberline {4}{Results and Discussion}}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}{DID}}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}{Scenarios}}{10}{subsection.4.2}%
-\contentsline {paragraph}{{Conclusions}}{11}{subsection.4.2}%
-\contentsline {section}{\numberline {5}{Pictures and Tables}}{11}{section.5}%
+\contentsline {subsection}{\numberline {4.1}{DID}}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}{Scenarios}}{11}{subsection.4.2}%
+\contentsline {paragraph}{{Conclusions}}{12}{subsection.4.2}%
+\contentsline {section}{\numberline {5}{Pictures and Tables}}{12}{section.5}%
