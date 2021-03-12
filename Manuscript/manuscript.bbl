@@ -101,12 +101,6 @@ Valentina Marziano, Giorgio Guzzetta, Bruna~Maria Rondinone, Fabio Boccuni,
 \bibitem{Ateco2007}
 \url{"https://www.codiceateco.it/"}.
 
-\bibitem{guo2020digitalization}
-Hai Guo, Zhuen Yang, Ran Huang, and Anqi Guo.
-\newblock The digitalization and public crisis responses of small and medium
-  enterprises: Implications from a covid-19 survey.
-\newblock {\em Frontiers of Business Research in China}, 14(1):1--25, 2020.
-
 \bibitem{draca2011panic}
 Mirko Draca, Stephen Machin, and Robert Witt.
 \newblock Panic on the streets of london: Police, crime, and the july 2005
@@ -118,6 +112,12 @@ Jeffrey~M Wooldridge.
 \newblock Introductory econometrics: a modern approach (upper level economics
   titles).
 \newblock {\em Southwestern College Publishing, Nashville, T АTN}, 2012.
+
+\bibitem{curaitalia}
+\url{"https://www.gazzettaufficiale.it/eli/id/2020/03/17/20G00034/sg"}.
+
+\bibitem{istat_lavoro}
+\url{"https://www.istat.it/it/archivio/253812"}.
 
 \bibitem{istat}
 \url{"https://www.istat.it"}.
@@ -141,5 +141,14 @@ Duygu Balcan and Alessandro Vespignani.
 \newblock Phase transitions in contagion processes mediated by recurrent
   mobility patterns.
 \newblock {\em Nature physics}, 7(7):581--586, 2011.
+
+\bibitem{Ising}
+\url{"hhttps://www.ippp.dur.ac.uk/~krauss/Lectures/NumericalMethods/PhaseTransitions/Lecture/pt3.html"}.
+
+\bibitem{Ising_2}
+Valeriy~A Ryabov.
+\newblock Phase transitions in the ising model.
+\newblock In {\em Principles of Statistical Physics and Numerical Modeling},
+  2053-2563, pages 22--1 to 22--5. IOP Publishing, 2018.
 
 \end{thebibliography}
