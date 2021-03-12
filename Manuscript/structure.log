@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.28)  7 MAR 2021 10:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.28)  12 MAR 2021 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -74,7 +74,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.37 \usepackage{
-                 caption}
+                 lscape}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -85,13 +85,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \usepackage{
-                 subcaption}
+l.39 \usepackage[table,xcdraw]{
+                               xcolor}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.40 \graphicspath
+l.43 \graphicspath
                   {{Figures/}} % Set the default folder for images
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -106,7 +106,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \graphicspath{{F
+l.43 \graphicspath{{F
                      igures/}} % Set the default folder for images
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -120,7 +120,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no / in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 40--41
+Overfull \hbox (20.0pt too wide) in paragraph at lines 43--44
 [] 
  []
 
@@ -131,7 +131,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \usepackage{
+l.45 \usepackage{
                  enumitem} % Required for manipulating the whitespace betwee...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -144,7 +144,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \usepackage{
+l.47 \usepackage{
                  lipsum} % Used for inserting dummy 'Lorem ipsum' text into ...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -157,7 +157,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \usepackage{
+l.49 \usepackage{
                  subfig} % Required for creating figures with multiple parts...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -170,7 +170,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \usepackage{
+l.51 \usepackage{
                  amsmath,amssymb,amsthm} % For including math equations, the...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -183,7 +183,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 \usepackage{
+l.53 \usepackage{
                  varioref} % More descriptive referencing
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -195,13 +195,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \usepackage{
+l.55 \usepackage{
                  epigraph}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.58 \theoremstyle
+l.61 \theoremstyle
                   {definition} % Define theorem styles here based on the def...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -216,7 +216,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \theoremstyle{d
+l.61 \theoremstyle{d
                     efinition} % Define theorem styles here based on the def...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -234,12 +234,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 \c@definition=\count167
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 58--60
+Overfull \hbox (20.0pt too wide) in paragraph at lines 61--63
 [] 
  []
 
 ! Undefined control sequence.
-l.61 \theoremstyle
+l.64 \theoremstyle
                   {plain} % Define theorem styles here based on the plain st...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -254,7 +254,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 \theoremstyle{p
+l.64 \theoremstyle{p
                     lain} % Define theorem styles here based on the plain st...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -267,12 +267,12 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 \c@theorem=\count168
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 61--63
+Overfull \hbox (20.0pt too wide) in paragraph at lines 64--66
 [] 
  []
 
 ! Undefined control sequence.
-l.64 \theoremstyle
+l.67 \theoremstyle
                   {remark} % Define theorem styles here based on the remark ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -287,7 +287,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \theoremstyle{r
+l.67 \theoremstyle{r
                     emark} % Define theorem styles here based on the remark ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -300,12 +300,12 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no k in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 64--65
+Overfull \hbox (20.0pt too wide) in paragraph at lines 67--68
 [] 
  []
 
 ! Undefined control sequence.
-l.70 \hypersetup
+l.73 \hypersetup
                 {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -320,7 +320,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 c
+l.75 c
       olorlinks=true, breaklinks=true, bookmarks=true,bookmarksnumbered,
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
