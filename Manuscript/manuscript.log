@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.28)  12 MAR 2021 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.28)  12 MAR 2021 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,16 +1008,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Figures/Phase_transition.pdf, id=11, 325.215pt x 348.30125pt>
-File: Figures/Phase_transition.pdf Graphic file (type pdf)
-<use Figures/Phase_transition.pdf>
-Package pdftex.def Info: Figures/Phase_transition.pdf  used on input line 93.
-(pdftex.def)             Requested size: 185.0pt x 198.13518pt.
- [2 <./Figures/Phase_transition.pdf>] [3]
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 Package tocbasic Info: character protrusion at toc deactivated on input line 10
-8.
- (./manuscript.toc
+2.
+
+(./manuscript.toc
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1025,50 +1020,60 @@ Package microtype Info: Character `029' is missing
 \tf@toc=\write4
 \openout4 = `manuscript.toc'.
 
- [4]
+ [3]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/iwona/m/sc/17.28'.
 (microtype)             Ignoring protrusion settings for this character.
- [5]
+ [4]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/iwona/b/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
- [6] [7]
-Overfull \hbox (16.63997pt too wide) in paragraph at lines 147--151
+ [5] [6]
+Overfull \hbox (16.63997pt too wide) in paragraph at lines 141--145
 \T1/pplj/m/n/12 audio-video cas-settes and mu-si-cal in-stru-ments, Durable and
  non-durable
  []
 
 
-Overfull \hbox (2.19183pt too wide) in paragraph at lines 147--151
+Overfull \hbox (2.19183pt too wide) in paragraph at lines 141--145
 []\T1/pplj/m/n/12 House-hold kinds[], []House-hold tools[] and hard-ware, []Gam
 es[]/toys/sports
  []
 
-[8] [9] [10] [11] [12] [13]
-<Figures/Abbigliamento.pdf, id=207, 323.2075pt x 474.77374pt>
+[7] [8] [9] [10] [11] [12]
+! Undefined control sequence.
+l.177 \clearall
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[13]
+<Figures/Abbigliamento.pdf, id=206, 323.2075pt x 474.77374pt>
 File: Figures/Abbigliamento.pdf Graphic file (type pdf)
 <use Figures/Abbigliamento.pdf>
-Package pdftex.def Info: Figures/Abbigliamento.pdf  used on input line 191.
+Package pdftex.def Info: Figures/Abbigliamento.pdf  used on input line 186.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Calzature.pdf, id=208, 323.2075pt x 474.77374pt>
+<Figures/Calzature.pdf, id=207, 323.2075pt x 474.77374pt>
 File: Figures/Calzature.pdf Graphic file (type pdf)
 <use Figures/Calzature.pdf>
-Package pdftex.def Info: Figures/Calzature.pdf  used on input line 198.
+Package pdftex.def Info: Figures/Calzature.pdf  used on input line 193.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Elettrodomestici.pdf, id=209, 323.2075pt x 474.77374pt>
+<Figures/Elettrodomestici.pdf, id=208, 323.2075pt x 474.77374pt>
 File: Figures/Elettrodomestici.pdf Graphic file (type pdf)
 <use Figures/Elettrodomestici.pdf>
-Package pdftex.def Info: Figures/Elettrodomestici.pdf  used on input line 204.
+Package pdftex.def Info: Figures/Elettrodomestici.pdf  used on input line 199.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Fotoottica.pdf, id=210, 323.2075pt x 474.77374pt>
+<Figures/Fotoottica.pdf, id=209, 323.2075pt x 474.77374pt>
 File: Figures/Fotoottica.pdf Graphic file (type pdf)
 <use Figures/Fotoottica.pdf>
-Package pdftex.def Info: Figures/Fotoottica.pdf  used on input line 211.
+Package pdftex.def Info: Figures/Fotoottica.pdf  used on input line 206.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
 
 ! Extra }, or forgotten \endgroup.
-l.211 ...idth=\textwidth]{Figures/Fotoottica.pdf}}
+l.206 ...idth=\textwidth]{Figures/Fotoottica.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1076,13 +1081,13 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Mobili.pdf, id=215, 323.2075pt x 474.77374pt>
+<Figures/Mobili.pdf, id=214, 323.2075pt x 474.77374pt>
 File: Figures/Mobili.pdf Graphic file (type pdf)
 <use Figures/Mobili.pdf>
-Package pdftex.def Info: Figures/Mobili.pdf  used on input line 226.
+Package pdftex.def Info: Figures/Mobili.pdf  used on input line 221.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
 ! Extra }, or forgotten \endgroup.
-l.226 ...cs[width=\textwidth]{Figures/Mobili.pdf}}
+l.221 ...cs[width=\textwidth]{Figures/Mobili.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1090,22 +1095,22 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Utilenseria.pdf, id=216, 323.2075pt x 474.77374pt>
+<Figures/Utilenseria.pdf, id=215, 323.2075pt x 474.77374pt>
 File: Figures/Utilenseria.pdf Graphic file (type pdf)
 <use Figures/Utilenseria.pdf>
-Package pdftex.def Info: Figures/Utilenseria.pdf  used on input line 232.
+Package pdftex.def Info: Figures/Utilenseria.pdf  used on input line 227.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Giocattoli.pdf, id=217, 323.2075pt x 474.77374pt>
+<Figures/Giocattoli.pdf, id=216, 323.2075pt x 474.77374pt>
 File: Figures/Giocattoli.pdf Graphic file (type pdf)
 <use Figures/Giocattoli.pdf>
-Package pdftex.def Info: Figures/Giocattoli.pdf  used on input line 238.
+Package pdftex.def Info: Figures/Giocattoli.pdf  used on input line 233.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
 [14] [15 <./Figures/Abbigliamento.pdf> <./Figures/Calzature.pdf> <./Figures/Ele
 ttrodomestici.pdf> <./Figures/Fotoottica.pdf>] [16 <./Figures/Mobili.pdf> <./Fi
 gures/Utilenseria.pdf> <./Figures/Giocattoli.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 247.
+               Default added (so using `tbp') on input line 242.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1114,7 +1119,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.252 }
+l.247 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1126,7 +1131,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.252 }
+l.247 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1138,7 +1143,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.252 }
+l.247 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1150,7 +1155,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.252 }
+l.247 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1162,7 +1167,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.252 }
+l.247 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1174,7 +1179,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.252 }
+l.247 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1186,7 +1191,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.252 }
+l.247 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1194,7 +1199,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.254 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+l.249 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
                                                    & t      &  $\delta_{3}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1205,7 +1210,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.254 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+l.249 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1214,19 +1219,19 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [17]
-<Figures/CIG_Manifattura.pdf, id=276, 278.03876pt x 474.77374pt>
+<Figures/CIG_Manifattura.pdf, id=275, 278.03876pt x 474.77374pt>
 File: Figures/CIG_Manifattura.pdf Graphic file (type pdf)
 <use Figures/CIG_Manifattura.pdf>
-Package pdftex.def Info: Figures/CIG_Manifattura.pdf  used on input line 275.
+Package pdftex.def Info: Figures/CIG_Manifattura.pdf  used on input line 270.
 (pdftex.def)             Requested size: 166.49887pt x 284.31586pt.
-<Figures/CIG_Commercio.pdf, id=277, 278.03876pt x 474.77374pt>
+<Figures/CIG_Commercio.pdf, id=276, 278.03876pt x 474.77374pt>
 File: Figures/CIG_Commercio.pdf Graphic file (type pdf)
 <use Figures/CIG_Commercio.pdf>
-Package pdftex.def Info: Figures/CIG_Commercio.pdf  used on input line 281.
+Package pdftex.def Info: Figures/CIG_Commercio.pdf  used on input line 276.
 (pdftex.def)             Requested size: 166.49887pt x 284.31586pt.
 
 ! Extra }, or forgotten \endgroup.
-l.281 ...h=\textwidth]{Figures/CIG_Commercio.pdf}}
+l.276 ...h=\textwidth]{Figures/CIG_Commercio.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1234,18 +1239,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/CIG_Costruzioni.pdf, id=278, 278.03876pt x 474.77374pt>
+<Figures/CIG_Costruzioni.pdf, id=277, 278.03876pt x 474.77374pt>
 File: Figures/CIG_Costruzioni.pdf Graphic file (type pdf)
 <use Figures/CIG_Costruzioni.pdf>
-Package pdftex.def Info: Figures/CIG_Costruzioni.pdf  used on input line 286.
+Package pdftex.def Info: Figures/CIG_Costruzioni.pdf  used on input line 281.
 (pdftex.def)             Requested size: 166.49887pt x 284.31586pt.
-<Figures/CIG_TOT.pdf, id=279, 278.03876pt x 474.77374pt>
+<Figures/CIG_TOT.pdf, id=278, 278.03876pt x 474.77374pt>
 File: Figures/CIG_TOT.pdf Graphic file (type pdf)
 <use Figures/CIG_TOT.pdf>
-Package pdftex.def Info: Figures/CIG_TOT.pdf  used on input line 292.
+Package pdftex.def Info: Figures/CIG_TOT.pdf  used on input line 287.
 (pdftex.def)             Requested size: 166.49887pt x 284.31586pt.
 ! Extra }, or forgotten \endgroup.
-l.292 ...s[width=\textwidth]{Figures/CIG_TOT.pdf}}
+l.287 ...s[width=\textwidth]{Figures/CIG_TOT.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1253,15 +1258,36 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+<Figures/Phase_transition.pdf, id=279, 325.215pt x 348.30125pt>
 File: Figures/Phase_transition.pdf Graphic file (type pdf)
 <use Figures/Phase_transition.pdf>
-Package pdftex.def Info: Figures/Phase_transition.pdf  used on input line 301.
-(pdftex.def)             Requested size: 370.0pt x 396.29692pt.
+Package pdftex.def Info: Figures/Phase_transition.pdf  used on input line 296.
+(pdftex.def)             Requested size: 185.0pt x 198.13518pt.
+<Figures/R_t_1_1_1.pdf, id=284, 325.215pt x 655.44875pt>
+File: Figures/R_t_1_1_1.pdf Graphic file (type pdf)
+<use Figures/R_t_1_1_1.pdf>
+Package pdftex.def Info: Figures/R_t_1_1_1.pdf  used on input line 306.
+(pdftex.def)             Requested size: 166.49887pt x 335.57462pt.
+<Figures/R_t_1.5_1.5_1.5.pdf, id=285, 325.215pt x 655.44875pt>
+File: Figures/R_t_1.5_1.5_1.5.pdf Graphic file (type pdf)
+<use Figures/R_t_1.5_1.5_1.5.pdf>
+Package pdftex.def Info: Figures/R_t_1.5_1.5_1.5.pdf  used on input line 312.
+(pdftex.def)             Requested size: 166.49887pt x 335.57462pt.
+! Extra }, or forgotten \endgroup.
+l.312 ...\textwidth]{Figures/R_t_1.5_1.5_1.5.pdf}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 [18 <./Figures/CIG_Manifattura.pdf> <./Figures/CIG_Commercio.pdf> <./Figures/CI
-G_Costruzioni.pdf> <./Figures/CIG_TOT.pdf>] [19]
+G_Costruzioni.pdf> <./Figures/CIG_TOT.pdf>] [19 <./Figures/Phase_transition.pdf
+>] [20 <./Figures/R_t_1_1_1.pdf> <./Figures/R_t_1.5_1.5_1.5.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 310.
+               Default added (so using `tbp') on input line 323.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1270,7 +1296,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 }
+l.328 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1282,7 +1308,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 }
+l.328 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1294,7 +1320,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 }
+l.328 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1306,7 +1332,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 }
+l.328 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1318,7 +1344,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 }
+l.328 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1330,7 +1356,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 }
+l.328 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1342,7 +1368,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 }
+l.328 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1350,7 +1376,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.317 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+l.330 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
                                                    & t      &  $\delta_{3}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1361,7 +1387,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.317 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+l.330 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1369,21 +1395,21 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[20]
-<Figures/Epidemics_1_1_1.pdf, id=320, 326.21875pt x 474.77374pt>
+[21]
+<Figures/Epidemics_1_1_1.pdf, id=343, 326.21875pt x 474.77374pt>
 File: Figures/Epidemics_1_1_1.pdf Graphic file (type pdf)
 <use Figures/Epidemics_1_1_1.pdf>
-Package pdftex.def Info: Figures/Epidemics_1_1_1.pdf  used on input line 332.
+Package pdftex.def Info: Figures/Epidemics_1_1_1.pdf  used on input line 345.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
-<Figures/Epidemics_1.5_1.5_1.5.pdf, id=321, 326.21875pt x 474.77374pt>
+<Figures/Epidemics_1.5_1.5_1.5.pdf, id=344, 326.21875pt x 474.77374pt>
 File: Figures/Epidemics_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/Epidemics_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/Epidemics_1.5_1.5_1.5.pdf  used on input line 
-338.
+351.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 
 ! Extra }, or forgotten \endgroup.
-l.338 ...idth]{Figures/Epidemics_1.5_1.5_1.5.pdf}}
+l.351 ...idth]{Figures/Epidemics_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1391,20 +1417,20 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Selling_Scenario_1_1_1.pdf, id=322, 326.21875pt x 474.77374pt>
+<Figures/Selling_Scenario_1_1_1.pdf, id=345, 326.21875pt x 474.77374pt>
 File: Figures/Selling_Scenario_1_1_1.pdf Graphic file (type pdf)
 <use Figures/Selling_Scenario_1_1_1.pdf>
 Package pdftex.def Info: Figures/Selling_Scenario_1_1_1.pdf  used on input line
- 350.
+ 363.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
-<Figures/Selling_Scenario_1.5_1.5_1.5.pdf, id=323, 326.21875pt x 474.77374pt>
+<Figures/Selling_Scenario_1.5_1.5_1.5.pdf, id=346, 326.21875pt x 474.77374pt>
 File: Figures/Selling_Scenario_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/Selling_Scenario_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/Selling_Scenario_1.5_1.5_1.5.pdf  used on inpu
-t line 356.
+t line 369.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 ! Extra }, or forgotten \endgroup.
-l.356 ...igures/Selling_Scenario_1.5_1.5_1.5.pdf}}
+l.369 ...igures/Selling_Scenario_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1412,37 +1438,37 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/CIG_effect_1_1_1.pdf, id=324, 326.21875pt x 474.77374pt>
+<Figures/CIG_effect_1_1_1.pdf, id=347, 326.21875pt x 474.77374pt>
 File: Figures/CIG_effect_1_1_1.pdf Graphic file (type pdf)
 <use Figures/CIG_effect_1_1_1.pdf>
-Package pdftex.def Info: Figures/CIG_effect_1_1_1.pdf  used on input line 367.
+Package pdftex.def Info: Figures/CIG_effect_1_1_1.pdf  used on input line 380.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
-<Figures/CIG_1.5_1.5_1.5.pdf, id=325, 326.21875pt x 474.77374pt>
+<Figures/CIG_1.5_1.5_1.5.pdf, id=348, 326.21875pt x 474.77374pt>
 File: Figures/CIG_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/CIG_1.5_1.5_1.5.pdf>
-Package pdftex.def Info: Figures/CIG_1.5_1.5_1.5.pdf  used on input line 373.
+Package pdftex.def Info: Figures/CIG_1.5_1.5_1.5.pdf  used on input line 386.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 ! Extra }, or forgotten \endgroup.
-l.373 ...\textwidth]{Figures/CIG_1.5_1.5_1.5.pdf}}
+l.386 ...\textwidth]{Figures/CIG_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 380.
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 393.
 
-[21 <./Figures/Epidemics_1_1_1.pdf> <./Figures/Epidemics_1.5_1.5_1.5.pdf>]
-[22 <./Figures/Selling_Scenario_1_1_1.pdf> <./Figures/Selling_Scenario_1.5_1.5_
-1.5.pdf>] [23 <./Figures/CIG_effect_1_1_1.pdf> <./Figures/CIG_1.5_1.5_1.5.pdf>]
-(./manuscript.bbl [24
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 406.
+
+[22 <./Figures/Epidemics_1_1_1.pdf> <./Figures/Epidemics_1.5_1.5_1.5.pdf>]
+[23 <./Figures/Selling_Scenario_1_1_1.pdf> <./Figures/Selling_Scenario_1.5_1.5_
+1.5.pdf>] [24 <./Figures/CIG_effect_1_1_1.pdf> <./Figures/CIG_1.5_1.5_1.5.pdf>]
+(./manuscript.bbl [25
 
 
 
@@ -1491,48 +1517,48 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 ...stern College Publishing, Nashville, T А
+l.119 ...stern College Publishing, Nashville, T А
                                                   TN}, 2012.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 [][][]$\T1/fvm/m/n/12 "https : / / www . gazzettaufficiale . it / eli / id / 20
 20 / 03 / 17 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 [][][]$\T1/fvm/m/n/12 "https : / / cran . r-[]project . org / web / packages / 
 forecast / index .
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 [][][]$\T1/fvm/m/n/12 "hhttps : / / www . ippp . dur . ac . uk / ~krauss / Lect
 ures /
  []
 
-) [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 418.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 418.
+) [27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 431.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 431.
  (./manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 418.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 418.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 431.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 431.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 418.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 431.
  ) 
 Here is how much of TeX's memory you used:
- 17265 strings out of 480994
- 327244 string characters out of 5912142
+ 17282 strings out of 480994
+ 327674 string characters out of 5912142
  889359 words of memory out of 5000000
- 32285 multiletter control sequences out of 15000+600000
+ 32297 multiletter control sequences out of 15000+600000
  652098 words of font info for 184 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,23n,87p,10105b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1551,10 +1577,10 @@ ype1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/n
 owacki/iwona/iwonar.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on manuscript.pdf (26 pages, 290114 bytes).
+Output written on manuscript.pdf (27 pages, 306054 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 409 compressed objects within 5 object streams
- 89 named destinations out of 1000 (max. 500000)
- 25771 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 427 compressed objects within 5 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 25781 words of extra memory for PDF output out of 29859 (max. 10000000)
 
