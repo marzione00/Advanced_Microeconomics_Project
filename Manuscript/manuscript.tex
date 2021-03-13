@@ -49,7 +49,11 @@ BCOR5mm, % Binding correction
 
 %\subtitle{Subtitle} % Uncomment to display a subtitle
 
-\author{\spacedlowsmallcaps{Marzio De Corato and Giulia Hadjiandrea}} % The article author(s) - author affiliations need to be specified in the AUTHOR AFFILIATIONS block
+\author{
+  Marzio De Corato (944459)\\
+  \and
+  Giulia Hadjiandrea (941780) \\
+}
 
 \date{} % An optional date to appear under the author(s)
 
@@ -90,7 +94,7 @@ BCOR5mm, % Binding correction
 
 \section*{Abstract} % This section will not appear in the table of contents due to the star (\section*)
 
-Within a standard compartmental model for the description of the dynamic of an epidemics (Susceptible-Infectious-Recovered-Dead),  we considered a policy-maker (PM) that imposes stochastically two types of lock-down with increasing force. The probability by which the PM applies the lock-down reflects his different attitude to face an epidemics (e.g. \textit{laissez-faire} vs very strict).  We found that,  by modifying this parameter with continuity a phase transition (as defined for  a physical system) was obtained.  For each phase we predicted a selected set of economic impacts (selling and subsidy) by using parameters estimated via econometric techniques (Difference-in -Difference) on the microeconomic data of Italy.  The comparison of these two scenarios and their impact provide provide a bird's-eye view on the socio-economic consequences of the PM attitude
+Within a standard compartmental model for the description of the dynamic of an epidemics (Susceptible-Infectious-Recovered-Dead),  we considered a policy-maker (PM) that imposes stochastically different types of lock-downs. The probability that tune this stochastic process reflects his/her different attitude to face an epidemics (e.g. \textit{laissez-faire} vs very strict).  In order to simulate not only an epidemiological scenario but also an economic one we estimated , via a Difference-in-Difference regression,  the impact of national lock-downs applied during the first wave of COVID19 in Italy from March 2020 to June 2020,  on two microeconomic sectors: sales and on subsidies (\textit{Cassa Integrazione}).  We found that,  by modifying with continuity the PM attitude  to impose the lock-down a phase transition (as defined for  a physical system) is obtained.  The comparison of these two scenarios and their impact provide provide a bird's-eye view on the socio-economic consequences of the PM attitude
 
 \newpage
 
@@ -134,7 +138,7 @@ where S is the number of people that are still susceptible,  I the number of peo
 \begin{equation} 
 R_{0}=\dfrac{\beta}{\gamma}
 \end{equation}
-known as the basic reproduction factor. This number is the average number of people that are infected by a single individual and describes if the epidemic is in a negative feedback (R$_{0}$<1),  stationary (R$_{0}$=1),  or in a positive feedback (R$_{0}$>1).  As consequence if the epidemic is in a negative feedback will be dissipate, while if it is in positive feedback will grow.  Note that in this simple model, since the parameters are not time dependent this factor is constant.  As performed by Ferrari et al. \cite{ferrari2020modelling} time dependent parameters are considered a time depended parameter called $R_{t}$.  For the present work,  we limited to constant parameters: in particular we considered the parameter estimation for Lombardy provided by Neves and Guerrero in Ref \cite{neves2020predicting}: $\beta$ was set equal to 0.55 while $\gamma$ equal to $\frac{1}{7}$. The overall population $N$ was set to 60M,  in order to simulate Italian population.  Within the daily temporal evolution of this model,  that was obtained by numerically solving the differential equation above via the \textit{DeSolve} package,  we considered a trigger activated by the PM every 7 days: if the number of infected people normalized by the overall population is more than $1\times 10^{-7}$,  there is a probability that the PM impose laws that multiply the $\beta$ factor by $0.7$,  if the normalized infected people are more than 10 the previous threshold he/she will impose with a certain probability restrictions that multiply $\beta$ starting $\beta$ factor by $0.25$;  finally,  if the  threshold is exceeded more than 50 times, the PM will impose with a certain probability restrictive measures that multiply $\beta$ by $0.025$.  These attenuation parameters were adjusted taking in consideration results of Marziano et al. in Ref. \cite{marziano2021retrospective}. As we said the PM acts with a certain probability,  more formally stochastically: each week a random number (from zero to one) is extracted: if this is higher than a certain threshold,  the relative restrictive decision is taken, otherwise not. The threshold value captures the PM attitude to impose the lock-down: lower values model a careful PM,  hight value a lazy one.  In this way the model is able to simulate different scenarios for the different PM attitude: as we will see this can produce two very different results.  At the end of the simulation,  beside the values given by the standard SIRD model (recovered and deaths),  the model also provide the number of days in which each restriction was active: these values are then used for the economic model in order to evaluate the economic effect due to the restrictions and PM strategy.  It is worth nothing that here as lock-down we considered only the national one that was applied in the first wave of the epidemics: from March 2020 to June 2020. This choice is motivated by the fact that modelling a unique system is more simpler with respect to modelling an ensemble of a communicating clusters that represent regions or provinces: therefore,  if one is interested to model the second wave of pandemics such approach should be undertaken.  Moreover in this latter case,  as a further degree of complexity,  the economic data described in the next subsection must be at regional or province level,  and as far as the authors know,  such data are not available.  For these reasons here the modelling will be always referred to national data and national lock-downs,  therefore the period after June when starting from October regional lock-down were imposed,  will be not considered.
+known as the basic reproduction factor. This number is the average number of people that are infected by a single individual and describes if the epidemic is in a negative feedback (R$_{0}$<1),  stationary (R$_{0}$=1),  or in a positive feedback (R$_{0}$>1).  As consequence if the epidemic is in a negative feedback will be dissipate, while if it is in positive feedback will grow.  Note that in this simple model, since the parameters are not time dependent this factor is constant.  As performed by Ferrari et al. \cite{ferrari2020modelling},  when time dependent parameters $\beta$ and $\gamma$ are taken in to account the reproduction factor R$_{0}$ become time depended: thus scholar rename it as $R_{t}$.  For the present work,  we limited to constant parameters: in particular we considered the parameter estimation for Lombardy provided by Neves and Guerrero in Ref \cite{neves2020predicting}: $\beta$ was set equal to 0.55 while $\gamma$ equal to $\frac{1}{7}$.  The overall population $N$ was set to 60M,  in order to simulate Italian population.  Within the daily temporal evolution of this model,  that was obtained by numerically solving the differential equation above via the \textit{DeSolve} package,  we considered a trigger activated by the PM every 7 days: if the number of infected people normalized by the overall population is more than $1\times 10^{-7}$,  there is a probability that the PM impose laws that multiply the $\beta$ factor by $0.7$,  if the normalized infected people are more than 10 the previous threshold he/she will impose with a certain probability restrictions that multiply $\beta$ starting $\beta$ factor by $0.25$;  finally,  if the  threshold is exceeded more than 50 times, the PM will impose with a certain probability restrictive measures that multiply $\beta$ by $0.025$.  These attenuation parameters were adjusted taking in consideration results of Marziano et al. in Ref. \cite{marziano2021retrospective}.  Therefore such trigger make the  R$_{0}$ parameter time dependent,  although in to a discrete way.  As we said the PM acts with a certain probability,  more formally stochastically: each week a random number (from zero to one) is extracted: if this is higher than a certain threshold,  the relative restrictive decision is taken, otherwise not. The threshold value captures the PM attitude to impose the lock-down: lower values model a careful PM,  hight value a lazy one.  In this way the model is able to simulate different scenarios for the different PM attitude: as we will see this can produce two very different results.  At the end of the simulation,  beside the values given by the standard SIRD model (recovered and deaths),  the algorithm also provide the number of weeks in which each restriction was active: these values are then used for the economic model in order to evaluate the economic effect due to the restrictions and PM strategy.  It is worth nothing that here as lock-down we considered only the national one that was applied in the first wave of the epidemics: from March 2020 to June 2020. This choice is motivated by the fact that modelling a unique system is more simpler with respect to modelling an ensemble of a communicating clusters that represent regions or provinces: therefore,  if one is interested to model the second wave of pandemics such approach should be undertaken.  Moreover in this latter case,  as a further degree of complexity,  the economic data described in the next subsection must be at regional or province level,  and as far as the authors know,  such data are not available.  For these reasons here the modelling will be always referred to national data and national lock-downs,  therefore the period after June when starting from October regional lock-down were imposed,  will be not considered.  Another point that is it is worth mentioning,  is that in this model, on the contrary with respect to the SIS one, individual can not re-infect: concerning the COVID-19 the possibility of reinfection is still discussed among scholars \cite{ledford2020covid,iwasaki2021reinfections}.  Basically to the know of author it is established that the immunity last at least 8 months  \cite{dan2021immunological} and very few cases of reinfection are reported.  Thus the immunity considered in the model,  for an interval of one year seems almost  a realistic approximation. 
 
 \subsection{Economic model}
 
@@ -248,9 +252,9 @@ $\delta$ cofficients as obtained by the DID  regression, for the selling data de
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
                                        & $\delta_{1} $&   $ \sigma_{\delta_{1}}$   & t      & $\delta_{2} $ & $\sigma_{\delta_{2}$ & t      &  $\delta_{3}$ & $\sigma_{\delta_{3}$  & t     \\ \hline
 {\color[HTML]{3531FF} Clothing}        & -40.16  & 2.01  & -19.99 & -60.07 & 2.77  & -21.64 & -16.45 & 2.77  & -5.92 \\ \hline
-{\color[HTML]{009901} Footwear}        & -20.62 & 1.73  & -22.35 & -65.78 & 2.39  & -27.49 & -20.62 & 2.39  & -8.62 \\ \hline
+{\color[HTML]{009901} Footwear}        & -38.70 & 1.73  & -22.35 & -65.78 & 2.39  & -27.49 & -20.62 & 2.39  & -8.62 \\ \hline
 {\color[HTML]{F56B00} Appliances}      & -20.32 & 2.50  & -8.11  & -27.34 & 3.45  & -7.90  & -3.68  & 3.45  & 1.06  \\ \hline
-{\color[HTML]{00009B} Photo-optics}    & -34.14 & 2.55  & -13.38 & -52.32 & 3.52  & -14.84 & -7.86  & 3.52  & 2.23  \\ \hline
+{\color[HTML]{00009B} Photo-optics}    & -34.14 & 2.55  & -13.38 & -52.32 & 3.52  & -14.84 & -7.86  & 3.52  & -2.23 \\ \hline
 {\color[HTML]{6200C9} Household kids}   & -10.51 & 1.50  & -6.98  & -18.99 & 2.07  & -9.13  & -3.61  & 2.07  & -1.74 \\ \hline
 {\color[HTML]{00D2CB} Household tools} & -13.02 & 3.51  & -3.70 & -30.23 & 4.85  & -6.23    & 2.33   & 4.85  & 0.48  \\ \hline
 {\color[HTML]{FFC9FD} Games}             & -27.55 & 3.47 & -7.93 & -64.31 &  4.79  & -13.40 & 0.26 &  4.79 & 0.05
@@ -425,6 +429,37 @@ Total    & 26     & 2708 \\ \hline
 \bibliographystyle{unsrt}
 
 \bibliography{sample.bib} % The file containing the bibliography
+
+\clearall
+\newpage
+
+
+\section*{Supporting information A}
+
+In order to check if any significant effect is obtained on the coefficients of Tab.  \ref{selling_DID_table_delta_phantom} by the slight increase of food consumption during the lockdown,  we considered an hypothetical scenario were this increase did not happened (e.g. the selling for March to June were identical to February): as one can point out by comparing the Tab. \ref{selling_DID_table_delta_phantom} with Tab, \ref{selling_DID_table_delta} no significant difference can be found. Thus since the real scenario where this increase happened (real one), and the scenario where this did not happened (hypothetical one) are indistinguishable, we can consider this increase negligible for the estimation of coefficient 
+
+\begin{landscape}
+\begin{table}[]
+\caption{
+\begin{flushleft}
+$\delta$ cofficients as obtained by the DID  regression, for the selling data de-seasoned,  according to equation \ref{DID-eq} \\ for the different lock-down timings where the food selling are modified in order to have,  during the lockdown timings, the same constant value of February.  Note that no signficative difference can be found with respect to the coeffient obtained in Tab \ref{selling_DID_table_delta}. 
+\end{flushleft}
+}
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l}
+                                       & $\delta_{1} $&   $ \sigma_{\delta_{1}}$   & t      & $\delta_{2} $ & $\sigma_{\delta_{2}$ & t      &  $\delta_{3}$ & $\sigma_{\delta_{3}$  & t     \\ \hline
+{\color[HTML]{3531FF} Clothing}        & -39.71  & 2.00  & -19.76 & -59.34 & 2.77  & -21.37 & -15.50 & 2.77 & -5.58 \\ \hline
+{\color[HTML]{009901} Footwear}        & -38.24 & 1.73  & -22.08 & -65.05 & 2.39  & -27.18 & -19.68 & 2.39  & -8.22 \\ \hline
+{\color[HTML]{F56B00} Appliances}      & -19.86 & 2.50  & -7.93 & -26.61 & 3.45  & -7.69  & -2.73 & 3.45  & -0.79 \\ \hline
+{\color[HTML]{00009B} Photo-optics}    & -33.68 & 2.55 & -13.21 & -51.59 & 3.52 & -14.64 & -6.91 & 3.52  & -1.96 \\ \hline
+{\color[HTML]{6200C9} Household kids}   & -10.06 & 1.50  & -6.68  & -18.26 & 2.07  & -8.75  & -2.67  & 2.07  & -1.28 \\ \hline
+{\color[HTML]{00D2CB} Household tools} & -12.57 & 3.51 & -3.57 & -29.50 & 4.85  & -6.07   & 3.28   & 4.85  & 0.67  \\ \hline
+{\color[HTML]{FFC9FD} Games}             & -27.10 & 3.47 & -7.80 & -63.58 &  4.79 & -13.24 & 1.21 &  4.79 & 0.25
+
+\end{tabular}
+\label{selling_DID_table_delta_phantom}
+\end{table}
+\end{landscape}
+
 
 %----------------------------------------------------------------------------------------
 

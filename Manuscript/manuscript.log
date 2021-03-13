@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.28)  12 MAR 2021 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.28)  13 MAR 2021 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -836,27 +836,27 @@ LaTeX Warning: Label `sub@fig:y equals x' multiply defined.
 )
 \openout1 = `manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-Package scrbase Info: activating english \contentsname on input line 58.
-Package scrbase Info: activating english \listfigurename on input line 58.
-Package scrbase Info: activating english \listtablename on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+Package scrbase Info: activating english \contentsname on input line 62.
+Package scrbase Info: activating english \listfigurename on input line 62.
+Package scrbase Info: activating english \listtablename on input line 62.
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring ON on input line 58.
+Package hyperref Info: Link coloring ON on input line 62.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -870,14 +870,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \c@section@level=\count289
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
  (./manuscript.out) (./manuscript.out)
 \@outlinefile=\write3
 \openout3 = `manuscript.out'.
 
-LaTeX Info: Redefining \Ref on input line 58.
+LaTeX Info: Redefining \Ref on input line 62.
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
 (scrartcl)           because of handling of possible bookmark level gaps.
@@ -885,7 +885,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 58.
+(scrartcl)           before \begin{document} on input line 62.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
@@ -908,7 +908,7 @@ See the subcaption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \begin{document}
+l.62 \begin{document}
                      
 If you do not understand this error, please take a closer look
 at the documentation of the `subcaption' package, especially the
@@ -927,7 +927,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 62.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -942,7 +942,7 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 ! Undefined control sequence.
 <argument> \sf@counterlist 
                            
-l.58 \begin{document}
+l.62 \begin{document}
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -951,7 +951,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Trying to load font information for T1+iwona on input line 
-75.
+79.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/iwona/t1iwona.fd
 File: t1iwona.fd 2008/07/22 v0.995 font definition file for T1/iwona (MW)
 )
@@ -960,12 +960,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OT1+pplj on input line 
-75.
+79.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pplj.fd
 File: ot1pplj.fd 2004/09/06 font definitions for OT1/pplj.
 )
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 75
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 79
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/eulervm/uzeur.fd
@@ -974,7 +974,7 @@ File: uzeur.fd 2005/01/11 v4.0 (WaS)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+zeus on input line 75
+LaTeX Font Info:    Trying to load font information for U+zeus on input line 79
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/eulervm/uzeus.fd
@@ -984,13 +984,13 @@ File: uzeus.fd 2005/01/11 v4.0 (WaS)
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+zeuex on input line 7
-5.
+9.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-75.
+79.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1010,7 +1010,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 Package tocbasic Info: character protrusion at toc deactivated on input line 10
-2.
+6.
 
 (./manuscript.toc
 Package microtype Info: Character `029' is missing
@@ -1029,20 +1029,20 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/iwona/b/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
  [5] [6]
-Overfull \hbox (16.63997pt too wide) in paragraph at lines 141--145
+Overfull \hbox (16.63997pt too wide) in paragraph at lines 145--149
 \T1/pplj/m/n/12 audio-video cas-settes and mu-si-cal in-stru-ments, Durable and
  non-durable
  []
 
 
-Overfull \hbox (2.19183pt too wide) in paragraph at lines 141--145
+Overfull \hbox (2.19183pt too wide) in paragraph at lines 145--149
 []\T1/pplj/m/n/12 House-hold kinds[], []House-hold tools[] and hard-ware, []Gam
 es[]/toys/sports
  []
 
 [7] [8] [9] [10] [11] [12]
 ! Undefined control sequence.
-l.177 \clearall
+l.181 \clearall
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1051,29 +1051,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [13]
-<Figures/Abbigliamento.pdf, id=206, 323.2075pt x 474.77374pt>
+<Figures/Abbigliamento.pdf, id=212, 323.2075pt x 474.77374pt>
 File: Figures/Abbigliamento.pdf Graphic file (type pdf)
 <use Figures/Abbigliamento.pdf>
-Package pdftex.def Info: Figures/Abbigliamento.pdf  used on input line 186.
+Package pdftex.def Info: Figures/Abbigliamento.pdf  used on input line 190.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Calzature.pdf, id=207, 323.2075pt x 474.77374pt>
+<Figures/Calzature.pdf, id=213, 323.2075pt x 474.77374pt>
 File: Figures/Calzature.pdf Graphic file (type pdf)
 <use Figures/Calzature.pdf>
-Package pdftex.def Info: Figures/Calzature.pdf  used on input line 193.
+Package pdftex.def Info: Figures/Calzature.pdf  used on input line 197.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Elettrodomestici.pdf, id=208, 323.2075pt x 474.77374pt>
+<Figures/Elettrodomestici.pdf, id=214, 323.2075pt x 474.77374pt>
 File: Figures/Elettrodomestici.pdf Graphic file (type pdf)
 <use Figures/Elettrodomestici.pdf>
-Package pdftex.def Info: Figures/Elettrodomestici.pdf  used on input line 199.
+Package pdftex.def Info: Figures/Elettrodomestici.pdf  used on input line 203.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Fotoottica.pdf, id=209, 323.2075pt x 474.77374pt>
+<Figures/Fotoottica.pdf, id=215, 323.2075pt x 474.77374pt>
 File: Figures/Fotoottica.pdf Graphic file (type pdf)
 <use Figures/Fotoottica.pdf>
-Package pdftex.def Info: Figures/Fotoottica.pdf  used on input line 206.
+Package pdftex.def Info: Figures/Fotoottica.pdf  used on input line 210.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
 
 ! Extra }, or forgotten \endgroup.
-l.206 ...idth=\textwidth]{Figures/Fotoottica.pdf}}
+l.210 ...idth=\textwidth]{Figures/Fotoottica.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1081,13 +1081,13 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Mobili.pdf, id=214, 323.2075pt x 474.77374pt>
+<Figures/Mobili.pdf, id=220, 323.2075pt x 474.77374pt>
 File: Figures/Mobili.pdf Graphic file (type pdf)
 <use Figures/Mobili.pdf>
-Package pdftex.def Info: Figures/Mobili.pdf  used on input line 221.
+Package pdftex.def Info: Figures/Mobili.pdf  used on input line 225.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
 ! Extra }, or forgotten \endgroup.
-l.221 ...cs[width=\textwidth]{Figures/Mobili.pdf}}
+l.225 ...cs[width=\textwidth]{Figures/Mobili.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1095,22 +1095,22 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Utilenseria.pdf, id=215, 323.2075pt x 474.77374pt>
+<Figures/Utilenseria.pdf, id=221, 323.2075pt x 474.77374pt>
 File: Figures/Utilenseria.pdf Graphic file (type pdf)
 <use Figures/Utilenseria.pdf>
-Package pdftex.def Info: Figures/Utilenseria.pdf  used on input line 227.
+Package pdftex.def Info: Figures/Utilenseria.pdf  used on input line 231.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Giocattoli.pdf, id=216, 323.2075pt x 474.77374pt>
+<Figures/Giocattoli.pdf, id=222, 323.2075pt x 474.77374pt>
 File: Figures/Giocattoli.pdf Graphic file (type pdf)
 <use Figures/Giocattoli.pdf>
-Package pdftex.def Info: Figures/Giocattoli.pdf  used on input line 233.
+Package pdftex.def Info: Figures/Giocattoli.pdf  used on input line 237.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
 [14] [15 <./Figures/Abbigliamento.pdf> <./Figures/Calzature.pdf> <./Figures/Ele
 ttrodomestici.pdf> <./Figures/Fotoottica.pdf>] [16 <./Figures/Mobili.pdf> <./Fi
 gures/Utilenseria.pdf> <./Figures/Giocattoli.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 242.
+               Default added (so using `tbp') on input line 246.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1119,7 +1119,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 }
+l.251 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1131,7 +1131,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 }
+l.251 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1143,7 +1143,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 }
+l.251 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1155,7 +1155,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 }
+l.251 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1167,7 +1167,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 }
+l.251 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1179,7 +1179,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 }
+l.251 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1191,7 +1191,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 }
+l.251 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1199,7 +1199,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.249 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+l.253 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
                                                    & t      &  $\delta_{3}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1210,7 +1210,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.249 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+l.253 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1219,19 +1219,19 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [17]
-<Figures/CIG_Manifattura.pdf, id=275, 278.03876pt x 474.77374pt>
+<Figures/CIG_Manifattura.pdf, id=281, 278.03876pt x 474.77374pt>
 File: Figures/CIG_Manifattura.pdf Graphic file (type pdf)
 <use Figures/CIG_Manifattura.pdf>
-Package pdftex.def Info: Figures/CIG_Manifattura.pdf  used on input line 270.
+Package pdftex.def Info: Figures/CIG_Manifattura.pdf  used on input line 274.
 (pdftex.def)             Requested size: 166.49887pt x 284.31586pt.
-<Figures/CIG_Commercio.pdf, id=276, 278.03876pt x 474.77374pt>
+<Figures/CIG_Commercio.pdf, id=282, 278.03876pt x 474.77374pt>
 File: Figures/CIG_Commercio.pdf Graphic file (type pdf)
 <use Figures/CIG_Commercio.pdf>
-Package pdftex.def Info: Figures/CIG_Commercio.pdf  used on input line 276.
+Package pdftex.def Info: Figures/CIG_Commercio.pdf  used on input line 280.
 (pdftex.def)             Requested size: 166.49887pt x 284.31586pt.
 
 ! Extra }, or forgotten \endgroup.
-l.276 ...h=\textwidth]{Figures/CIG_Commercio.pdf}}
+l.280 ...h=\textwidth]{Figures/CIG_Commercio.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1239,18 +1239,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/CIG_Costruzioni.pdf, id=277, 278.03876pt x 474.77374pt>
+<Figures/CIG_Costruzioni.pdf, id=283, 278.03876pt x 474.77374pt>
 File: Figures/CIG_Costruzioni.pdf Graphic file (type pdf)
 <use Figures/CIG_Costruzioni.pdf>
-Package pdftex.def Info: Figures/CIG_Costruzioni.pdf  used on input line 281.
+Package pdftex.def Info: Figures/CIG_Costruzioni.pdf  used on input line 285.
 (pdftex.def)             Requested size: 166.49887pt x 284.31586pt.
-<Figures/CIG_TOT.pdf, id=278, 278.03876pt x 474.77374pt>
+<Figures/CIG_TOT.pdf, id=284, 278.03876pt x 474.77374pt>
 File: Figures/CIG_TOT.pdf Graphic file (type pdf)
 <use Figures/CIG_TOT.pdf>
-Package pdftex.def Info: Figures/CIG_TOT.pdf  used on input line 287.
+Package pdftex.def Info: Figures/CIG_TOT.pdf  used on input line 291.
 (pdftex.def)             Requested size: 166.49887pt x 284.31586pt.
 ! Extra }, or forgotten \endgroup.
-l.287 ...s[width=\textwidth]{Figures/CIG_TOT.pdf}}
+l.291 ...s[width=\textwidth]{Figures/CIG_TOT.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1258,23 +1258,23 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Phase_transition.pdf, id=279, 325.215pt x 348.30125pt>
+<Figures/Phase_transition.pdf, id=285, 325.215pt x 348.30125pt>
 File: Figures/Phase_transition.pdf Graphic file (type pdf)
 <use Figures/Phase_transition.pdf>
-Package pdftex.def Info: Figures/Phase_transition.pdf  used on input line 296.
+Package pdftex.def Info: Figures/Phase_transition.pdf  used on input line 300.
 (pdftex.def)             Requested size: 185.0pt x 198.13518pt.
-<Figures/R_t_1_1_1.pdf, id=284, 325.215pt x 555.07375pt>
+<Figures/R_t_1_1_1.pdf, id=290, 325.215pt x 555.07375pt>
 File: Figures/R_t_1_1_1.pdf Graphic file (type pdf)
 <use Figures/R_t_1_1_1.pdf>
-Package pdftex.def Info: Figures/R_t_1_1_1.pdf  used on input line 306.
+Package pdftex.def Info: Figures/R_t_1_1_1.pdf  used on input line 310.
 (pdftex.def)             Requested size: 166.49887pt x 284.18492pt.
-<Figures/R_t_1.5_1.5_1.5.pdf, id=285, 325.215pt x 555.07375pt>
+<Figures/R_t_1.5_1.5_1.5.pdf, id=291, 325.215pt x 555.07375pt>
 File: Figures/R_t_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/R_t_1.5_1.5_1.5.pdf>
-Package pdftex.def Info: Figures/R_t_1.5_1.5_1.5.pdf  used on input line 312.
+Package pdftex.def Info: Figures/R_t_1.5_1.5_1.5.pdf  used on input line 316.
 (pdftex.def)             Requested size: 166.49887pt x 284.18492pt.
 ! Extra }, or forgotten \endgroup.
-l.312 ...\textwidth]{Figures/R_t_1.5_1.5_1.5.pdf}}
+l.316 ...\textwidth]{Figures/R_t_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1287,7 +1287,7 @@ G_Costruzioni.pdf> <./Figures/CIG_TOT.pdf>] [19 <./Figures/Phase_transition.pdf
 >] [20 <./Figures/R_t_1_1_1.pdf> <./Figures/R_t_1.5_1.5_1.5.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 323.
+               Default added (so using `tbp') on input line 327.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1296,7 +1296,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.328 }
+l.332 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1308,7 +1308,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.328 }
+l.332 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1320,7 +1320,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.328 }
+l.332 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1332,7 +1332,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.328 }
+l.332 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1344,7 +1344,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.328 }
+l.332 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1356,7 +1356,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.328 }
+l.332 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1368,7 +1368,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.328 }
+l.332 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1376,7 +1376,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.330 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+l.334 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
                                                    & t      &  $\delta_{3}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1387,7 +1387,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.330 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+l.334 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1396,20 +1396,20 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [21]
-<Figures/Epidemics_1_1_1.pdf, id=343, 326.21875pt x 474.77374pt>
+<Figures/Epidemics_1_1_1.pdf, id=349, 326.21875pt x 474.77374pt>
 File: Figures/Epidemics_1_1_1.pdf Graphic file (type pdf)
 <use Figures/Epidemics_1_1_1.pdf>
-Package pdftex.def Info: Figures/Epidemics_1_1_1.pdf  used on input line 345.
+Package pdftex.def Info: Figures/Epidemics_1_1_1.pdf  used on input line 349.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
-<Figures/Epidemics_1.5_1.5_1.5.pdf, id=344, 326.21875pt x 474.77374pt>
+<Figures/Epidemics_1.5_1.5_1.5.pdf, id=350, 326.21875pt x 474.77374pt>
 File: Figures/Epidemics_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/Epidemics_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/Epidemics_1.5_1.5_1.5.pdf  used on input line 
-351.
+355.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 
 ! Extra }, or forgotten \endgroup.
-l.351 ...idth]{Figures/Epidemics_1.5_1.5_1.5.pdf}}
+l.355 ...idth]{Figures/Epidemics_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1417,20 +1417,20 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Selling_Scenario_1_1_1.pdf, id=345, 326.21875pt x 474.77374pt>
+<Figures/Selling_Scenario_1_1_1.pdf, id=351, 326.21875pt x 474.77374pt>
 File: Figures/Selling_Scenario_1_1_1.pdf Graphic file (type pdf)
 <use Figures/Selling_Scenario_1_1_1.pdf>
 Package pdftex.def Info: Figures/Selling_Scenario_1_1_1.pdf  used on input line
- 363.
+ 367.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
-<Figures/Selling_Scenario_1.5_1.5_1.5.pdf, id=346, 326.21875pt x 474.77374pt>
+<Figures/Selling_Scenario_1.5_1.5_1.5.pdf, id=352, 326.21875pt x 474.77374pt>
 File: Figures/Selling_Scenario_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/Selling_Scenario_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/Selling_Scenario_1.5_1.5_1.5.pdf  used on inpu
-t line 369.
+t line 373.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 ! Extra }, or forgotten \endgroup.
-l.369 ...igures/Selling_Scenario_1.5_1.5_1.5.pdf}}
+l.373 ...igures/Selling_Scenario_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1438,18 +1438,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/CIG_effect_1_1_1.pdf, id=347, 326.21875pt x 474.77374pt>
+<Figures/CIG_effect_1_1_1.pdf, id=353, 326.21875pt x 474.77374pt>
 File: Figures/CIG_effect_1_1_1.pdf Graphic file (type pdf)
 <use Figures/CIG_effect_1_1_1.pdf>
-Package pdftex.def Info: Figures/CIG_effect_1_1_1.pdf  used on input line 380.
+Package pdftex.def Info: Figures/CIG_effect_1_1_1.pdf  used on input line 384.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
-<Figures/CIG_1.5_1.5_1.5.pdf, id=348, 326.21875pt x 474.77374pt>
+<Figures/CIG_1.5_1.5_1.5.pdf, id=354, 326.21875pt x 474.77374pt>
 File: Figures/CIG_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/CIG_1.5_1.5_1.5.pdf>
-Package pdftex.def Info: Figures/CIG_1.5_1.5_1.5.pdf  used on input line 386.
+Package pdftex.def Info: Figures/CIG_1.5_1.5_1.5.pdf  used on input line 390.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 ! Extra }, or forgotten \endgroup.
-l.386 ...\textwidth]{Figures/CIG_1.5_1.5_1.5.pdf}}
+l.390 ...\textwidth]{Figures/CIG_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1459,11 +1459,11 @@ deleted material, e.g., by typing `I$}'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 393.
+               Default added (so using `tbp') on input line 397.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 406.
+               Default added (so using `tbp') on input line 410.
 
 [22 <./Figures/Epidemics_1_1_1.pdf> <./Figures/Epidemics_1.5_1.5_1.5.pdf>]
 [23 <./Figures/Selling_Scenario_1_1_1.pdf> <./Figures/Selling_Scenario_1.5_1.5_
@@ -1475,37 +1475,37 @@ LaTeX Warning: No positions in optional float specifier.
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 96
-.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 11
+4.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 10.20007pt on input line 96.
+(Font)              scaled to size 10.20007pt on input line 114.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 [][][]$\T1/fvm/m/n/12 "https : / / www . tribunale . milano . it / files / news
  / TABELLE %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 [][][]$\T1/fvm/m/n/12 "https : / / www . anticorruzione . it / portal / rest / 
 jcr /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 \T1/fvm/m/n/12 repository / collaboration / Digital % 20Assets / anacdocs /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 \T1/fvm/m/n/12 Attivita / Pubblicazioni / RapportiStudi / ContrattiPubblici /
  []
 
@@ -1517,49 +1517,170 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 ...stern College Publishing, Nashville, T А
+l.137 ...stern College Publishing, Nashville, T А
                                                   TN}, 2012.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 [][][]$\T1/fvm/m/n/12 "https : / / www . gazzettaufficiale . it / eli / id / 20
 20 / 03 / 17 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 [][][]$\T1/fvm/m/n/12 "https : / / cran . r-[]project . org / web / packages / 
 forecast / index .
  []
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 [][][]$\T1/fvm/m/n/12 "hhttps : / / www . ippp . dur . ac . uk / ~krauss / Lect
 ures /
  []
 
-) [27]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 431.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 431.
+)
+! Undefined control sequence.
+l.433 \clearall
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[27] [28]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 442.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.449 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+                                                   & t      &  $\delta_{3}$ ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.449 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+                                                    & t     \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[29]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 466.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 466.
  (./manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 431.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 431.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 466.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 466.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 431.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 466.
  ) 
 Here is how much of TeX's memory you used:
- 17282 strings out of 480994
- 327674 string characters out of 5912142
- 889359 words of memory out of 5000000
- 32297 multiletter control sequences out of 15000+600000
- 652098 words of font info for 184 fonts, out of 8000000 for 9000
+ 17296 strings out of 480994
+ 327906 string characters out of 5912142
+ 890359 words of memory out of 5000000
+ 32302 multiletter control sequences out of 15000+600000
+ 653872 words of font info for 187 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,23n,87p,10105b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -1577,10 +1698,10 @@ ype1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/n
 owacki/iwona/iwonar.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on manuscript.pdf (27 pages, 305996 bytes).
+Output written on manuscript.pdf (29 pages, 311144 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 427 compressed objects within 5 object streams
- 92 named destinations out of 1000 (max. 500000)
+ 547 PDF objects out of 1000 (max. 8388607)
+ 446 compressed objects within 5 object streams
+ 98 named destinations out of 1000 (max. 500000)
  25781 words of extra memory for PDF output out of 29859 (max. 10000000)
 
