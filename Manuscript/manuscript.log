@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.28)  13 MAR 2021 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.28)  14 MAR 2021 10:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,6 +833,9 @@ LaTeX Warning: Label `fig:y equals x' multiply defined.
 
 LaTeX Warning: Label `sub@fig:y equals x' multiply defined.
 
+
+LaTeX Warning: Label `selling_DID_table_delta' multiply defined.
+
 )
 \openout1 = `manuscript.aux'.
 
@@ -1051,22 +1054,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [13]
-<Figures/Abbigliamento.pdf, id=212, 323.2075pt x 474.77374pt>
+<Figures/Abbigliamento.pdf, id=216, 323.2075pt x 474.77374pt>
 File: Figures/Abbigliamento.pdf Graphic file (type pdf)
 <use Figures/Abbigliamento.pdf>
 Package pdftex.def Info: Figures/Abbigliamento.pdf  used on input line 190.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Calzature.pdf, id=213, 323.2075pt x 474.77374pt>
+<Figures/Calzature.pdf, id=217, 323.2075pt x 474.77374pt>
 File: Figures/Calzature.pdf Graphic file (type pdf)
 <use Figures/Calzature.pdf>
 Package pdftex.def Info: Figures/Calzature.pdf  used on input line 197.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Elettrodomestici.pdf, id=214, 323.2075pt x 474.77374pt>
+<Figures/Elettrodomestici.pdf, id=218, 323.2075pt x 474.77374pt>
 File: Figures/Elettrodomestici.pdf Graphic file (type pdf)
 <use Figures/Elettrodomestici.pdf>
 Package pdftex.def Info: Figures/Elettrodomestici.pdf  used on input line 203.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Fotoottica.pdf, id=215, 323.2075pt x 474.77374pt>
+<Figures/Fotoottica.pdf, id=219, 323.2075pt x 474.77374pt>
 File: Figures/Fotoottica.pdf Graphic file (type pdf)
 <use Figures/Fotoottica.pdf>
 Package pdftex.def Info: Figures/Fotoottica.pdf  used on input line 210.
@@ -1081,7 +1084,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Mobili.pdf, id=220, 323.2075pt x 474.77374pt>
+<Figures/Mobili.pdf, id=224, 323.2075pt x 474.77374pt>
 File: Figures/Mobili.pdf Graphic file (type pdf)
 <use Figures/Mobili.pdf>
 Package pdftex.def Info: Figures/Mobili.pdf  used on input line 225.
@@ -1095,12 +1098,12 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Utilenseria.pdf, id=221, 323.2075pt x 474.77374pt>
+<Figures/Utilenseria.pdf, id=225, 323.2075pt x 474.77374pt>
 File: Figures/Utilenseria.pdf Graphic file (type pdf)
 <use Figures/Utilenseria.pdf>
 Package pdftex.def Info: Figures/Utilenseria.pdf  used on input line 231.
 (pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Giocattoli.pdf, id=222, 323.2075pt x 474.77374pt>
+<Figures/Giocattoli.pdf, id=226, 323.2075pt x 474.77374pt>
 File: Figures/Giocattoli.pdf Graphic file (type pdf)
 <use Figures/Giocattoli.pdf>
 Package pdftex.def Info: Figures/Giocattoli.pdf  used on input line 237.
@@ -1219,12 +1222,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [17]
-<Figures/CIG_Manifattura.pdf, id=281, 278.03876pt x 474.77374pt>
+<Figures/CIG_Manifattura.pdf, id=286, 278.03876pt x 474.77374pt>
 File: Figures/CIG_Manifattura.pdf Graphic file (type pdf)
 <use Figures/CIG_Manifattura.pdf>
 Package pdftex.def Info: Figures/CIG_Manifattura.pdf  used on input line 274.
 (pdftex.def)             Requested size: 166.49887pt x 284.31586pt.
-<Figures/CIG_Commercio.pdf, id=282, 278.03876pt x 474.77374pt>
+<Figures/CIG_Commercio.pdf, id=287, 278.03876pt x 474.77374pt>
 File: Figures/CIG_Commercio.pdf Graphic file (type pdf)
 <use Figures/CIG_Commercio.pdf>
 Package pdftex.def Info: Figures/CIG_Commercio.pdf  used on input line 280.
@@ -1239,12 +1242,12 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/CIG_Costruzioni.pdf, id=283, 278.03876pt x 474.77374pt>
+<Figures/CIG_Costruzioni.pdf, id=288, 278.03876pt x 474.77374pt>
 File: Figures/CIG_Costruzioni.pdf Graphic file (type pdf)
 <use Figures/CIG_Costruzioni.pdf>
 Package pdftex.def Info: Figures/CIG_Costruzioni.pdf  used on input line 285.
 (pdftex.def)             Requested size: 166.49887pt x 284.31586pt.
-<Figures/CIG_TOT.pdf, id=284, 278.03876pt x 474.77374pt>
+<Figures/CIG_TOT.pdf, id=289, 278.03876pt x 474.77374pt>
 File: Figures/CIG_TOT.pdf Graphic file (type pdf)
 <use Figures/CIG_TOT.pdf>
 Package pdftex.def Info: Figures/CIG_TOT.pdf  used on input line 291.
@@ -1258,17 +1261,17 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Phase_transition.pdf, id=285, 325.215pt x 348.30125pt>
+<Figures/Phase_transition.pdf, id=290, 325.215pt x 348.30125pt>
 File: Figures/Phase_transition.pdf Graphic file (type pdf)
 <use Figures/Phase_transition.pdf>
 Package pdftex.def Info: Figures/Phase_transition.pdf  used on input line 300.
 (pdftex.def)             Requested size: 185.0pt x 198.13518pt.
-<Figures/R_t_1_1_1.pdf, id=290, 325.215pt x 555.07375pt>
+<Figures/R_t_1_1_1.pdf, id=295, 325.215pt x 555.07375pt>
 File: Figures/R_t_1_1_1.pdf Graphic file (type pdf)
 <use Figures/R_t_1_1_1.pdf>
 Package pdftex.def Info: Figures/R_t_1_1_1.pdf  used on input line 310.
 (pdftex.def)             Requested size: 166.49887pt x 284.18492pt.
-<Figures/R_t_1.5_1.5_1.5.pdf, id=291, 325.215pt x 555.07375pt>
+<Figures/R_t_1.5_1.5_1.5.pdf, id=296, 325.215pt x 555.07375pt>
 File: Figures/R_t_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/R_t_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/R_t_1.5_1.5_1.5.pdf  used on input line 316.
@@ -1396,12 +1399,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [21]
-<Figures/Epidemics_1_1_1.pdf, id=349, 326.21875pt x 474.77374pt>
+<Figures/Epidemics_1_1_1.pdf, id=354, 326.21875pt x 474.77374pt>
 File: Figures/Epidemics_1_1_1.pdf Graphic file (type pdf)
 <use Figures/Epidemics_1_1_1.pdf>
 Package pdftex.def Info: Figures/Epidemics_1_1_1.pdf  used on input line 349.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
-<Figures/Epidemics_1.5_1.5_1.5.pdf, id=350, 326.21875pt x 474.77374pt>
+<Figures/Epidemics_1.5_1.5_1.5.pdf, id=355, 326.21875pt x 474.77374pt>
 File: Figures/Epidemics_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/Epidemics_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/Epidemics_1.5_1.5_1.5.pdf  used on input line 
@@ -1417,13 +1420,13 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Selling_Scenario_1_1_1.pdf, id=351, 326.21875pt x 474.77374pt>
+<Figures/Selling_Scenario_1_1_1.pdf, id=356, 326.21875pt x 474.77374pt>
 File: Figures/Selling_Scenario_1_1_1.pdf Graphic file (type pdf)
 <use Figures/Selling_Scenario_1_1_1.pdf>
 Package pdftex.def Info: Figures/Selling_Scenario_1_1_1.pdf  used on input line
  367.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
-<Figures/Selling_Scenario_1.5_1.5_1.5.pdf, id=352, 326.21875pt x 474.77374pt>
+<Figures/Selling_Scenario_1.5_1.5_1.5.pdf, id=357, 326.21875pt x 474.77374pt>
 File: Figures/Selling_Scenario_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/Selling_Scenario_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/Selling_Scenario_1.5_1.5_1.5.pdf  used on inpu
@@ -1438,12 +1441,12 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/CIG_effect_1_1_1.pdf, id=353, 326.21875pt x 474.77374pt>
+<Figures/CIG_effect_1_1_1.pdf, id=358, 326.21875pt x 474.77374pt>
 File: Figures/CIG_effect_1_1_1.pdf Graphic file (type pdf)
 <use Figures/CIG_effect_1_1_1.pdf>
 Package pdftex.def Info: Figures/CIG_effect_1_1_1.pdf  used on input line 384.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
-<Figures/CIG_1.5_1.5_1.5.pdf, id=354, 326.21875pt x 474.77374pt>
+<Figures/CIG_1.5_1.5_1.5.pdf, id=359, 326.21875pt x 474.77374pt>
 File: Figures/CIG_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/CIG_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/CIG_1.5_1.5_1.5.pdf  used on input line 390.
@@ -1540,6 +1543,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--164
 ures /
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+[][][]$\T1/fvm/m/n/12 "https : / / scholar . princeton . edu / sites / default 
+/ files /
+ []
+
 )
 ! Undefined control sequence.
 l.433 \clearall
@@ -1554,18 +1563,6 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 442.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.447 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1662,25 +1659,155 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 466.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 466.
+! Undefined control sequence.
+l.463 \clearall
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<Figures/DID_selling_placebo.pdf, id=462, 316.18124pt x 555.07375pt>
+File: Figures/DID_selling_placebo.pdf Graphic file (type pdf)
+<use Figures/DID_selling_placebo.pdf>
+Package pdftex.def Info: Figures/DID_selling_placebo.pdf  used on input line 47
+2.
+(pdftex.def)             Requested size: 185.0pt x 324.78035pt.
+[30
+
+
+] [31 <./Figures/DID_selling_placebo.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 478.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.485 ...   & $\delta_{5} $ & $\sigma_{\delta_{5}$
+                                                   & t      &  $\delta_{6}$ ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.485 ...   &  $\delta_{6}$ & $\sigma_{\delta_{6}$
+                                                    & t     \\ \hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[32]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 502.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 502.
  (./manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 466.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 466.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 502.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 502.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 466.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 502.
  ) 
 Here is how much of TeX's memory you used:
- 17296 strings out of 480994
- 327906 string characters out of 5912142
+ 17321 strings out of 480994
+ 328362 string characters out of 5912142
  890359 words of memory out of 5000000
- 32302 multiletter control sequences out of 15000+600000
- 653872 words of font info for 187 fonts, out of 8000000 for 9000
+ 32315 multiletter control sequences out of 15000+600000
+ 654308 words of font info for 189 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  63i,23n,87p,10105b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -1698,10 +1825,10 @@ ype1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/n
 owacki/iwona/iwonar.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/pal
 atino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on manuscript.pdf (29 pages, 311144 bytes).
+Output written on manuscript.pdf (32 pages, 321048 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
- 25781 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 591 PDF objects out of 1000 (max. 8388607)
+ 483 compressed objects within 5 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 25802 words of extra memory for PDF output out of 29859 (max. 10000000)
 

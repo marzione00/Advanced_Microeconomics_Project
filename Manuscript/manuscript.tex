@@ -150,7 +150,7 @@ tape recorders,\textcolor{blue}{Furniture}/textile articles/furnishings for the 
 Y_{outcome}=\alpha+\sum_{i=1}^{3}\beta_{i}T_{i}+\sum_{i=1}^{3}\delta_{i}(C \cdot T_{i})+\epsilon
 \label{DID-eq}
 \end{equation}
-where $Y$ is the selcted outcome, $\alpha$ the intercept, $T_{i}$ a dummy variable for the lock-down timing i,  C a dummy for the treated group and $\epsilon$ a error term.  As control group for the sales,  we considered the food ones since,  in principle,  people can be considered to use almost the same amount of food regardless with respect to the lock-down \footnote{It is true that a slight increase of food consumption was done by people that were forced to stay at home as the plots in Fig.  \ref{Selling_plots} \ref{Selling_plots_II} captures: however as proven numerically in the Supporting Info this change does not significantly affect the DID estimations } (note that in this selling also the one for the restaurants are included: thus,  if it is true that the restaurants were closed,  it is also true that people will purchase basically the same amount of food from the supermarket that they will consume into restaurant if these were opened).  On the other side,  for subsidies \textit{Cassa integrazione},  we considered the Cassa Integrazione Straordinaria - Solidarità as the control group (note that this subsidy is different with respect Cassa Integrazione Solidarità that was dedicated to sectors not covered by Cassa Integrazione Ordinaria).  This subsidy can be used by firms,  damaged by the pandemics and by the lock-downs,  in order to reduce their labour cost but at same time guaranteeing to the workers part of their original salary.   During the first months of the pandemic firms,  following the rules stated by the Italian Governament (Decreto Cura Italia \cite{curaitalia}),  firms that would reduce their labour cost,  first forced the employees to use their holiday budget and than,  after it was run out,  they put the employees in to the Cassa Integrazione Ordinaria.  Thus the Cassa Integrazione Straordinaria-Solidarietà can be considered as not treated by the first wave of the lock-down while the ordinary one the treated.  The DID considered here has three different times for the national lock-down:  for the sales we considered,  as  done for the epidemiological model,  the months of March 2020 and May 2020 as medium lock-down, the month of April 2020 as high lock-down and June 2020 as weak lock-down.  On the other side concerning the subsidies,  we considered as medium lock-down only May 2020: such choice was motivated by the fact that the effect of firms to use the subsidies for workers was slightly delayed basically due to the fact that firms forced their employees first to use their holiday and then the \textit{Cassa Integrazione Ordinaria}: as consequence,  because of this buffer effect,  in the month of March there is no significant effect of this subsidies although there is a significant reduction of hours worked (see e.g.  \cite{istat_lavoro}).  Performing the DID we estimated the coefficients for the effect of each intensity of lock-down on sales and subsidies,  then we we rescaled them for a week.  Finally we multiplied the number obtained from the previous calculation by the number of lock-down weeks,  with the respective intensity,  in each scenario simulated via the epidemiological model described before.  As consequence we obtained,  for each scenario,  an economics simulation based on parameters obtained from an empirical evaluation. 
+where $Y$ is the selcted outcome, $\alpha$ the intercept, $T_{i}$ a dummy variable for the lock-down timing i,  C a dummy for the treated group and $\epsilon$ a error term.  As control group for the sales,  we considered the food ones since,  in principle,  people can be considered to use almost the same amount of food regardless with respect to the lock-down\footnote{Although it is true that a slight increase of food sales during the lock-down is present in the plots in Fig.  \ref{Selling_plots} \ref{Selling_plots_II},  it must be stressed the fact that, as proven numerically in the Supporting Info A, this change does not significantly affect the DID estimations }.  On the other side,  for subsidies \textit{Cassa integrazione},  we considered the Cassa Integrazione Straordinaria - Solidarità as the control group (note that this subsidy is different with respect Cassa Integrazione Solidarità that was dedicated to sectors not covered by Cassa Integrazione Ordinaria).  This subsidy can be used by firms,  damaged by the pandemics and by the lock-downs,  in order to reduce their labour cost but at same time guaranteeing to the workers part of their original salary.   During the first months of the pandemic firms,  following the rules stated by the Italian Governament (Decreto Cura Italia \cite{curaitalia}),  firms that would reduce their labour cost,  first forced the employees to use their holiday budget and than,  after it was run out,  they put the employees in to the Cassa Integrazione Ordinaria.  Thus the Cassa Integrazione Straordinaria-Solidarietà can be considered as not treated by the first wave of the lock-down while the ordinary one the treated.  The DID considered here has three different times for the national lock-down:  for the sales we considered,  as  done for the epidemiological model,  the months of March 2020 and May 2020 as medium lock-down, the month of April 2020 as high lock-down and June 2020 as weak lock-down.  On the other side concerning the subsidies,  we considered as medium lock-down only May 2020: such choice was motivated by the fact that the effect of firms to use the subsidies for workers was slightly delayed basically due to the fact that firms forced their employees first to use their holiday and then the \textit{Cassa Integrazione Ordinaria}: as consequence,  because of this buffer effect,  in the month of March there is no significant effect of this subsidies although there is a significant reduction of hours worked (see e.g.  \cite{istat_lavoro}).  Performing the DID we estimated the coefficients for the effect of each intensity of lock-down on sales and subsidies,  then we we rescaled them for a week.  Finally we multiplied the number obtained from the previous calculation by the number of lock-down weeks,  with the respective intensity,  in each scenario simulated via the epidemiological model described before.  As consequence we obtained,  for each scenario,  an economics simulation based on parameters obtained from an empirical evaluation. 
 
 
 
@@ -166,7 +166,7 @@ As done for the section Model and methods we will divide the discussion of the r
 
 \subsection{DID}
 
-For each sales category we run the regression reported in the Eq.  \ref{DID-eq} on de-seasoned data reported in Fig \ref{Selling_plots} and \ref{Selling_plots_II}.  The coefficients obtained are reported in Tab.  \ref{selling_DID_table_delta}.  As one can point out from the plots,  it is true that there is a pre-trend in the data before the event,  however as proved numerically in the Supporting Info,  the slope of this pre-trend is almost two order of magnitude lesser with respect to the slope in the lock-down T$_{1}$ and $T_{2}$.  As consequence this pre-trend,  compared to the lock-down effect,  can be considered negligible.   In order to make a further control,  a placebo test was performed by choosing timing before the pandemic of COVID19.  As illustrated in the Supporting Info,  this test was successful.  On the other side,  concerning $T_{3}$  (low lock-down),  only the effect for clothing and footwear can be considered significant,  also by considering the pre-trend slope as discussed in the Supporting Information.  Thus,  concerning $T_{3}$,  we considered not null,  in the scenario simulations,  only the clothing and footwear sectors.  By inspecting the Tab.  \ref{selling_DID_table_delta} we see that the most severe damage of lock-down hit the clothing,  and the footwear.  On the other side the Household kids and the Household tools seems lesser affected by the lock-down.  The same DID regression was used  for the subsidies,  using as control group the extraordinary solidarity subsidies (cassa integrazione straordinaria solidarietà): the plot of the data and the DID coefficients are reported in Fig. \ref{CIG_sector_plots} and in Tab \ref{CIG_DID}.  Also in this case the placebo tests were successfully performed.  An interesting insight is also provided by the inspection of the extraordinary subsidies for renovation ( \textit{cassa integrazione ristrutturazione}): these subsidies,  as compared to the solidarity ones,  seems much more sensitive with respect to external shock in particular for trade sector. 
+For each sales category we run the regression reported in the Eq.  \ref{DID-eq} on de-seasoned data reported in Fig \ref{Selling_plots} and \ref{Selling_plots_II}.  The coefficients obtained are reported in Tab.  \ref{selling_DID_table_delta}.  As one can point out from the plots,  it is true that there is a pre-trend in the data before the event,  however as proved numerically in the Supporting Info,  the slope of this pre-trend is almost two order of magnitude lesser with respect to the slope in the lock-down T$_{1}$ and $T_{2}$.  As consequence this pre-trend,  compared to the lock-down effect,  can be considered negligible.   In order to make a further control,  a placebo test was performed by choosing timing before the pandemic of COVID19.  As illustrated in the Supporting Info B,  this test was successful.  On the other side,  concerning $T_{3}$  (low lock-down),  only the effect for clothing and footwear can be considered significant,  also by considering the pre-trend slope as discussed in the Supporting Information.  Thus,  concerning $T_{3}$,  we considered not null,  in the scenario simulations,  only the clothing and footwear sectors.  By inspecting the Tab.  \ref{selling_DID_table_delta} we see that the most severe damage of lock-down hit the clothing,  and the footwear.  On the other side the Household kids and the Household tools seems lesser affected by the lock-down.  The same DID regression was used  for the subsidies,  using as control group the extraordinary solidarity subsidies (cassa integrazione straordinaria solidarietà): the plot of the data and the DID coefficients are reported in Fig. \ref{CIG_sector_plots} and in Tab \ref{CIG_DID}.  Also in this case the placebo tests were successfully performed.  An interesting insight is also provided by the inspection of the extraordinary subsidies for renovation ( \textit{cassa integrazione ristrutturazione}): these subsidies,  as compared to the solidarity ones,  seems much more sensitive with respect to external shock in particular for trade sector. 
 
 
 \subsection{Scenarios}
@@ -434,15 +434,15 @@ Total    & 26     & 2708 \\ \hline
 \newpage
 
 
-\section*{Supporting information A}
+\section{Supporting information A}
 
-In order to check if any significant effect is obtained on the coefficients of Tab.  \ref{selling_DID_table_delta_phantom} by the slight increase of food consumption during the lockdown,  we considered an hypothetical scenario were this increase did not happened (e.g. the selling for March to June were identical to February): as one can point out by comparing the Tab. \ref{selling_DID_table_delta_phantom} with Tab, \ref{selling_DID_table_delta} no significant difference can be found. Thus since the real scenario where this increase happened (real one), and the scenario where this did not happened (hypothetical one) are indistinguishable, we can consider this increase negligible for the estimation of coefficient 
+In order to check if any significant effect is obtained on the coefficients of Tab.  \ref{selling_DID_table_delta_phantom} by the slight increase of food consumption during the lockdown,  we considered an hypothetical scenario were this increase did not happened (e.g. the selling for March to June were identical to February): as one can point out by comparing the Tab. \ref{selling_DID_table_delta_phantom} with Tab, \ref{selling_DID_table_delta} no significant difference can be found. Thus since the real scenario where this increase happened (real one), and the scenario where this did not happened (hypothetical one) are indistinguishable,  we can consider this increase negligible for the estimation of the DID $\delta$ coefficient 
 
 \begin{landscape}
 \begin{table}[]
 \caption{
 \begin{flushleft}
-$\delta$ cofficients as obtained by the DID  regression, for the selling data de-seasoned,  according to equation \ref{DID-eq} \\ for the different lock-down timings where the food selling are modified in order to have,  during the lockdown timings, the same constant value of February.  Note that no signficative difference can be found with respect to the coeffient obtained in Tab \ref{selling_DID_table_delta}. 
+$\delta$ cofficients as obtained by the DID  regression, for the selling data de-seasoned,  according to equation \ref{DID-eq} for the different lock-down timings where the food selling are modified in order to have,  during the lockdown timings, the same constant value of February.  Note that no significant difference can be found with respect to the coeffient obtained in Tab \ref{selling_DID_table_delta}. 
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
@@ -457,6 +457,42 @@ $\delta$ cofficients as obtained by the DID  regression, for the selling data de
 
 \end{tabular}
 \label{selling_DID_table_delta_phantom}
+\end{table}
+\end{landscape}
+
+\clearall
+\newpage
+
+\section{Supporting information B}
+
+In order to assets the common trend the credibility of the DID coefficient we performed a placebo test (as proposed e.g. by \cite{schnabl2012international,placebo}) by moving back the lock-down timings as illustrated in Fig. \ref{DID_selling_placebo}.  As showed in Tab. \ref{selling_DID_table_delta} no significant effect was found for the placebo timing before the lock-down of March 2020-June 2020. 
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{Figures/DID_selling_placebo.pdf}
+\caption{Timing for placebo test for food vs clothing sales: $T_{4}$ is placed at $T=-4$ and $T=-2$,  $T_{5}$ at $T=-3$ and  $T_{6}$ at $T=-1$).  For the other sales sector the placebo timing is identical} 
+\label{DID_selling_placebo}
+\end{figure}
+
+\begin{landscape}
+\begin{table}[]
+\caption{
+\begin{flushleft}
+$\delta$ cofficients as obtained by the DID  regression, for the selling data de-seasoned,  according to equation \ref{DID-eq} \\ for a placebo timings as showed in Fig.  \ref{DID_selling_placebo}
+\end{flushleft}
+}
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l}
+                                       & $\delta_{4} $&   $ \sigma_{\delta_{4}}$   & t      & $\delta_{5} $ & $\sigma_{\delta_{5}$ & t      &  $\delta_{6}$ & $\sigma_{\delta_{6}$  & t     \\ \hline
+{\color[HTML]{3531FF} Clothing}        & 4.87  & 17.47  & 0.28 & 3.94 & 12.65 & 0.31 & 0.70 & 17.48  & 0.04 \\ \hline
+{\color[HTML]{009901} Footwear}        & 5.31 & 18.16 & 0.29 & 5.05  & 13.14 & 0.38 & 2.00  &  18. 16 & 0.11 \\ \hline
+{\color[HTML]{F56B00} Appliances}      & 4.64 & 8.66  & 0.54 & 1.14 & 6.26  & 0.18  & -0.81  & 8.66 & -0.09  \\ \hline
+{\color[HTML]{00009B} Photo-optics}    & 1.71 & 15.18  & 0.11 & 0.84 & 10.99 & 0.07 & 0.70  & 15.18  & 0.11  \\ \hline
+{\color[HTML]{6200C9} Household kids}   & 1.23 & 5.15  & 0.24 & -0.07 & 3.72  & -0.018  & -0.86  & 5.15 & -0.17 \\ \hline
+{\color[HTML]{00D2CB} Household tools} & 0.26  & 8.78  & 0.03 & -0.21 & 6.36  & -0.03   & 0.14  & 8.79  & 0.97  \\ \hline
+{\color[HTML]{FFC9FD} Games}             & 3.26 & 16.55 & 0.20 & 1.12 &  11.98  & 0.09 & 1.37 &  16.56 & 0.08
+
+\end{tabular}
+\label{selling_DID_table_delta}
 \end{table}
 \end{landscape}
 
