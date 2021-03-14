@@ -166,7 +166,7 @@ As done for the section Model and methods we will divide the discussion of the r
 
 \subsection{DID}
 
-For each sales category we run the regression reported in the Eq.  \ref{DID-eq} on de-seasoned data reported in Fig \ref{Selling_plots} and \ref{Selling_plots_II}.  The coefficients obtained are reported in Tab.  \ref{selling_DID_table_delta}.  As one can point out from the plots,  it is true that there is a pre-trend in the data before the event,  however as proved numerically in the Supporting Info,  the slope of this pre-trend is almost two order of magnitude lesser with respect to the slope in the lock-down T$_{1}$ and $T_{2}$.  As consequence this pre-trend,  compared to the lock-down effect,  can be considered negligible.   In order to make a further control,  a placebo test was performed by choosing timing before the pandemic of COVID19.  As illustrated in the Supporting Info B,  this test was successful.  On the other side,  concerning $T_{3}$  (low lock-down),  only the effect for clothing and footwear can be considered significant,  also by considering the pre-trend slope as discussed in the Supporting Information.  Thus,  concerning $T_{3}$,  we considered not null,  in the scenario simulations,  only the clothing and footwear sectors.  By inspecting the Tab.  \ref{selling_DID_table_delta} we see that the most severe damage of lock-down hit the clothing,  and the footwear.  On the other side the Household kids and the Household tools seems lesser affected by the lock-down.  The same DID regression was used  for the subsidies,  using as control group the extraordinary solidarity subsidies (cassa integrazione straordinaria solidarietà): the plot of the data and the DID coefficients are reported in Fig. \ref{CIG_sector_plots} and in Tab \ref{CIG_DID}.  Also in this case the placebo tests were successfully performed.  An interesting insight is also provided by the inspection of the extraordinary subsidies for renovation ( \textit{cassa integrazione ristrutturazione}): these subsidies,  as compared to the solidarity ones,  seems much more sensitive with respect to external shock in particular for trade sector. 
+For each sales category we run the regression reported in the Eq.  \ref{DID-eq} on de-seasoned data reported in Fig \ref{Selling_plots} and \ref{Selling_plots_II}.  The coefficients obtained are reported in Tab.  \ref{selling_DID_table_delta}.  As one can point out from the plots,  it is true that there is a pre-trend in the data before the event,  however as proved numerically in the Supporting Info B,  the slope of this pre-trend is almost two order of magnitude lesser with respect to the slope in the lock-down T$_{1}$ and $T_{2}$.  As consequence this pre-trend,  compared to the lock-down effect,  can be considered negligible.   In order to make a further control,  a placebo test was performed by choosing timing before the pandemic of COVID19.  As illustrated in the Supporting Info C,  this test was successful.  On the other side,  concerning $T_{3}$  (low lock-down),  only the effect for clothing and footwear can be considered significant,  also by considering the pre-trend slope as discussed in the Supporting Information.  Thus,  concerning $T_{3}$,  we considered not null,  in the scenario simulations,  only the clothing and footwear sectors.  By inspecting the Tab.  \ref{selling_DID_table_delta} we see that the most severe damage of lock-down hit the clothing,  and the footwear.  On the other side the Household kids and the Household tools seems lesser affected by the lock-down.  The same DID regression was used  for the subsidies,  using as control group the extraordinary solidarity subsidies (cassa integrazione straordinaria solidarietà): the plot of the data and the DID coefficients are reported in Fig. \ref{CIG_sector_plots} and in Tab \ref{CIG_DID}.  Also in this case the placebo tests were successfully performed.  An interesting insight is also provided by the inspection of the extraordinary subsidies for renovation ( \textit{cassa integrazione ristrutturazione}): these subsidies,  as compared to the solidarity ones,  seems much more sensitive with respect to external shock in particular for trade sector. 
 
 
 \subsection{Scenarios}
@@ -390,7 +390,7 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
          \includegraphics[width=\textwidth]{Figures/CIG_1.5_1.5_1.5.pdf}}
          \caption{Lazy PM}
      \end{subfigure}
-\caption{Comparison between the subsides effects for the scenarios where an active vs lazy PM is considered.  These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks, obtianed from the SIRD scenario ,with the coefficients obtained from the DID (divided by 4).  The error bars were calculated by considering the error propagation}
+\caption{Comparison between the subsides effects for the scenarios where an active vs lazy PM is considered.  These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks, obtianed from the SIRD scenario ,with the coefficients obtained from the DID (divided by 4).  The error bars, although are visible because are too reduced,  were calculated by considering the error propagation}
 \label{CIG_sector_effects}
 \end{figure}
 
@@ -465,6 +465,110 @@ $\delta$ cofficients as obtained by the DID  regression, for the selling data de
 
 \section{Supporting information B}
 
+In order to perform a further assessment on the credibility of the DID coefficients obtained in Tab. \ref{selling_DID_table_delta} we make a comparison between the trends of the difference of food sales and the other sectors, before ($\Delta$ Slope before $T_{T1}$) and after the three lock-down at $T_{T1}$,$T_{T2}$ and $T_{T3}$.  As can be seen from the following tables (Tab.  \ref{ASS_Clothing}, \ref{ASS_Footwear},  \ref{ASS_Appliances},   \ref{ASS_Photooptics}, \ref{ASS_Household_K},  \ref{ASS_Household_T} and \ref{ASS_Games})  the lock-down $\Delta$ at $T_{T1}$ and $T_{T2}$ are much larger with respect to the pre-trend $\Delta$ before.  Thus the DID coefficients obtained in Tab \ref{selling_DID_table_delta} can be considered credible.  Concerning $T_{T3}$,  as said in the main text,  we considered significant only the values for Clothing and Footwear.
+
+\begin{table}
+\centering
+\caption{Clothing}
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\Delta$ Slope before T1 & -0.33  & 0.08  \\ \hline
+$\Delta_{T1}$   & -36.33 & 2.15  \\ \hline
+$\Delta_{T2}$   & -56.23 & 2.77   \\ \hline
+$\Delta_{T3}$   & -11.95 & 2.86 \\ \hline
+\label{ASS_Clothing}
+\end{tabular}
+\end{table}
+
+\begin{table}
+\centering
+\caption{Footwear}
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\Delta$ Slope before T1 & -0.18  & 0.08  \\ \hline
+$\Delta_{T1}$   & -38.70 & 1.91   \\ \hline
+$\Delta_{T2}$   & -63.21 & 2.47  \\ \hline
+$\Delta_{T3}$   & -17.61 & 2.54  \\ \hline
+\label{ASS_Footwear}
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\centering
+\caption{Appliances}
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\Delta$ Slope before T1 & -0.12  & 0. 07 \\ \hline
+$\Delta_{T1}$   & -19.21 & 3.10   \\ \hline
+$\Delta_{T2}$   & -26.23 & 4.00  \\ \hline
+$\Delta_{T3}$   & -2.37 & 4.12  \\ \hline
+\label{ASS_Appliances}
+\end{tabular}
+\end{table}
+
+\begin{table}
+\centering
+\caption{Photo-optics}
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\Delta$ Slope before T1 & -0.40  & 0.07 \\ \hline
+$\Delta_{T1}$   & -29.94 & 2.73   \\ \hline
+$\Delta_{T2}$   & -48.11 & 3.52  \\ \hline
+$\Delta_{T3}$   & -2.93 & 3.63 \\ \hline
+\label{ASS_Photooptics}
+\end{tabular}
+\end{table}
+
+\begin{table}
+\centering
+\caption{Household kids}
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\Delta$ Slope before T1 & -0.16  & 0.04  \\ \hline
+$\Delta_{T1}$   & -10.51 & 1.55  \\ \hline
+$\Delta_{T2}$   & -19.00 & 2.14  \\ \hline
+$\Delta_{T3}$   & -3.61 & 2.14 \\ \hline
+\label{ASS_Household_K}
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\centering
+\caption{Household tools}
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\Delta$ Slope before T1 & -0.21 & 0.05  \\ \hline
+$\Delta_{T1}$   & -13.02 & 3.53 \\ \hline
+$\Delta_{T2}$   & -30.23 & 4.88  \\ \hline
+$\Delta_{T3}$   & 2.33 & 4.88 \\ \hline
+\label{ASS_Household_T}
+\end{tabular}
+\end{table}
+
+
+\begin{table}
+\centering
+\caption{Games}
+\begin{tabular}{l|l|l}
+                & Value  & Error \\ \hline
+$\Delta$ Slope before T1 & -0.37 & 0.10 \\ \hline
+$\Delta_{T1}$   & -27.56 & 3.63 \\ \hline
+$\Delta_{T2}$   & -64.31 & 5.01  \\ \hline
+$\Delta_{T3}$   & 0.27 & 5.01\\ \hline
+\label{ASS_Games}
+\end{tabular}
+\end{table}
+
+\clearpage
+\newpage
+
+
+
+
+\section{Supporting information C}
+
 In order to assets the common trend the credibility of the DID coefficient we performed a placebo test (as proposed e.g. by \cite{schnabl2012international,placebo}) by moving back the lock-down timings as illustrated in Fig. \ref{DID_selling_placebo}.  As showed in Tab. \ref{selling_DID_table_delta} no significant effect was found for the placebo timing before the lock-down of March 2020-June 2020. 
 
 \begin{figure}
@@ -475,7 +579,7 @@ In order to assets the common trend the credibility of the DID coefficient we pe
 \end{figure}
 
 \begin{landscape}
-\begin{table}[]
+\begin{table}
 \caption{
 \begin{flushleft}
 $\delta$ cofficients as obtained by the DID  regression, for the selling data de-seasoned,  according to equation \ref{DID-eq} \\ for a placebo timings as showed in Fig.  \ref{DID_selling_placebo}
@@ -496,6 +600,9 @@ $\delta$ cofficients as obtained by the DID  regression, for the selling data de
 \end{table}
 \end{landscape}
 
+
+\clearpage
+\newpage
 
 %----------------------------------------------------------------------------------------
 
