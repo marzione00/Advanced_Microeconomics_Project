@@ -3,44 +3,49 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: manuscript.aux
 The style file: unsrt.bst
 Database file #1: sample.bib
-You've used 34 entries,
+Repeated entry---line 318 of file sample.bib
+ : @techreport{fernandez2020estimating
+ :                                    ,
+I'm skipping whatever remains of this entry
+You've used 35 entries,
             1791 wiz_defined-function locations,
-            627 strings with 10012 characters,
-and the built_in function-call counts, 6528 in all, are:
-= -- 531
-> -- 337
+            630 strings with 10130 characters,
+and the built_in function-call counts, 6618 in all, are:
+= -- 537
+> -- 338
 < -- 1
-+ -- 129
++ -- 130
 - -- 95
 * -- 434
-:= -- 1020
-add.period$ -- 83
-call.type$ -- 34
+:= -- 1026
+add.period$ -- 84
+call.type$ -- 35
 change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 269
-empty$ -- 684
+cite$ -- 35
+duplicate$ -- 274
+empty$ -- 702
 format.name$ -- 95
-if$ -- 1445
+if$ -- 1470
 int.to.chr$ -- 0
-int.to.str$ -- 34
+int.to.str$ -- 35
 missing$ -- 24
-newline$ -- 153
+newline$ -- 156
 num.names$ -- 24
-pop$ -- 102
+pop$ -- 108
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 167
+skip$ -- 175
 stack$ -- 0
 substring$ -- 365
-swap$ -- 40
+swap$ -- 41
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
 while$ -- 53
-width$ -- 36
-write$ -- 313
+width$ -- 37
+write$ -- 318
+(There was 1 error message)

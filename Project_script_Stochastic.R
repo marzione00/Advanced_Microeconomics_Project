@@ -19,9 +19,9 @@ CIG_effect<-data.frame(matrix(ncol = 0,nrow=4))
 colnames(buffer) <- c("time", "S","I","R","D")
 pop_tot<-60000000
 delta_inf<-0
-k<-c(1,1,1)
+#k<-c(1,1,1)
 #k<-c(0.9,0.9,0.9)
-#k<-c(1.5,1.5,1.5)
+k<-c(1.5,1.5,1.5)
 #k<-c(0.1,0.1,0.1)
 #rate_infection_threshold<-0.00000007
 rate_infection_threshold<-0.000007
@@ -153,25 +153,25 @@ if(buffer[(i+1)*7,]$I/pop_tot < rate_infection_threshold*0.5 & p_vector[i+1] >= 
 
 if(parms == c(beta=0.55)) {
    no_lockdown_weeks <- no_lockdown_weeks +1
-   R_t[i]=0.4/0.14
+   R_t[i]=0.4/(0.14+0.01)
    print("NO RESTRICTION")
 }
 
   
 if(parms == c(beta=0.55*0.7)) {
     soft_lockdown_weeks <- soft_lockdown_weeks +1
-    R_t[i]=0.4*0.5/0.14
+    R_t[i]=0.4*0.5/(0.14+0.01)
     print("SOFT")
   }
 
 if(parms == c(beta=0.55*0.25)) {
   medium_lockdown_weeks <- medium_lockdown_weeks +1
-    R_t[i]=0.4*0.1/0.14
+    R_t[i]=0.4*0.1/(0.14+0.01)
     print("MEDIUM")
 }
 
 if(parms == c(beta=0.55*0.025)) {
-  R_t[i]=0.4*0.05/0.14
+  R_t[i]=0.4*0.05/(0.14+0.01)
   strong_lockdown_weeks <- strong_lockdown_weeks +1
   print("HIGH")
 }
@@ -244,4 +244,4 @@ A<-data.frame(1:52)
 A$Value<-as.data.frame(R_t)
 
 
-ggplot(A,aes(y=R_t,x=X1.52),size=2,color = "blue") + geom_line(color="blue") +   geom_point(color="blue") + labs(y = " R(t)")+ labs(x = "Weeks")+ geom_hline(yintercept=0.2857,linetype="dashed", color = "orange", size=0.5)+geom_point(color="blue") + labs(y = " R(t)")+ labs(x = "Weeks")+ geom_hline(yintercept=1.4285,linetype="dashed", color = "green", size=0.5)+ geom_hline(yintercept=0.1428,linetype="dashed", color = "red", size=0.5)+theme_bw(base_size = 18) 
+ggplot(A,aes(y=R_t,x=X1.52),size=2,color = "blue") + geom_line(color="blue") +   geom_point(color="blue") + labs(y = " R(t)")+ labs(x = "Weeks")+ geom_hline(yintercept=0.266,linetype="dashed", color = "orange", size=0.5)+geom_point(color="blue") + labs(y = " R(t)")+ labs(x = "Weeks")+ geom_hline(yintercept=1.3333,linetype="dashed", color = "green", size=0.5)+ geom_hline(yintercept=0.13333,linetype="dashed", color = "red", size=0.5)+theme_bw(base_size = 18) 

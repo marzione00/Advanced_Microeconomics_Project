@@ -18,7 +18,7 @@ TS_Alimentare_dec$trend=TS_Alimentare_dec$x-TS_Alimentare_dec$random-TS_Alimenta
 
 
 
-autoplot(TS_Alimentare_dec)
+autoplot(TS_Alimentare_dec)+labs(colour = NULL)
 
 
 TS_Abbigliamento = ts(Destagionalizzazione$`abbigliamento e pellicce`,frequency = 12)

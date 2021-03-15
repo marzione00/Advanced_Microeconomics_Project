@@ -19,6 +19,9 @@ Dati_cassa_integrazione_Manifattura_DID <- read_excel("Cassa_integrazione_Ordere
 did_Manifattura <-lm(Hours ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_cassa_integrazione_Manifattura_DID)
 summary(did_Manifattura)
 
+did_Manifattura_placebo <-lm(Hours ~  C + T4 + T5+ T6 + C*T4 +C*T5+C*T6, data = Dati_cassa_integrazione_Manifattura_DID)
+summary(did_Manifattura_placebo)
+
 
 Dati_cassa_integrazione_Commercio <- read_excel("Cassa_integrazione_Ordered.xlsx",sheet = "Commercio")
 
@@ -37,6 +40,9 @@ Dati_cassa_integrazione_Commercio_DID <- read_excel("Cassa_integrazione_Ordered.
 did_Commercio <-lm(Hours ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_cassa_integrazione_Commercio_DID )
 summary(did_Commercio)
 
+did_Commercio_placebo <-lm(Hours ~  C + T4 + T5+ T6 + C*T4 +C*T5+C*T6, data = Dati_cassa_integrazione_Commercio_DID)
+summary(did_Commercio_placebo)
+
 
 Dati_cassa_integrazione_Costruzioni<- read_excel("Cassa_integrazione_Ordered.xlsx", sheet = "Costruzioni")
 
@@ -52,9 +58,13 @@ ggplot(data=Dati_cassa_integrazione_Costruzioni   ,aes(x=Time,y=CIG_S))+geom_lin
 
 Dati_cassa_integrazione_Costruzioni_DID <- read_excel("Cassa_integrazione_Ordered.xlsx",sheet = "Costruzioni_DID")
 
+
+
 did_Costruzioni <-lm(Hours ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_cassa_integrazione_Costruzioni_DID )
 summary(did_Costruzioni)
 
+did_Costruzioni_placebo <-lm(Hours ~  C + T4 + T5+ T6 + C*T4 +C*T5+C*T6, data = Dati_cassa_integrazione_Costruzioni_DID)
+summary(did_Costruzioni_placebo)
 
 Dati_cassa_integrazione_Immobiliare<- read_excel("Cassa_integrazione_Ordered.xlsx", sheet = "Immobiliare")
 
@@ -89,6 +99,18 @@ Dati_cassa_integrazione_Full_DID <- read_excel("Cassa_integrazione_Ordered.xlsx"
 
 did_Full <-lm(Hours ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_cassa_integrazione_Full_DID )
 summary(did_Full)
+
+did_Full_placebo <-lm(Hours ~  C + T4 + T5+ T6 + C*T4 +C*T5+C*T6, data = Dati_cassa_integrazione_Full_DID)
+summary(did_Full_placebo)
+
+ggplot(data=Dati_cassa_integrazione_Full  ,aes(x=Time,y=CIG_S))+geom_line(size=2,color = "red")+
+  geom_line(size=2,color = "blue",aes(x=Time,y=CIG_O))+
+  geom_line(size=2,color = "purple",aes(x=Time,y=CIG_SL))+
+  geom_vline(xintercept = -2, linetype="dashed", color = "red", size=1)+
+  geom_vline(xintercept = -1, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 0, linetype="dashed", color = "darkgreen", size=1)+
+  labs(y = "Hours Paid ")+ labs(x = "Time (months)")+
+  theme_bw(base_size = 18) 
 
 
 
