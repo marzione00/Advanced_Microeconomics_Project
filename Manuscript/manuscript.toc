@@ -14,3 +14,4 @@
 \contentsline {subsection}{\numberline {7.3}{C - Placebo tests for DID}}{32}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}{D - DID coefficients}}{36}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}{E - De-seasoning}}{41}{subsection.7.5}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
