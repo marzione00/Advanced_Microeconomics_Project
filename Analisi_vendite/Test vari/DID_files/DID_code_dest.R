@@ -1,11 +1,16 @@
 library(readxl)
 
 Dati_Abbigliamento <- read_excel("Dati_destagionalizzati_DID.xlsx", sheet = "Abbigliamento")
+Dati_Abbigliamento_long <- read_excel("Dati_destagionalizzati_DID_full.xlsx", sheet = "Abbigliamento")
 Dati_Abbigliamento_phantom <- read_excel("Dati_destagionalizzati_DID_phantom.xlsx", sheet = "Abbigliamento")
 
 
 Abbigliamento <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Abbigliamento )
 summary(Abbigliamento)
+
+
+Abbigliamento_long <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Abbigliamento_long )
+summary(Abbigliamento_long)
 
 Abbigliamento_phantom <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Abbigliamento_phantom )
 summary(Abbigliamento_phantom)
@@ -15,10 +20,15 @@ summary(Abbigliamento_placebo)
 
 
 Dati_Calzature <- read_excel("Dati_destagionalizzati_DID.xlsx", sheet = "Calzature")
+Dati_Calzature_long <- read_excel("Dati_destagionalizzati_DID_full.xlsx", sheet = "Calzature")
 Dati_Calzature_phantom <- read_excel("Dati_destagionalizzati_DID_phantom.xlsx", sheet = "Calzature")
 
 Calzature <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Calzature)
 summary(Calzature)
+
+
+Calzature_long <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Calzature_long)
+summary(Calzature_long)
 
 Calzature_phantom <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Calzature_phantom)
 summary(Calzature_phantom)
@@ -28,10 +38,15 @@ summary(Calzature_placebo)
 
 
 Dati_Elettrodomestici <- read_excel("Dati_destagionalizzati_DID.xlsx", sheet = "Elettrodomestici")
+Dati_Elettrodomestici_long <- read_excel("Dati_destagionalizzati_DID_full.xlsx", sheet = "Elettrodomestici")
 Dati_Elettrodomestici_phantom <- read_excel("Dati_destagionalizzati_DID_phantom.xlsx", sheet = "Elettrodomestici")
+
 
 Elettrodomestici <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Elettrodomestici)
 summary(Elettrodomestici)
+
+Elettrodomestici_long <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Elettrodomestici_long)
+summary(Elettrodomestici_long)
 
 Elettrodomestici_phantom <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Elettrodomestici_phantom)
 summary(Elettrodomestici_phantom)
@@ -42,11 +57,17 @@ summary(Elettrodomestici_placebo)
 
 Dati_Fotoottica <- read_excel("Dati_destagionalizzati_DID.xlsx", sheet = "Fotoottica")
 
+
+Dati_Fotoottica_long <- read_excel("Dati_destagionalizzati_DID_full.xlsx", sheet = "Fotoottica")
+
 Dati_Fotoottica_phantom <- read_excel("Dati_destagionalizzati_DID_phantom.xlsx", sheet = "Fotoottica")
 
 
 Fotoottica  <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Fotoottica )
 summary(Fotoottica)
+
+Fotoottica_long  <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Fotoottica_long )
+summary(Fotoottica_long)
 
 Fotoottica_phantom  <-lm(Outcome ~  C + T1 + T2+T3 + C*T1 +C*T2+C*T3, data = Dati_Fotoottica_phantom )
 summary(Fotoottica_phantom)

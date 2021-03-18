@@ -1,6 +1,7 @@
 library(readxl)
 library(ggplot2)
 Data <- read_excel("Dati_destagionalizzati.xlsx")
+Data2 <- read_excel("Dati_destagionalizzati_FULL_2016.xlsx")
 
 Controllo_abbigliamento<-lm(Data$Abbigliamento[1:19]-Data$Alimentari[1:19]~Data$Time[1:19])
 summary(Controllo_abbigliamento)
@@ -131,15 +132,24 @@ summary(reg10)
 
 
 
-
+Data2
 
 ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Abbigliamento),color = "blue")+ 
+  labs(title="Abbigliamento")
+
+ggplot(data=Data2,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Abbigliamento),color = "blue")+ 
   labs(title="Abbigliamento")
 
 ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Calzature),color = "darkgreen")+ 
   labs(title="Calzature")
 
+ggplot(data=Data2,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Calzature),color = "darkgreen")+ 
+  labs(title="Calzature")
+
 ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Elettrodomestici),color = "orange")+ 
+  labs(title="Elettrodomestici")
+
+ggplot(data=Data2,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Elettrodomestici),color = "orange")+ 
   labs(title="Elettrodomestici")
 
 ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Mobili),color = "purple")+ 
@@ -151,13 +161,22 @@ ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_
 ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Casalinghi),color = "cyan")+ 
   labs(title="Casalinghi")
 
+ggplot(data=Data2,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Casalinghi),color = "cyan")+ 
+  labs(title="Casalinghi")
+
 ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Utilenseria),color = "darkcyan")+ 
+  labs(title="Utilenseria")
+
+ggplot(data=Data2,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Utilenseria),color = "darkcyan")+ 
   labs(title="Utilenseria")
 
 ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Cartoleria),color = "black")+ 
   labs(title="Cartoleria")
 
 ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Giocattoli),color = "yellow")+ 
+  labs(title="Giocattoli")
+
+ggplot(data=Data2,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Giocattoli),color = "yellow")+ 
   labs(title="Giocattoli")
 
 
