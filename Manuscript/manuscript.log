@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  19 MAR 2021 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  19 MAR 2021 12:26
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -1145,9 +1145,21 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/iwona/b/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
  [5] [6] [7]
-Overfull \hbox (16.63997pt too wide) in paragraph at lines 147--151
-\T1/pplj/m/n/12 audio-video cas-settes and mu-si-cal in-stru-ments, Durable and
- non-durable
+Overfull \hbox (50.69589pt too wide) in paragraph at lines 147--151
+[]\T1/pplj/m/n/12 Footwear[]/leather and travel ar-ti-cles, House-hold []Ap-pli
+-ances[]/radios/televisions
+ []
+
+
+Overfull \hbox (4.72395pt too wide) in paragraph at lines 147--151
+\T1/pplj/m/n/12 and tape recorders, []Fur-ni-ture[]/textile ar-ti-cles/furnishi
+ngs for the home,
+ []
+
+
+Overfull \hbox (6.0079pt too wide) in paragraph at lines 147--151
+\T1/pplj/m/n/12 cal in-stru-ments, Durable and non-durable []Home-ware[], []Hou
+se-hold tools[]
  []
 
 [8] [9] [10] [11] [12]
@@ -2499,7 +2511,7 @@ ts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona
 /iwonab.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonar.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on manuscript.pdf (49 pages, 483971 bytes).
+Output written on manuscript.pdf (49 pages, 484021 bytes).
 PDF statistics:
  803 PDF objects out of 1000 (max. 8388607)
  151 named destinations out of 1000 (max. 500000)
