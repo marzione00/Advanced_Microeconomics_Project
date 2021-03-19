@@ -191,31 +191,45 @@ In all tables the following significance code will be used:  *** for 0.001,  ** 
 
 \begin{figure}
      \centering
-     \begin{subfigure}[b]{0.45\textwidth}
+     \begin{subfigure}{0.45\textwidth}
          \centering
          \includegraphics[width=\textwidth]{Figures/Abbigliamento.pdf}
          \caption{ \textcolor{blue}{Clothing} (blue) }
          \label{fig:y equals x}
      \end{subfigure}
      \hfill
-     \begin{subfigure}[b]{0.45\textwidth}
+     \begin{subfigure}{0.45\textwidth}
          \centering
          \includegraphics[width=\textwidth]{Figures/Calzature.pdf}
-         \caption{\textcolor{OliveGreen}{Footwear} (green)}
+         \caption{\textcolor{OliveGreen}{Footwear} (Green)}
          \label{fig:three sin x}
      \end{subfigure}
-          \begin{subfigure}[b]{0.45\textwidth}
+          \begin{subfigure}{0.45\textwidth}
          \centering
          \includegraphics[width=\textwidth]{Figures/Elettrodomestici.pdf}
-         \caption{ \textcolor{Orange}{Appliances} (orange)}
+         \caption{ \textcolor{Orange}{Appliances} (Orange)}
          \label{fig:y equals x}
      \end{subfigure}
      \hfill
-     \begin{subfigure}[b]{0.45\textwidth}
+     \begin{subfigure}{0.45\textwidth}
          \centering
          \includegraphics[width=\textwidth]{Figures/Fotoottica.pdf}}
-          \caption{\textcolor{Blue}{Photo-optics} (blue)}
+          \caption{\textcolor{Blue}{Photo-optics} (Blue)}
          \label{fig:three sin x}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{Figures/Casalinghi.pdf}}
+         \caption{\textcolor{Purple}{Homeware} (Purple)}
+         \label{fig:three sin x}
+     \end{subfigure}
+       \hfill
+        \begin{subfigure}{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{Figures/Utilenseria.pdf}
+         \caption{\textcolor{Orange}{Household tools} (L green)}
+         \label{fig:y equals x}
      \end{subfigure}
 \caption{Sales data (I), with baseline of 2015,  as provided by \cite{istat} de-seasoned via Forecast package \cite{forecast} for the categories  analysed in this paper compared with \textcolor{red}{food} (red) category.  The timing for each lock-down is marked with a dashed line: red for high, orange medium, and green for low.  Note that despite there is a pre-trend, this is negligible for the slope of medium and high lock-down slopes}
 \label{Selling_plots}
@@ -224,26 +238,10 @@ In all tables the following significance code will be used:  *** for 0.001,  ** 
 
 
 \begin{figure}
-     \centering
-     \hfill
-     \begin{subfigure}[b]{0.45\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{Figures/Mobili.pdf}}
-         \caption{\textcolor{OliveGreen}{Homeware} (Orchid)}
-         \label{fig:three sin x}
-     \end{subfigure}
-        \begin{subfigure}[b]{0.45\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{Figures/Utilenseria.pdf}
-         \caption{ \textcolor{Orange}{Household tools} (Light green)}
-         \label{fig:y equals x}
-     \end{subfigure}
-             \begin{subfigure}[b]{0.45\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{Figures/Giocattoli.pdf}
-         \caption{ \textcolor{Thistle}{Games} (Thistle)}
-         \label{fig:y equals x}
-     \end{subfigure}
+\centering
+\includegraphics[width=0.45\textwidth]{Figures/Giocattoli.pdf}
+\caption{ \textcolor{Thistle}{Games} (Thistle)}
+  \label{fig:y equals x}
 \caption{Selling data (II), with baseline of 2015,  as provided by \cite{istat} de-seasoned via Forecast package \cite{forecast} for the categories  analysed in this paper compared with \textcolor{red}{food} (red) category.  Each lock-down timing is marked with a dashed line: red for high, orange medium, and green for low.  Note that despite there is a pre-trend, this is negligible for the slope of medium and high lock-down slopes}
 \label{Selling_plots_II}
 \end{figure}
@@ -627,10 +625,10 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
                                        & $\delta_{4} $&   $ \sigma_{\delta_{4}}$   & t      & $\delta_{4} $ & $\sigma_{\delta_{4}$ & t      &  $\delta_{5}$ & $\sigma_{\delta_{5}$  & t     \\ \hline
-{\color[HTML]{343434} Total}        & -36   & 144    &  -0.26  & -36   & 144   & -0.25 & -36  & 144    & -0.25 \\ \hline
-{\color[HTML]{343434} Manufacture}  & -26   & 101    &  -0.25  & -26   & 101   & -0.26 & -26  & 101     & -0.25   \\ \hline
-{\color[HTML]{343434} Trade}        & -0.88   & 3.2  & -0.27  & -0.60   & 3.2  & -0.18 & -0.70   & 3.2  & -0.21 \\ \hline
-{\color[HTML]{343434} Construction} & -6.7   & 26  &  -0.25 &  -5.8    & 26  & -0.22 & -6.5    & 26 & -0.25 \\ \hline
+{\color[HTML]{343434} Total}        & -48   & 163    &  -0.30  & -47   & 163   & -0.29 & -47  & 163    & -0.29 \\ \hline
+{\color[HTML]{343434} Manufacture}  & -34   & 114    &  -0.30  & -35   & 114   & -0.30 & -34  & 114     & -0.30   \\ \hline
+{\color[HTML]{343434} Trade}        & -1.2   & 3  & -0.31  & -0.9   & 3.7  & -0.23 & -0.9   & 3.7  & -0.26 \\ \hline
+{\color[HTML]{343434} Construction} & -8.3   & 30  &  -0.27 &  -7.4    & 30  & -2.44 & -8.10    & 30 & -2.67 \\ \hline
 \label{sub_DID_placebo}
 \end{tabular}
 \end{table}
@@ -688,15 +686,15 @@ $\beta_{2}$ and $\beta_{3}$ obtained by the DID regression,  for  sales data de-
 \begin{table}[]
 \caption{
 \begin{flushleft}
-$\alpha$ , $\beta_{0}$ and $\beta_{1}$ obtained by the DID regression,  for subsidies  according to equation \ref{DID-eq} \\ for the different lock-down timings. 
+$\alpha$ , $\beta_{0}$ and $\beta_{1}$, expressed in millions, as obtained by the DID regression,  for subsidies  according to equation \ref{DID-eq} \\ for the different lock-down timings. 
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
                                        & $\alpha$ &   $ \sigma_{\alpha}$   & t      & $\beta_{0}$ & $\sigma_{\beta_{0}}$ & t      &  $\beta_{1}$ & $\sigma_{\beta_{1}$  & t     \\ \hline
-{\color[HTML]{343434} Total}        & 4.75 *** &  0.47   & 10.04  & 3.90 ***  &  0.66    & 5.84  & -2.46   &  2.50    & -0.98  \\ \hline
-{\color[HTML]{343434} Manufacture}  & 3.72  ***  &  0.41  & 8.95 & 2.59 ***   &  0.59    & 4.40 & -2.00   & 2.20     & -0.91   \\ \hline
-{\color[HTML]{343434} Trade}        & 0.23 ***  & 0.03  & 7.13  & -0.16 **  & 0.05  & -3.36  & -0.15  & 0.17  & -0.83 \\ \hline
-{\color[HTML]{343434} Construction} & 0.06  & 0.11  & 0.53 & 1.97  ***   & 0.16  & 11.91 &  -0.06    & 0.62  &  -0.095  \\ \hline
+{\color[HTML]{343434} Total}        & 4.43 *** &  0.58   & 7.56  & 4.03 ***  &  0.83 & 4.87  & -2.14   &  2.74    & -0.78  \\ \hline
+{\color[HTML]{343434} Manufacture}  & 3.47  ***  &  0.52  & 6.67 & 3.02 ***   &  0.73    & 4.10 & -1.75   & 2.44     & -0.72   \\ \hline
+{\color[HTML]{343434} Trade}        & 0.19 ***  & 0.03  & 5.73  & -0.11 **  & 0.05  & -2.48  & -0.09  & 0.15  & -0.63 \\ \hline
+{\color[HTML]{343434} Construction} & 0.06  & 0.08  & 0.77 & 1.62  ***   & 0.11  & 14.15 &  -0.06    & 0.38  &  -0.16  \\ \hline
 \label{CIG_DID_coef_I}
 \end{tabular}
 \end{table}
@@ -712,10 +710,10 @@ $\beta_{2}$ and $\beta_{3}$ obtained by the DID regression,  for subsidies  acco
 }
 \begin{tabular}{l|l|l|l|l|l|l}
 & $\beta_{2}$ &   $ \sigma_{\beta_{2}}$   & t      & $\beta_{3}$ & $ \sigma_{\beta_{3}}$ & t         \\ \hline
-{\color[HTML]{343434} Total}        & -2.39   &  2.50   & -0.95  & -3.17    &  2.50    & -1.26  \\ \hline
-{\color[HTML]{343434} Manufacture}  & -2.72   &  2.20    & -1.23  & -3.33    &  2.20    & -1.50   \\ \hline
-{\color[HTML]{343434} Trade}        & -0.12   & 0.17  & -0.68  & -0.07  & 0.17  & -0.39   \\ \hline
-{\color[HTML]{343434} Construction} & -0.06    & 0.62 & -0.096  & 0.06     & 0.62  & 0.10  
+{\color[HTML]{343434} Total}        & -2.06   &  2.74   & -0.75  & -2.85    &  2.74    & -1.04  \\ \hline
+{\color[HTML]{343434} Manufacture}  & -2.46   &  2.44    & -0.72  & -3.05    &  2.44    & -1.25   \\ \hline
+{\color[HTML]{343434} Trade}        & -0.07   & 0.15   & -0.46  & 0.02  & -0.15 & -0.13  \\ \hline
+{\color[HTML]{343434} Construction} & -0.06    & 0.38 & -0.16 & 0.06     & 0.38  & -0.16  
 \label{CIG_DID_coef_II}
 \end{tabular}
 \end{table}

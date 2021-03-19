@@ -43,7 +43,7 @@ ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_
   geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
   geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+theme_bw()+ labs(y = "Selling value")+ labs(x = "Time (months)")+theme_bw(base_size = 18)
 
-ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Casalinghi),color = "cyan")+ 
+ggplot(data=Data,aes(x=Time,y=Alimentari))+geom_line(size=2,color = "red")+geom_line(size=2,aes(x=Time,y=Casalinghi),color = "purple")+ 
   geom_vline(xintercept = 1, linetype="dashed", color = "orange", size=1)+ 
   geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
   geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 

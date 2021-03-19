@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  18 MAR 2021 23:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  19 MAR 2021 11:06
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -929,9 +929,6 @@ LaTeX Warning: Label `sub@fig:y equals x' multiply defined.
 LaTeX Warning: Label `fig:y equals x' multiply defined.
 
 
-LaTeX Warning: Label `sub@fig:y equals x' multiply defined.
-
-
 LaTeX Warning: Label `selling_DID_table_delta' multiply defined.
 
 
@@ -1164,26 +1161,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [13]
-<Figures/Abbigliamento.pdf, id=233, 323.2075pt x 474.77374pt>
+<Figures/Abbigliamento.pdf, id=233, 487.8225pt x 409.53pt>
 File: Figures/Abbigliamento.pdf Graphic file (type pdf)
 <use Figures/Abbigliamento.pdf>
 Package pdftex.def Info: Figures/Abbigliamento.pdf  used on input line 196.
-(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Calzature.pdf, id=234, 323.2075pt x 474.77374pt>
+(pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
+<Figures/Calzature.pdf, id=234, 487.8225pt x 409.53pt>
 File: Figures/Calzature.pdf Graphic file (type pdf)
 <use Figures/Calzature.pdf>
 Package pdftex.def Info: Figures/Calzature.pdf  used on input line 203.
-(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Elettrodomestici.pdf, id=235, 323.2075pt x 474.77374pt>
+(pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
+<Figures/Elettrodomestici.pdf, id=235, 487.8225pt x 409.53pt>
 File: Figures/Elettrodomestici.pdf Graphic file (type pdf)
 <use Figures/Elettrodomestici.pdf>
 Package pdftex.def Info: Figures/Elettrodomestici.pdf  used on input line 209.
-(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Fotoottica.pdf, id=236, 323.2075pt x 474.77374pt>
+(pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
+<Figures/Fotoottica.pdf, id=236, 487.8225pt x 409.53pt>
 File: Figures/Fotoottica.pdf Graphic file (type pdf)
 <use Figures/Fotoottica.pdf>
 Package pdftex.def Info: Figures/Fotoottica.pdf  used on input line 216.
-(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
+(pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
 
 ! Extra }, or forgotten \endgroup.
 l.216 ...idth=\textwidth]{Figures/Fotoottica.pdf}}
@@ -1194,13 +1191,13 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Mobili.pdf, id=241, 323.2075pt x 474.77374pt>
-File: Figures/Mobili.pdf Graphic file (type pdf)
-<use Figures/Mobili.pdf>
-Package pdftex.def Info: Figures/Mobili.pdf  used on input line 231.
-(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
+<Figures/Casalinghi.pdf, id=237, 487.8225pt x 409.53pt>
+File: Figures/Casalinghi.pdf Graphic file (type pdf)
+<use Figures/Casalinghi.pdf>
+Package pdftex.def Info: Figures/Casalinghi.pdf  used on input line 223.
+(pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
 ! Extra }, or forgotten \endgroup.
-l.231 ...cs[width=\textwidth]{Figures/Mobili.pdf}}
+l.223 ...idth=\textwidth]{Figures/Casalinghi.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1208,22 +1205,22 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Utilenseria.pdf, id=242, 323.2075pt x 474.77374pt>
+<Figures/Utilenseria.pdf, id=238, 487.8225pt x 409.53pt>
 File: Figures/Utilenseria.pdf Graphic file (type pdf)
 <use Figures/Utilenseria.pdf>
-Package pdftex.def Info: Figures/Utilenseria.pdf  used on input line 237.
-(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
-<Figures/Giocattoli.pdf, id=243, 323.2075pt x 474.77374pt>
+Package pdftex.def Info: Figures/Utilenseria.pdf  used on input line 230.
+(pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
+<Figures/Giocattoli.pdf, id=243, 487.8225pt x 409.53pt>
 File: Figures/Giocattoli.pdf Graphic file (type pdf)
 <use Figures/Giocattoli.pdf>
-Package pdftex.def Info: Figures/Giocattoli.pdf  used on input line 243.
-(pdftex.def)             Requested size: 166.49887pt x 244.58003pt.
+Package pdftex.def Info: Figures/Giocattoli.pdf  used on input line 242.
+(pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
 [14] [15 <./Figures/Abbigliamento.pdf> <./Figures/Calzature.pdf> <./Figures/Ele
-ttrodomestici.pdf> <./Figures/Fotoottica.pdf>] [16 <./Figures/Mobili.pdf> <./Fi
-gures/Utilenseria.pdf> <./Figures/Giocattoli.pdf>]
+ttrodomestici.pdf> <./Figures/Fotoottica.pdf> <./Figures/Casalinghi.pdf> <./Fig
+ures/Utilenseria.pdf>] [16 <./Figures/Giocattoli.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 252.
+               Default added (so using `tbp') on input line 250.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1232,7 +1229,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 }
+l.255 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1244,7 +1241,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 }
+l.255 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1256,7 +1253,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 }
+l.255 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1268,7 +1265,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 }
+l.255 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1280,7 +1277,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 }
+l.255 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1292,7 +1289,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 }
+l.255 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1304,7 +1301,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 }
+l.255 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1312,7 +1309,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.259 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+l.257 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
                                                    & t      &  $\delta_{3}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1323,7 +1320,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.259 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+l.257 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1335,16 +1332,16 @@ my insertion and my current dilemma will both disappear.
 <Figures/CIG_Manifattura.pdf, id=303, 487.8225pt x 409.53pt>
 File: Figures/CIG_Manifattura.pdf Graphic file (type pdf)
 <use Figures/CIG_Manifattura.pdf>
-Package pdftex.def Info: Figures/CIG_Manifattura.pdf  used on input line 280.
+Package pdftex.def Info: Figures/CIG_Manifattura.pdf  used on input line 278.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
 <Figures/CIG_Commercio.pdf, id=304, 487.8225pt x 409.53pt>
 File: Figures/CIG_Commercio.pdf Graphic file (type pdf)
 <use Figures/CIG_Commercio.pdf>
-Package pdftex.def Info: Figures/CIG_Commercio.pdf  used on input line 286.
+Package pdftex.def Info: Figures/CIG_Commercio.pdf  used on input line 284.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
 
 ! Extra }, or forgotten \endgroup.
-l.286 ...h=\textwidth]{Figures/CIG_Commercio.pdf}}
+l.284 ...h=\textwidth]{Figures/CIG_Commercio.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1355,15 +1352,15 @@ deleted material, e.g., by typing `I$}'.
 <Figures/CIG_Costruzioni.pdf, id=305, 487.8225pt x 409.53pt>
 File: Figures/CIG_Costruzioni.pdf Graphic file (type pdf)
 <use Figures/CIG_Costruzioni.pdf>
-Package pdftex.def Info: Figures/CIG_Costruzioni.pdf  used on input line 291.
+Package pdftex.def Info: Figures/CIG_Costruzioni.pdf  used on input line 289.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
 <Figures/CIG_TOT.pdf, id=306, 487.8225pt x 409.53pt>
 File: Figures/CIG_TOT.pdf Graphic file (type pdf)
 <use Figures/CIG_TOT.pdf>
-Package pdftex.def Info: Figures/CIG_TOT.pdf  used on input line 297.
+Package pdftex.def Info: Figures/CIG_TOT.pdf  used on input line 295.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
 ! Extra }, or forgotten \endgroup.
-l.297 ...s[width=\textwidth]{Figures/CIG_TOT.pdf}}
+l.295 ...s[width=\textwidth]{Figures/CIG_TOT.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1374,20 +1371,20 @@ deleted material, e.g., by typing `I$}'.
 <Figures/Phase_transition.pdf, id=307, 325.215pt x 348.30125pt>
 File: Figures/Phase_transition.pdf Graphic file (type pdf)
 <use Figures/Phase_transition.pdf>
-Package pdftex.def Info: Figures/Phase_transition.pdf  used on input line 306.
+Package pdftex.def Info: Figures/Phase_transition.pdf  used on input line 304.
 (pdftex.def)             Requested size: 185.0pt x 198.13518pt.
 <Figures/R_t_1_1_1.pdf, id=312, 307.1475pt x 358.33875pt>
 File: Figures/R_t_1_1_1.pdf Graphic file (type pdf)
 <use Figures/R_t_1_1_1.pdf>
-Package pdftex.def Info: Figures/R_t_1_1_1.pdf  used on input line 316.
+Package pdftex.def Info: Figures/R_t_1_1_1.pdf  used on input line 314.
 (pdftex.def)             Requested size: 166.49887pt x 194.24913pt.
 <Figures/R_t_1.5_1.5_1.5.pdf, id=313, 307.1475pt x 358.33875pt>
 File: Figures/R_t_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/R_t_1.5_1.5_1.5.pdf>
-Package pdftex.def Info: Figures/R_t_1.5_1.5_1.5.pdf  used on input line 322.
+Package pdftex.def Info: Figures/R_t_1.5_1.5_1.5.pdf  used on input line 320.
 (pdftex.def)             Requested size: 166.49887pt x 194.24913pt.
 ! Extra }, or forgotten \endgroup.
-l.322 ...\textwidth]{Figures/R_t_1.5_1.5_1.5.pdf}}
+l.320 ...\textwidth]{Figures/R_t_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1400,7 +1397,7 @@ G_Costruzioni.pdf> <./Figures/CIG_TOT.pdf>] [19 <./Figures/Phase_transition.pdf
 >] [20 <./Figures/R_t_1_1_1.pdf> <./Figures/R_t_1.5_1.5_1.5.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 334.
+               Default added (so using `tbp') on input line 332.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1409,7 +1406,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.339 }
+l.337 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1421,7 +1418,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.339 }
+l.337 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1433,7 +1430,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.339 }
+l.337 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1445,7 +1442,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.339 }
+l.337 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1457,7 +1454,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.339 }
+l.337 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1469,7 +1466,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.339 }
+l.337 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1481,7 +1478,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.339 }
+l.337 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1489,7 +1486,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.341 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+l.339 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
                                                    & t      &  $\delta_{3}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1500,7 +1497,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.341 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+l.339 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1512,17 +1509,17 @@ my insertion and my current dilemma will both disappear.
 <Figures/Epidemics_1_1_1.pdf, id=372, 326.21875pt x 474.77374pt>
 File: Figures/Epidemics_1_1_1.pdf Graphic file (type pdf)
 <use Figures/Epidemics_1_1_1.pdf>
-Package pdftex.def Info: Figures/Epidemics_1_1_1.pdf  used on input line 356.
+Package pdftex.def Info: Figures/Epidemics_1_1_1.pdf  used on input line 354.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 <Figures/Epidemics_1.5_1.5_1.5.pdf, id=373, 326.21875pt x 474.77374pt>
 File: Figures/Epidemics_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/Epidemics_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/Epidemics_1.5_1.5_1.5.pdf  used on input line 
-362.
+360.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 
 ! Extra }, or forgotten \endgroup.
-l.362 ...idth]{Figures/Epidemics_1.5_1.5_1.5.pdf}}
+l.360 ...idth]{Figures/Epidemics_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1534,16 +1531,16 @@ deleted material, e.g., by typing `I$}'.
 File: Figures/Selling_Scenario_1_1_1.pdf Graphic file (type pdf)
 <use Figures/Selling_Scenario_1_1_1.pdf>
 Package pdftex.def Info: Figures/Selling_Scenario_1_1_1.pdf  used on input line
- 374.
+ 372.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 <Figures/Selling_Scenario_1.5_1.5_1.5.pdf, id=375, 326.21875pt x 474.77374pt>
 File: Figures/Selling_Scenario_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/Selling_Scenario_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/Selling_Scenario_1.5_1.5_1.5.pdf  used on inpu
-t line 380.
+t line 378.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 ! Extra }, or forgotten \endgroup.
-l.380 ...igures/Selling_Scenario_1.5_1.5_1.5.pdf}}
+l.378 ...igures/Selling_Scenario_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1554,15 +1551,15 @@ deleted material, e.g., by typing `I$}'.
 <Figures/CIG_effect_1_1_1.pdf, id=376, 326.21875pt x 474.77374pt>
 File: Figures/CIG_effect_1_1_1.pdf Graphic file (type pdf)
 <use Figures/CIG_effect_1_1_1.pdf>
-Package pdftex.def Info: Figures/CIG_effect_1_1_1.pdf  used on input line 392.
+Package pdftex.def Info: Figures/CIG_effect_1_1_1.pdf  used on input line 390.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 <Figures/CIG_1.5_1.5_1.5.pdf, id=377, 326.21875pt x 474.77374pt>
 File: Figures/CIG_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/CIG_1.5_1.5_1.5.pdf>
-Package pdftex.def Info: Figures/CIG_1.5_1.5_1.5.pdf  used on input line 398.
+Package pdftex.def Info: Figures/CIG_1.5_1.5_1.5.pdf  used on input line 396.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
 ! Extra }, or forgotten \endgroup.
-l.398 ...\textwidth]{Figures/CIG_1.5_1.5_1.5.pdf}}
+l.396 ...\textwidth]{Figures/CIG_1.5_1.5_1.5.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1572,11 +1569,11 @@ deleted material, e.g., by typing `I$}'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 405.
+               Default added (so using `tbp') on input line 403.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 418.
+               Default added (so using `tbp') on input line 416.
 
 [22 <./Figures/Epidemics_1_1_1.pdf> <./Figures/Epidemics_1.5_1.5_1.5.pdf>]
 [23 <./Figures/Selling_Scenario_1_1_1.pdf> <./Figures/Selling_Scenario_1.5_1.5_
@@ -1673,7 +1670,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
 )
 ! Undefined control sequence.
-l.441 \clearall
+l.439 \clearall
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1684,7 +1681,7 @@ and I'll forget about whatever was undefined.
 [27] [28]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 452.
+               Default added (so using `tbp') on input line 450.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1693,7 +1690,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.457 }
+l.455 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1705,7 +1702,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.457 }
+l.455 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1717,7 +1714,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.457 }
+l.455 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1729,7 +1726,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.457 }
+l.455 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1741,7 +1738,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.457 }
+l.455 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1753,7 +1750,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.457 }
+l.455 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1761,7 +1758,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.459 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+l.457 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
                                                    & t      &  $\delta_{3}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1772,7 +1769,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.459 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+l.457 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1782,7 +1779,7 @@ my insertion and my current dilemma will both disappear.
 
 [29]
 ! Undefined control sequence.
-l.473 \clearall
+l.471 \clearall
                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1798,7 +1795,7 @@ and I'll forget about whatever was undefined.
 File: Figures/DID_selling_placebo.pdf Graphic file (type pdf)
 <use Figures/DID_selling_placebo.pdf>
 Package pdftex.def Info: Figures/DID_selling_placebo.pdf  used on input line 58
-6.
+4.
 (pdftex.def)             Requested size: 185.0pt x 324.78035pt.
  [32
 
@@ -1810,7 +1807,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.597 }
+l.595 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1822,7 +1819,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.597 }
+l.595 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1834,7 +1831,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.597 }
+l.595 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1846,7 +1843,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.597 }
+l.595 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1858,7 +1855,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.597 }
+l.595 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1870,7 +1867,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.597 }
+l.595 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1882,7 +1879,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.597 }
+l.595 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1890,7 +1887,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.599 ...   & $\delta_{5} $ & $\sigma_{\delta_{5}$
+l.597 ...   & $\delta_{5} $ & $\sigma_{\delta_{5}$
                                                    & t      &  $\delta_{6}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1901,7 +1898,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.599 ...   &  $\delta_{6}$ & $\sigma_{\delta_{6}$
+l.597 ...   &  $\delta_{6}$ & $\sigma_{\delta_{6}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1914,12 +1911,12 @@ my insertion and my current dilemma will both disappear.
 File: Figures/DID_subsidies_placebo.pdf Graphic file (type pdf)
 <use Figures/DID_subsidies_placebo.pdf>
 Package pdftex.def Info: Figures/DID_subsidies_placebo.pdf  used on input line 
-616.
+614.
 (pdftex.def)             Requested size: 185.0pt x 215.83601pt.
  [34 <./Figures/DID_subsidies_placebo.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 622.
+               Default added (so using `tbp') on input line 620.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -1928,7 +1925,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.627 }
+l.625 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1940,7 +1937,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.627 }
+l.625 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1952,7 +1949,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.627 }
+l.625 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1964,7 +1961,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.627 }
+l.625 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1976,7 +1973,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.627 }
+l.625 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1988,7 +1985,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.627 }
+l.625 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2000,7 +1997,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.627 }
+l.625 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2008,7 +2005,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.629 ...   & $\delta_{4} $ & $\sigma_{\delta_{4}$
+l.627 ...   & $\delta_{4} $ & $\sigma_{\delta_{4}$
                                                    & t      &  $\delta_{5}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2019,7 +2016,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.629 ...   &  $\delta_{5}$ & $\sigma_{\delta_{5}$
+l.627 ...   &  $\delta_{5}$ & $\sigma_{\delta_{5}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2035,7 +2032,7 @@ my insertion and my current dilemma will both disappear.
 ]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 646.
+               Default added (so using `tbp') on input line 644.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -2044,7 +2041,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.651 }
+l.649 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2056,7 +2053,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.651 }
+l.649 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2068,7 +2065,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.651 }
+l.649 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2080,7 +2077,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.651 }
+l.649 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2092,7 +2089,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.651 }
+l.649 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2104,7 +2101,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.651 }
+l.649 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2116,7 +2113,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.651 }
+l.649 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2124,7 +2121,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.653 ...     &  $\beta_{1}$ & $\sigma_{\beta_{1}$
+l.651 ...     &  $\beta_{1}$ & $\sigma_{\beta_{1}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2135,7 +2132,7 @@ my insertion and my current dilemma will both disappear.
 [37]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 667.
+               Default added (so using `tbp') on input line 665.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -2144,7 +2141,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.672 }
+l.670 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2156,7 +2153,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.672 }
+l.670 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2168,7 +2165,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.672 }
+l.670 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2180,7 +2177,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.672 }
+l.670 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2192,7 +2189,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.672 }
+l.670 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2204,7 +2201,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.672 }
+l.670 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2216,7 +2213,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.672 }
+l.670 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2224,7 +2221,7 @@ If that doesn't work, type  X <return>  to quit.
 [38]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 688.
+               Default added (so using `tbp') on input line 686.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -2233,7 +2230,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.693 }
+l.691 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2245,7 +2242,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.693 }
+l.691 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2257,7 +2254,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.693 }
+l.691 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2269,7 +2266,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.693 }
+l.691 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2281,7 +2278,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.693 }
+l.691 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2293,7 +2290,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.693 }
+l.691 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2305,7 +2302,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.693 }
+l.691 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2313,7 +2310,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.695 ...     &  $\beta_{1}$ & $\sigma_{\beta_{1}$
+l.693 ...     &  $\beta_{1}$ & $\sigma_{\beta_{1}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2324,7 +2321,7 @@ my insertion and my current dilemma will both disappear.
 [39]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 707.
+               Default added (so using `tbp') on input line 705.
 
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -2333,7 +2330,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.712 }
+l.710 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2345,7 +2342,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.712 }
+l.710 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2357,7 +2354,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.712 }
+l.710 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2369,7 +2366,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.712 }
+l.710 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2381,7 +2378,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.712 }
+l.710 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2393,7 +2390,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.712 }
+l.710 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2405,7 +2402,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.712 }
+l.710 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2415,49 +2412,49 @@ If that doesn't work, type  X <return>  to quit.
 File: Figures/Deseasoning/Alimentare.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Alimentare.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Alimentare.pdf  used on input line
- 735.
+ 733.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
 <Figures/Deseasoning/Abbigliamento.pdf, id=581, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Abbigliamento.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Abbigliamento.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Abbigliamento.pdf  used on input l
-ine 742.
+ine 740.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
 <Figures/Deseasoning/Calzature.pdf, id=582, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Calzature.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Calzature.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Calzature.pdf  used on input line 
-749.
+747.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
 <Figures/Deseasoning/Elettrodomestici.pdf, id=583, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Elettrodomestici.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Elettrodomestici.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Elettrodomestici.pdf  used on inpu
-t line 756.
+t line 754.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
 <Figures/Deseasoning/Fotoottica.pdf, id=584, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Fotoottica.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Fotoottica.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Fotoottica.pdf  used on input line
- 763.
+ 761.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
 <Figures/Deseasoning/Casalinghi.pdf, id=585, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Casalinghi.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Casalinghi.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Casalinghi.pdf  used on input line
- 770.
+ 768.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
 <Figures/Deseasoning/Utilenseria.pdf, id=586, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Utilenseria.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Utilenseria.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Utilenseria.pdf  used on input lin
-e 778.
+e 776.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
 <Figures/Deseasoning/Giocattoli.pdf, id=587, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Giocattoli.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Giocattoli.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Giocattoli.pdf  used on input line
- 785.
+ 783.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
  [41
 
@@ -2481,8 +2478,8 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19807 strings out of 479334
- 360989 string characters out of 2865057
+ 19806 strings out of 479334
+ 361003 string characters out of 2865057
  971915 words of memory out of 3000000
  36681 multiletter control sequences out of 15000+200000
  525073 words of font info for 194 fonts, out of 3000000 for 9000
@@ -2502,7 +2499,7 @@ ts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona
 /iwonab.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonar.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on manuscript.pdf (49 pages, 484952 bytes).
+Output written on manuscript.pdf (49 pages, 483920 bytes).
 PDF statistics:
  803 PDF objects out of 1000 (max. 8388607)
  151 named destinations out of 1000 (max. 500000)
