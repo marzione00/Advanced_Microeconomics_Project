@@ -94,7 +94,7 @@ BCOR5mm, % Binding correction
 
 \section*{Abstract} % This section will not appear in the table of contents due to the star (\section*)
 
-Within a standard compartmental model for describing the dynamics of epidemics (Susceptible-Infectious-Recovered-Dead),  we considered a policy-maker (PM) that imposes stochastically different types of lock-downs. The probability that tunes this stochastic process reflects his/her different attitude to face an epidemics (e.g., \textit{laissez-faire} vs. very strict).  In order to simulate not only an epidemiological scenario but also an economic one, we estimated, via a Difference-in-Difference regression,  the impact of national lock-downs applied during the first wave of COVID19 in Italy from March 2020 to June 2020,  on two microeconomic sectors: sales and on subsidies (\textit{Cassa Integrazione}).  We found that by modifying with continuity, the PM attitude to impose the lock-down a phase transition (as defined for a physical system) is obtained.  The comparison of these two scenarios and their impact provides a bird's-eye view of the socio-economic consequences of the PM attitude
+Within a standard compartmental model for describing the dynamics of epidemics (Susceptible-Infectious-Recovered-Dead),  we considered a policy-maker (PM) that imposes stochastically different types of lock-downs. The probability that tunes this stochastic process reflects his/her different attitude to face an epidemics (e.g., \textit{laissez-faire} vs. very strict).  In order to simulate not only an epidemiological scenario but also an economic one, we estimated, via a Difference-in-Difference regression,  the impact of national lock-downs applied during the first wave of COVID19 in Italy from March 2020 to June 2020,  on two microeconomic sectors: sales value and redundancy funds (\textit{Cassa Integrazione}).  We found that by modifying with continuity, the PM attitude to impose the lock-down a phase transition (as defined for a physical system) is obtained.  The comparison of these two scenarios and their impact provides a bird's-eye view of the socio-economic consequences of the PM attitude
 
 \newpage
 
@@ -118,7 +118,7 @@ I.Asimov, Prelude to foundation }
 \section{Introduction}
 
 The recent pandemic due to the spread of the SARS-CoV-2 virus opened a highly debated issue about the best approach for the policy-maker to face the epidemic.  Unlike the past pandemics of XX century (e.g., Spanish Flu,  Asiatic Flu, and Hong-Kong Flu), a massive amount of data are easily accessible for this pandemic.  Consequently, the modeling of the virus diffusion and the effect on socio-economic texture for different countries can be investigated with a more satisfactory resolution.  Among the different scientific challenges that can come up in this context,  an interesting one involves socio-economic effects of the attitude of the policy-maker (PM) to block the circulation of people (lock-down) in order to reduce the contagion rate (more formally, the reproduction number, as described in Supporting Information).  Indeed the policy-maker can adopt, at a first approximation,  a linear combination between these two extreme approaches: forcing all people to stay at home or to \textit{laissez-faire}.  In the first extreme,  the spread of the virus is,  of course, stopped but,  on the other side,  the toll for such approach is that not only the economic activity (and so the income of people/firms) but also that the furniture of the primary goods is stopped.  On the other side,  if the PM takes no lock-down measures, the toll to be paid will be not only the high number of deaths but also the economic damage produced by the very high number of deaths \cite{Correia2020,karlsson2014impact}.  In practice, the PM can adopt intermediate approaches that shut down activities that contribute much more to diffusion to others (for this purpose, an excellent analysis was provided by Li et al. in  \cite{li2021temporal} and by Brauner et al. in \cite{brauner2021inferring}).
-As a consequence, the lock-down efficacy,  within certain limits,  can be tuned.  In the literature, different scholars \cite{kabir2020evolutionary,rowthorn2020cost} challenged the issue of finding the optimal lock-down policy for minimizing the economic impact as well as the deaths.  In particular, for the model in Ref. \cite{kabir2020evolutionary} it is assumed that the policy-maker perfectly knows the consequences of his/her choices and that he/she can act without delay to impose the optimal choice; finally, it is assumed that the PM can impose a continuous factor for the lock-down (e.g., he/she can reduce the daily number of contacts between people by choosing each value between a definite range). In contrast, for different countries, such a factor seems to be much more discrete (e.g., the PM can reduce the daily contacts only by choosing definite values).  It can be argued that most of these drawbacks of this last formidable research are entangled with the fact that a deterministic approach was considered for the activation of the lock-downs by the policy-maker.  On this basis, we would propose here an alternative way to model the decision of the policy-maker that is based on a stochastic model instead of on a deterministic one.  Furthermore,  differently to the previous researches that focused basically on macroeconomic impact,  here we estimated and put in the model the impact of the different lock-downs at the microeconomic level: in particular, through the difference in difference,  we evaluated the effect of the different levels of lock-down on different sales sector as well as on subsidies (\textit{Cassa Integrazione Ordinaria}) in Italy.  Thus, the final output of the model will be the cumulative deaths, the economic damage for each selling sector and the the increase of subsidies paid.
+As a consequence, the lock-down efficacy,  within certain limits,  can be tuned.  In the literature, different scholars \cite{kabir2020evolutionary,rowthorn2020cost} challenged the issue of finding the optimal lock-down policy for minimizing the economic impact as well as the deaths.  In particular, for the model in Ref. \cite{kabir2020evolutionary} it is assumed that the policy-maker perfectly knows the consequences of his/her choices and that he/she can act without delay to impose the optimal choice; finally, it is assumed that the PM can impose a continuous factor for the lock-down (e.g., he/she can reduce the daily number of contacts between people by choosing each value between a definite range). In contrast, for different countries, such a factor seems to be much more discrete (e.g., the PM can reduce the daily contacts only by choosing definite values).  It can be argued that most of these drawbacks of this last formidable research are entangled with the fact that a deterministic approach was considered for the activation of the lock-downs by the policy-maker.  On this basis, we would propose here an alternative way to model the decision of the policy-maker that is based on a stochastic model instead of on a deterministic one.  Furthermore,  differently to the previous researches that focused basically on macroeconomic impact,  here we estimated and put in the model the impact of the different lock-downs at the microeconomic level: in particular, through the difference in difference,  we evaluated the effect of the different levels of lock-down on different sales sector as well as on redundancy funds (\textit{Cassa Integrazione Ordinaria}) in Italy.  Thus, the final output of the model will be the cumulative deaths, the economic damage for each sales sector and the the increase of redundancy funds paid.
 Moreover, here we also considered that there is not only an economic cost for each death as done by \cite{kabir2020evolutionary}, but there is also average cost for each infected person (referring to Italian data) because a consistent part of them may be recovered or even should take the intensive therapy.  As we will show by varying with continuity the probabilistic parameter by which the PM imposes the lock-down,  a discontinuity in the SIRD model and the lock-down days was obtained.  Such behaviour belongs to a class of phenomena that, in physical sciences, is called a phase transition.  For each phase, we will discuss the result of the simulation, and then we will compare them to get a general insight. 
 
 \section{Model and methods}
@@ -144,22 +144,19 @@ known as the basic reproduction factor. This number is the average number of peo
 
 \subsection{Economic model}
 
-The economic impact for each epidemiological scenario is shaped as follow: the first set of parameters,  as the economic value of death and of being infected by COVID-19, was taken directly from the reports/documentation of official sources; other parameters as the effect on selling for different areas and on unemployment benefit (Cassa Integrazione Guadagni) were evaluated with empirical approaches from raw data.  Concerning the first set,  the number of deaths is multiplied by the maximum compensation value provided by the Court of Milan \cite{tribunaleMilano} for manslaughter (300k EUR). This choice is based on the idea that,  if the PM misbehaves,  can be incriminated for manslaughter (with the consent of parliament that has to validate the incrimination) and then,  if judged guilty,  charged by this amount for each death\footnote{In principle the judge also keep into account the age of the deaths: this in principle require an epidemiological model in which also the age of people is taken into account.  However, a partial differential equations system should be solved, making the calculation and the computational cost incredibly high.}.  Besides this impact,  there is also the cost associated with the medical care of each ill people. For this, we considered the average value calculated by National Anti-Corruption Authority (ANAC) \cite{Anac}: 28.180 kEUR \footnote{It is worth noting that,  in principle,  there is also another import health-care impact because the ill people for COVID-19 saturate the health system thus making it unreachable for other diseases.  This spillover translates into more death and more ill people for the baseline situation where there is not a pandemic: however,  by now,  this effect is difficult to quantify, and so we did not include it in the present model}.  Among the different sectors affected by the pandemic and the consequent lock-down,  we focused on the sales for the following ATECO-2007 \cite{Ateco2007} categories \footnote{In the rest part of the paper, these categories will be referred to as the part of the name labeled in blue. 
+The economic impact for each epidemiological scenario is shaped as follow: the first set of parameters,  as the economic value of death and of being infected by COVID-19, was taken directly from the reports/documentation of official sources; other parameters as the effect on sales for different areas and on unemployment benefit (Cassa Integrazione Guadagni) were evaluated with empirical approaches from raw data.  Concerning the first set,  the number of deaths is multiplied by the maximum compensation value provided by the Court of Milan \cite{tribunaleMilano} for manslaughter (300k EUR). This choice is based on the idea that,  if the PM misbehaves,  can be incriminated for manslaughter (with the consent of parliament that has to validate the incrimination) and then,  if judged guilty,  charged by this amount for each death\footnote{In principle the judge also keep into account the age of the deaths: this in principle require an epidemiological model in which also the age of people is taken into account.  However, a partial differential equations system should be solved, making the calculation and the computational cost incredibly high.}.  Besides this impact,  there is also the cost associated with the medical care of each ill people. For this, we considered the national average value calculated by National Anti-Corruption Authority (ANAC) \cite{Anac}: 28.180 kEUR \footnote{It is worth noting that,  in principle,  there is also another import health-care impact because the ill people for COVID-19 saturate the health system thus making it unreachable for other diseases.  This spillover translates into more death and more ill people for the baseline situation where there is not a pandemic: however,  by now,  this effect is difficult to quantify, and so we did not include it in the present model}.  Among the different sectors affected by the pandemic and the consequent lock-down,  we focused on the sales value for the following ATECO-2007 \cite{Ateco2007} categories \footnote{In the rest part of the paper, these categories will be referred to as the part of the name labeled in blue. 
 }: \textcolor{blue}{Food}, \textcolor{blue}{Clothing} and furs, \textcolor{blue}{Footwear}/leather and travel articles, Household \textcolor{blue}{Appliances}/radios/televisions and
-tape recorders, \textcolor{blue}{Furniture}/textile articles/furnishings for the home, 
-\textcolor{blue}{Photo-optics}/films/compact discs/ audio-video cassettes and musical instruments, Durable and non-durable \textcolor{blue}{Homeware}, \textcolor{blue}{Household tools} and hardware tools, \textcolor{blue}{Games}/toys/sports and camping articles. The choice to use sales as a parameter for the evaluation of the lock-down lies in the fact that with them is possible to capture not only the contraction for each sector but also the loss for the public treasury due to to the reduced incomes from the VAT\footnote{For this purpose another sector that in principle can also be considered is the contraction of fuel selling, due to the reduced mobility, where in addition to the VAT there is also fixed taxation (accisa).  Such calculation may be considered as a future outlook of this work}.  Beside the selling we also considered the unemployment benefit for the following ATECO sectors: \textcolor{blue}{Manufacturing} activities, \textcolor{blue}{Construction} , \textcolor{blue}{Wholesale} and retail trade/ repair of motor vehicles-motorcycles and personal and household goods. Furthermore also the total value (considering also other sectors that were not analysed here). In this case,  the choice to use also this parameter is based on the fact that this is the first aid provided by the Government for the firms that were damaged by the lock-down restrictions.  For the empirical evaluation of the impact on selling and unemployment benefit, we performed a multiple time Difference in Difference as presented in Refs.  \cite{draca2011panic},  \cite{imbens2009recent} and \cite{wooldridge2012introductory}. The following regression was performed: 
+tape recorders, 
+\textcolor{blue}{Photo-optics}/films/compact discs/audio-video cassettes and musical instruments, Durable and non-durable \textcolor{blue}{Homeware}, \textcolor{blue}{Household tools} and hardware tools, \textcolor{blue}{Games}/toys/sports and camping articles. The choice to use sales value as a parameter for the evaluation of the lock-down lies in the fact that with them is possible to capture not only the contraction for each sector but also the loss for the public treasury due to to the reduced incomes from the VAT\footnote{For this purpose another sector that in principle can also be considered is the contraction of fuel sales value, due to the reduced mobility, where in addition to the VAT there is also fixed taxation (accisa).  Such calculation may be considered as a future outlook of this work}.  Beside the sales value we also considered the unemployment benefit for the following ATECO sectors: \textcolor{blue}{Manufacturing} activities, \textcolor{blue}{Construction} , \textcolor{blue}{Wholesale} and retail trade/ repair of motor vehicles-motorcycles and personal and household goods. Furthermore also the total value (considering also other sectors that were not analysed here). In this case,  the choice to use also this parameter is based on the fact that this is the first aid provided by the Government for the firms that were damaged by the lock-down restrictions.  For the empirical evaluation of the impact on sales value and unemployment benefit, we performed a multiple time Difference in Difference as presented in Refs.  \cite{draca2011panic},  \cite{imbens2009recent} and \cite{wooldridge2012introductory}. The following regression was performed: 
 \begin{equation}
 Y_{outcome}=\alpha+\beta_{0}C+\sum_{i=1}^{3}\beta_{i}T_{i}+\sum_{i=1}^{3}\delta_{i}(C \cdot T_{i})+\epsilon
 \label{DID-eq}
 \end{equation}
-where $Y$ is the selected outcome (sales or subsidies), $\alpha$ the intercept, $T_{i}$ a dummy variable for the lock-down timing i,  $C$ a dummy for the treated group, and $\epsilon$ an error term.  As a control group for the sales,  we considered the food ones since,  in principle,  people can be considered to use almost the same amount of food regardless for the lock-down\footnote{Although it is true that a slight increase of food sales during the lock-down is present in the plots in Fig.  \ref{Selling_plots} \ref{Selling_plots_II},  it must be stressed the fact that, as proven numerically in the Supporting Info A, this change does not significantly affect the DID estimations }.  On the other side,  for subsidies \textit{Cassa integrazione},  we considered the Cassa Integrazione Straordinaria - Solidarità as the control group (note that this subsidy is different with respect Cassa Integrazione Solidarità that was dedicated to sectors not covered by Cassa Integrazione Ordinaria).  This subsidy can be used by firms,  damaged by the pandemics and by the lock-downs,  in order to reduce their labor cost but at the same time guaranteeing to the workers part of their original salary \footnote{It is worth noting that the \textit{Cassa Integrazione Ordinaria} considered here is not the only one contribution that was provided by Italian Government: in fact, there was also, for instance,  the \textit{Cassa Integrazione in Deroga} that was dedicated to the firms not covered by the \textit{Ordinaria}.  However, in the present study, we consider, for simplicity,  only the sectors covered by Cassa Integrazione Ordinaria. }.  During the first months of the pandemic,  following the rules stated by the Italian Government (Decreto Cura Italia \cite{curaitalia}),  firms that would reduce their labor cost first forced the employees to use their holiday budget and then,  after it was run out,  they put the employees into the Cassa Integrazione Ordinaria.  Thus the Cassa Integrazione Straordinaria-Solidarietà can be considered as not treated by the first wave of the lock-down, while the ordinary one treated.  The DID consider here has three different times for the national lock-down:  for the sales, we considered,  as done for the epidemiological model,  the months of March 2020 and May 2020 as medium lock-down, the month of April 2020 as high lock-down, and June 2020 as low lock-down.  On the other side concerning the subsidies,  we considered as medium lock-down only May 2020: such choice was motivated by the fact that the effect of firms to use the subsidies for workers was slightly delayed because firms forced their employees first to use their holiday and then the \textit{Cassa Integrazione Ordinaria}: as a consequence,  because of this buffer effect,  in March there is no significant effect of this subsidies although there is a significant reduction of hours worked (see, e.g., \cite{istat_lavoro}).  Performing the DID, we estimated the coefficients for each intensity of lock-down on sales and subsidies. Then these were rescaled in order to obtain a weekly value.  Finally, we multiplied the number obtained from the previous calculation by the number of lock-down weeks,  with the respective intensity,  in each scenario simulated via the epidemiological model described before.  As a consequence, we obtained,  for each scenario,  an economics simulation based on parameters obtained from an empirical evaluation. 
-
-
-
+where $Y$ is the selected outcome (sales value or redundancy funds), $\alpha$ the intercept, $T_{i}$ a dummy variable for the lock-down timing i,  $C$ a dummy for the treated group, and $\epsilon$ an error term.  As a control group for the sales value,  we considered the food ones since,  in principle,  people can be considered to use almost the same amount of food regardless for the lock-down\footnote{Although it is true that a slight increase of food sales value during the lock-down is present in the plots in Fig.  \ref{Selling_plots} \ref{Selling_plots_II},  it must be stressed the fact that, as proven numerically in the Supporting Info A, this change does not significantly affect the DID estimations }.  On the other side,  for redundancy funds \textit{Cassa integrazione},  we considered the Cassa Integrazione Straordinaria - Solidarità as the control group (note that this subsidy is different with respect Cassa Integrazione Solidarità that was dedicated to sectors not covered by Cassa Integrazione Ordinaria).  This subsidy can be used by firms,  damaged by the pandemics and by the lock-downs,  in order to reduce their labor cost but at the same time guaranteeing to the workers part of their original salary \footnote{It is worth noting that the \textit{Cassa Integrazione Ordinaria} considered here is not the only one contribution that was provided by Italian Government: in fact, there was also, for instance,  the \textit{Cassa Integrazione in Deroga} that was dedicated to the firms not covered by the \textit{Ordinaria}.  However, in the present study, we consider, for simplicity,  only the sectors covered by Cassa Integrazione Ordinaria. }.  During the first months of the pandemic,  following the rules stated by the Italian Government (Decreto Cura Italia \cite{curaitalia}),  firms that would reduce their labor cost first forced the employees to use their holiday budget and then,  after it was run out,  they put the employees into the Cassa Integrazione Ordinaria.  Thus the Cassa Integrazione Straordinaria-Solidarietà can be considered as not treated by the first wave of the lock-down, while the ordinary one treated.  The DID consider here has three different times for the national lock-down:  for the sales value, we considered,  as done for the epidemiological model,  the months of March 2020 and May 2020 as medium lock-down, the month of April 2020 as high lock-down, and June 2020 as low lock-down.  On the other side concerning the redundancy funds,  we considered as medium lock-down only May 2020: such choice was motivated by the fact that the effect of firms to use the redundancy funds for workers was slightly delayed because firms forced their employees first to use their holiday and then the \textit{Cassa Integrazione Ordinaria}: as a consequence,  because of this buffer effect,  in March there is no significant effect of this redundancy funds although there is a significant reduction of hours worked (see, e.g., \cite{istat_lavoro}).  Performing the DID, we estimated the coefficients for each intensity of lock-down on sales value and redundancy funds. Then these were rescaled in order to obtain a weekly value.  Finally, we multiplied the coefficients obtained from the DID (scaled from months to weeks) by the number of lock-down weeks,  with the respective intensity,  in each scenario simulated via the epidemiological model described before.  As a consequence, we obtained,  for each scenario,  an economics simulation based on parameters obtained from an empirical evaluation. 
 
 \section{Data description}
 
-The monthly sales data were retrieved from the National Institute of Statistics website \cite{istat}.  In particular, we considered the period starting from June 2018 up to June 2020 for the eight sales categories described in the previous section . The choice to not consider the months after June and, in particular, the last part of the year lies in the fact that in the latter lock-downs were imposed at the regional level and not to national level \footnote{With the only exception of the Christmas holiday}  \footnote{In principle one may ask why the present analysis was not performed on regional cluster making it more flexible: unfortunately the economic data used here, as far as the author knows,  were not available,  at all for a regional cluster.  Moreover, if regional clusters were considered, it was necessary to model an ensemble of SIRD models that communicate with a defined rate (that change also with respect to the lock-down restriction).  This makes the model much more complicated.  However, if all the necessary data for performing the analysis will become available, the author may consider, as an outlook, extending the present analysis to regional clusters}.  As discussed in Supporting Information,  these data were not de-seasoned. Thus, we performed a de-seasoning via the \textit{Forecast} R package \cite{forecast} that uses a Hilbert-Huang transform  \cite{huang1998empirical} for the decomposition of a time series data.  The decomposition results are reported in the Supporting Info E.  Concerning monthly subsidies paid we retrieved the data from the \textit{Osservatorio Cassa integrazione guadagni e fondi di solidarietà} on the \textit{Istituto nazionale della previdenza sociale} webpage \cite{inps}. Here the period considered also starts from June 2018 up to June 2020 for the four categories described in the previous section.  It is worth noting that we considered only the authorized (paid) subsidies and not the asked ones.   Furthermore,  differently for the sales, these data were not affected by seasonality noise,  and thus no de-seasoning was necessary. 
+The monthly sales value data (with the baseline $100=2015$) were retrieved from the National Institute of Statistics website \cite{istat}.  In particular, we considered the period starting from June 2018 up to June 2020 for the eight sales value categories described in the previous section . The choice to not consider the months after June and, in particular, the last part of the year lies in the fact that in the latter lock-downs were imposed at the regional level and not to national level \footnote{With the only exception of the Christmas holiday}  \footnote{In principle one may ask why the present analysis was not performed on regional cluster making it more flexible: unfortunately the economic data used here, as far as the author knows,  were not available,  at all for a regional cluster.  Moreover, if regional clusters were considered, it was necessary to model an ensemble of SIRD models that communicate with a defined rate (that change also with respect to the lock-down restriction).  This makes the model much more complicated.  However, if all the necessary data for performing the analysis will become available, the author may consider, as an outlook, extending the present analysis to regional clusters}.  As discussed in Supporting Information,  these data were not de-seasoned. Thus, we performed a de-seasoning via the \textit{Forecast} R package \cite{forecast} that uses a Hilbert-Huang transform  \cite{huang1998empirical} for the decomposition of a time series data.  The decomposition results are reported in the Supporting Info E.  Concerning monthly redundancy funds paid we retrieved the data from the \textit{Osservatorio Cassa integrazione guadagni e fondi di solidarietà} on the \textit{Istituto nazionale della previdenza sociale} webpage \cite{inps}. Here the period considered also starts from June 2018 up to June 2020 for the four categories described in the previous section.  It is worth noting that we considered only the authorized (paid) redundancy funds and not the asked ones.   Furthermore,  differently for the sales value, these data were not affected by seasonality noise,  and thus no de-seasoning was necessary. 
 
 
 \section{Results and Discussion}
@@ -168,19 +165,19 @@ As done for the section Model and methods, we will divide the discussion of the 
 
 \subsection{DID}
 
-For each sales category we run the regression reported in the Eq.  \ref{DID-eq} on de-seasoned data reported in Fig \ref{Selling_plots} and \ref{Selling_plots_II}.  The coefficients obtained are reported in Tab.  \ref{selling_DID_table_delta} (the estimation of the other parameters is given in Supporting Information D).  As one can point out from the plots, there is indeed a pre-trend in the data before the event,  however as proved numerically in the Supporting Info B,  the slope of this pre-trend is up to two orders of magnitude lesser for the slope in the lock-down T$_{1}$ and $T_{2}$.  Consequently, this pre-trend,  compared to the lock-down effect,  can be considered negligible.   As a further check,  a placebo test was performed by choosing timing before the pandemic of COVID19.  As illustrated in Supporting Info C,  this test was successful.  On the other side,  concerning $T_{3}$  (low lock-down),  only the effect for clothing and footwear can be considered significant.  Thus,  concerning $T_{3}$,  we considered not null,  in the scenario simulations,  only the clothing, and footwear sectors.  By inspecting the Tab.  \ref{selling_DID_table_delta} we see that the most severe lock-down damage hit the clothing and the footwear.  On the other side, the Household kids and the Household tools seem lesser affected by the lock-down.  The same DID regression was used for the subsidies,  using as the control group the extraordinary solidarity subsidies (cassa integrazione straordinaria solidarietà): the plot of the data and the DID coefficients are reported in Fig. \ref{CIG_sector_plots} and Tab \ref{CIG_DID}.  Also in this case the placebo tests were successfully performed.  An interesting insight is also provided by the inspection of the extraordinary subsidies for renovation ( \textit{cassa integrazione ristrutturazione}): these subsidies, compared to the solidarity ones, seem much more sensitive for an external shock in particular for the trade sector. 
+For each sales value category we run the regression reported in the Eq.  \ref{DID-eq} on de-seasoned data reported in Fig \ref{Selling_plots} and \ref{Selling_plots_II}.  The coefficients obtained are reported in Tab.  \ref{selling_DID_table_delta} (the estimation of the other parameters is given in Supporting Information D).  As one can point out from the plots, there is indeed a pre-trend in the data before the event,  however as proved numerically in the Supporting Info B,  the slope of this pre-trend is up to two orders of magnitude lesser for the slope in the lock-down T$_{1}$ and $T_{2}$.  Consequently, this pre-trend,  compared to the lock-down effect,  can be considered negligible.   As a further check,  a placebo test was performed by choosing timing before the pandemic of COVID19.  As illustrated in Supporting Info C,  this test was successful.  On the other side,  concerning $T_{3}$  (low lock-down),  only the effect for clothing and footwear can be considered significant.  Thus,  concerning $T_{3}$,  we considered not null,  in the scenario simulations,  only the clothing, and footwear sectors.  By inspecting the Tab.  \ref{selling_DID_table_delta} we see that the most severe lock-down damage hit the clothing and the footwear.  On the other side, the Household kids and the Household tools seem lesser affected by the lock-down.  The same DID regression was used for the redundancy funds,  using as the control group the extraordinary solidarity redundancy funds (cassa integrazione straordinaria solidarietà): the plot of the data and the DID coefficients are reported in Fig. \ref{CIG_sector_plots} and Tab \ref{CIG_DID}.  Also in this case the placebo tests were successfully performed.  An interesting insight is also provided by the inspection of the extraordinary redundancy funds for renovation ( \textit{cassa integrazione ristrutturazione}): these redundancy funds, compared to the solidarity ones, seem much more sensitive for an external shock in particular for the trade sector. 
 
 
 
 \subsection{Scenarios}
 
-Now that we have the parameters for the economic impact given by the lock-downs,  we are ready to discuss the simulations that output the epidemiological and economic consequences of PM's attitude.  In Tab.  \ref{Table_Epidemiological_effect} and \ref{Table_Epidemiological_cost}  the outcomes of the epidemiological model are given,  while the SIRD curves for the scenarios are provided in Fig.  \ref{SIRD_scenario}; on the other side the effect on selling and subsidies for both scenarios are given in Fig. \ref{Selling_sector_effects} and \ref{CIG_sector_effects}.  To assure the \textit{ceteris pariubus} condition, we used the same set of random numbers for both scenarios.  First,  we see that where the PM is more reactive, we have different small epidemics waves. In contrast, if the PM is poorly reactive, only one intense wave is present,  indeed in the latter scenario, the laziness of PM to apply the lock-down in the first weeks produce the full infection peak of the standard SIRD model: when the PM acts is too late,  as shown in Fig.  \ref{SIRD_scenario}, since the pandemic has almost hit the large part of the population.  This can be pointed out in Fig. \ref{R_t_scenarios} by noting that that the reproduction factor remains at its maximum level for a large number of weeks after the beginning of the pandemic. This also explains why the lock-downs are so week in the second half of the scenario: the remaining part of the population is immune. Thus, no further action is required.  On the contrary, in the first scenario, the PM can use the lock-downs to transform the SIRD peak into small waves (Fig.  \ref{SIRD_scenario}).  As shown in Fig.  \ref{R_t_scenarios} this result is basically obtained by keeping the reproduction factor in the value of medium lock-down value.  These two theoretical models correspond,  in practice,  for the lazy PM to the one considered by the PMs that aimed to herd immunity. At the same time,  concerning the active-PM,  to the PMs that would not saturate the health system and aimed to reduce the death at the minimum.  It is interesting to point out that the change between the scenarios develops in a discontinuous way as shown in Fig.  \ref{Phase_transition}, as the reactivity of the PM is changed, we can consider this as a phase transition of a physical system (e.g., consider the gold-standard diagram of Ising model \cite{Ising,Ising_2}). This explains our choice to consider only two scenarios: indeed, we considered only a sample for each phase.  It is worth noting that a similar result,  within a different epidemiological model,  was obtained by Balcan and Vespignani in Ref.  \cite{Vespignani}.  The explanation of this similar behavior is that both models have a stochastic component,  that as pointed out by Balcan and Vespignani, gives the phase transition. While in their model, this was directly related to the contagion probability, this is indirectly made stochastically by PM's decision that modifies the $\beta$ parameter and so the transmission rate.  Moving to the socio-economic outcome of the model used, we see, from Tab. \ref{Table_Epidemiological_effect} and \ref{Table_Epidemiological_cost},  that in the small wave scenario,  the attitude of the PM largely reduce the overall number of deaths and recovered (and so the cumulative cost for taking of patients) by consistent use of the confinement.  This has an immediate drawback on the economic data: as shown in Fig. \ref{Selling_sector_effects} and \ref{CIG_sector_effects}, the losses for selling and the use of subsidies are widely large concerning the one-wave scenario.  In principle, one can be attempted to find the PM attitude that minimizes the overall cost (deaths,  infected,  selling, and subsidies): in the authors view, this scenario is not realistic since,  actually,  the Italian (but also many other European) criminal law does not allow this option (e.g. art. 452 Codice Penale): although there is an economic cost for life in terms of compensation,  the actual criminal law does not consider an amount of money compared to a money sum,  on contrary it gives a value ex-post, not ex-ante. 
+Now that we have the parameters for the economic impact given by the lock-downs,  we are ready to discuss the simulations that output the epidemiological and economic consequences of PM's attitude.  In Tab.  \ref{Table_Epidemiological_effect} and \ref{Table_Epidemiological_cost}  the outcomes of the epidemiological model are given,  while the SIRD curves for the scenarios are provided in Fig.  \ref{SIRD_scenario}; on the other side the effect on sales value and redundancy funds for both scenarios are given in Fig. \ref{Selling_sector_effects} and \ref{CIG_sector_effects}.  To assure the \textit{ceteris pariubus} condition, we used the same set of random numbers for both scenarios.  First,  we see that where the PM is more reactive, we have different small epidemics waves. In contrast, if the PM is poorly reactive, only one intense wave is present,  indeed in the latter scenario, the laziness of PM to apply the lock-down in the first weeks produce the full infection peak of the standard SIRD model: when the PM acts is too late,  as shown in Fig.  \ref{SIRD_scenario}, since the pandemic has almost hit the large part of the population.  This can be pointed out in Fig. \ref{R_t_scenarios} by noting that that the reproduction factor remains at its maximum level for a large number of weeks after the beginning of the pandemic. This also explains why the lock-downs are so week in the second half of the scenario: the remaining part of the population is immune. Thus, no further action is required.  On the contrary, in the first scenario, the PM can use the lock-downs to transform the SIRD peak into small waves (Fig.  \ref{SIRD_scenario}).  As shown in Fig.  \ref{R_t_scenarios} this result is basically obtained by keeping the reproduction factor in the value of medium lock-down value.  These two theoretical models correspond,  in practice,  for the lazy PM to the one considered by the PMs that aimed to herd immunity. At the same time,  concerning the active-PM,  to the PMs that would not saturate the health system and aimed to reduce the death at the minimum.  It is interesting to point out that the change between the scenarios develops in a discontinuous way as shown in Fig.  \ref{Phase_transition}, as the reactivity of the PM is changed, we can consider this as a phase transition of a physical system (e.g., consider the gold-standard diagram of Ising model \cite{Ising,Ising_2}). This explains our choice to consider only two scenarios: indeed, we considered only a sample for each phase.  It is worth noting that a similar result,  within a different epidemiological model,  was obtained by Balcan and Vespignani in Ref.  \cite{Vespignani}.  The explanation of this similar behavior is that both models have a stochastic component,  that as pointed out by Balcan and Vespignani, gives the phase transition. While in their model, this was directly related to the contagion probability, this is indirectly made stochastically by PM's decision that modifies the $\beta$ parameter and so the transmission rate.  Moving to the socio-economic outcome of the model used, we see, from Tab. \ref{Table_Epidemiological_effect} and \ref{Table_Epidemiological_cost},  that in the small wave scenario,  the attitude of the PM largely reduce the overall number of deaths and recovered (and so the cumulative cost for taking of patients) by consistent use of the confinement.  This has an immediate drawback on the economic data: as shown in Fig. \ref{Selling_sector_effects} and \ref{CIG_sector_effects}, the losses for sales value and the use of redundancy funds are widely large concerning the one-wave scenario.  In principle, one can be attempted to find the PM attitude that minimizes the overall cost (deaths,  infected,  sales value, and redundancy funds): in the authors view, this scenario is not realistic since,  actually,  the Italian (but also many other European) criminal law does not allow this option (e.g. art. 452 Codice Penale): although there is an economic cost for life in terms of compensation,  the actual criminal law does not consider an amount of money compared to a money sum,  on contrary it gives a value ex-post, not ex-ante. 
 For this reason, here, we considered the epidemiological consequences separated from the economic ones. A more intriguing issue come up when the economic cost is causally associated with a number indirect of deaths (for instance, if people does not have the money for food or other first necessity goods ),  in this case, the two factors (epidemiological and economic) can be,  in principle,  summed.  We say in principle because the jurisprudence is significantly reduced or missing since the pandemics are rare.  For the present study, these indirect deaths are,  by now,  not easy to quantify, and thus, we did not consider this option.   
 
 
 \section{Conclusions}
 
-We have obtained a model that combines the epidemiological aspects and the economic ones within a stochastic approach.  This was made possible by evaluating the effect of lock-downs, via a DID regression,  on different sales sectors and the subsidies dedicated to firms that would reduce the labor cost.  Furthermore, we show numerically that,  within a stochastic approach,  the PM attitude to impose the lock-downs is critical. Within a \textit{ceteris paribus} condition, this attitude decides the phase of the outcome scenario and thus the economic and social effects.  
+We have obtained a model that combines the epidemiological aspects and the economic ones within a stochastic approach.  This was made possible by evaluating the effect of lock-downs, via a DID regression,  on different sales value sectors and the redundancy funds dedicated to firms that would reduce the labor cost.  Furthermore, we show numerically that,  within a stochastic approach,  the PM attitude to impose the lock-downs is critical. Within a \textit{ceteris paribus} condition, this attitude decides the phase of the outcome scenario and thus the economic and social effects.  
 
 \clearall
 \newpage
@@ -231,7 +228,7 @@ In all tables the following significance code will be used:  *** for 0.001,  ** 
          \caption{\textcolor{Orange}{Household tools} (L green)}
          \label{fig:y equals x}
      \end{subfigure}
-\caption{Sales data (I), with baseline of 2015,  as provided by \cite{istat} de-seasoned via Forecast package \cite{forecast} for the categories  analysed in this paper compared with \textcolor{red}{food} (red) category.  The timing for each lock-down is marked with a dashed line: red for high, orange medium, and green for low.  Note that despite there is a pre-trend, this is negligible for the slope of medium and high lock-down slopes}
+\caption{Sales value data (I), with the baseline $100=2015$,  as provided by \cite{istat} de-seasoned via Forecast package \cite{forecast} for the categories  analysed in this paper compared with \textcolor{red}{food} (red) category.  The timing for each lock-down is marked with a dashed line: red for high, orange medium, and green for low.  Note that despite there is a pre-trend, this is negligible for the slope of medium and high lock-down slopes}
 \label{Selling_plots}
 \end{figure}
 
@@ -242,7 +239,7 @@ In all tables the following significance code will be used:  *** for 0.001,  ** 
 \includegraphics[width=0.45\textwidth]{Figures/Giocattoli.pdf}
 \caption{ \textcolor{Thistle}{Games} (Thistle)}
   \label{fig:y equals x}
-\caption{Selling data (II), with baseline of 2015,  as provided by \cite{istat} de-seasoned via Forecast package \cite{forecast} for the categories  analysed in this paper compared with \textcolor{red}{food} (red) category.  Each lock-down timing is marked with a dashed line: red for high, orange medium, and green for low.  Note that despite there is a pre-trend, this is negligible for the slope of medium and high lock-down slopes}
+\caption{Sales value data (II), with the baseline $100=2015$,  as provided by \cite{istat} de-seasoned via Forecast package \cite{forecast} for the categories  analysed in this paper compared with \textcolor{red}{food} (red) category.  Each lock-down timing is marked with a dashed line: red for high, orange medium, and green for low.  Note that despite there is a pre-trend, this is negligible for the slope of medium and high lock-down slopes}
 \label{Selling_plots_II}
 \end{figure}
 
@@ -250,7 +247,7 @@ In all tables the following significance code will be used:  *** for 0.001,  ** 
 \begin{table}[]
 \caption{
 \begin{flushleft}
-$\delta$ coefficients as obtained by the DID  regression, for the selling data de-seasoned,  according to equation \ref{DID-eq} \\ for the different lock-down timings. The values of the intercept ($\alpha$), $\beta_{0}$ and $\beta_{i}$ are provided in the Supporting Info.  
+$\delta$ coefficients as obtained by the DID  regression, for sales value data (with the baseline $100=2015$) de-seasoned,  according to equation \ref{DID-eq} \\ for the different lock-down timings. The values of the intercept ($\alpha$), $\beta_{0}$ and $\beta_{i}$ are provided in the Supporting Info.  
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
@@ -276,13 +273,13 @@ $\delta$ coefficients as obtained by the DID  regression, for the selling data d
      \begin{subfigure}[b]{0.45\textwidth}
          \centering
          \includegraphics[width=\textwidth]{Figures/CIG_Manifattura.pdf}
-         \caption{Subsidies paid for manufacture} 
+         \caption{Redundancy funds paid for manufacture} 
      \end{subfigure}
      \hfill
      \begin{subfigure}[b]{0.45\textwidth}
          \centering
          \includegraphics[width=\textwidth]{Figures/CIG_Commercio.pdf}}
-         \caption{Subsidies paid for trade}
+         \caption{Redundancy funds paid for trade}
      \end{subfigure}
           \begin{subfigure}[b]{0.45\textwidth}
          \centering
@@ -295,7 +292,7 @@ $\delta$ coefficients as obtained by the DID  regression, for the selling data d
          \includegraphics[width=\textwidth]{Figures/CIG_TOT.pdf}}
           \caption{Total}
      \end{subfigure}
-\caption{Comparison between the ordinary subsidies (blue)   vs. the extraordinary ones (renovation red and purple solidarity) for a selected set of sectors and the overall total (including other sectors that were not analysed here).  The dashed lines represent the different timing and intensity for the lock-down:  red for high, orange medium, and green for low.  }
+\caption{Comparison between the ordinary redundancy funds (blue)   vs. the extraordinary ones (renovation red and purple solidarity) for a selected set of sectors and the overall total (including other sectors that were not analysed here).  The dashed lines represent the different timing and intensity for the lock-down:  red for high, orange medium, and green for low.  }
 \label{CIG_sector_plots}
 \end{figure}
 
@@ -332,7 +329,7 @@ $\delta$ coefficients as obtained by the DID  regression, for the selling data d
 \begin{table}[]
 \caption{
 \begin{flushleft}
-$\delta$ cofficients, expressed in millions as obtained by the DID  regression, for subsidies (controlling the extraordinary solidarity) \\ according to equation \ref{DID-eq} for the different lock-down timings. The values of the  intercept ($\alpha$), $\beta_{0}$ and $\beta_{i}$ are provided in the Supporting Information D. 
+$\delta$ cofficients, expressed in millions as obtained by the DID  regression, for redundancy funds (controlling the extraordinary solidarity) \\ according to equation \ref{DID-eq} for the different lock-down timings. The values of the  intercept ($\alpha$), $\beta_{0}$ and $\beta_{i}$ are provided in the Supporting Information D. 
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
@@ -378,7 +375,7 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
          \includegraphics[width=\textwidth]{Figures/Selling_Scenario_1.5_1.5_1.5.pdf}}
          \caption{Lazy PM}
      \end{subfigure}
-\caption{Comparison between the sales effects for the scenarios where an active vs lazy PM is considered.  These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (divided by 4).  The error bars were calculated by considering the error propagation 
+\caption{Comparison between the sales value effects for the scenarios where an active vs lazy PM is considered (with the baseline $100=2015$).  These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (divided by 4).  The error bars were calculated by considering the error propagation 
  }
 \label{Selling_sector_effects}
 \end{figure}
@@ -396,7 +393,7 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
          \includegraphics[width=\textwidth]{Figures/CIG_1.5_1.5_1.5.pdf}}
          \caption{Lazy PM}
      \end{subfigure}
-\caption{Comparison between the subsides effects for the scenarios where an active vs. lazy PM is considered. These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (scaled in order to obtain the week value). The error bars, although they are visible because they are too reduced,  were calculated by considering the error propagation}
+\caption{Comparison between the subsides effects (in terms of hours paid) for the scenarios where an active vs. lazy PM is considered. These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (scaled in order to obtain the week value). The error bars, although they are not clearly visible because they are too reduced,  were calculated by considering the error propagation}
 \label{CIG_sector_effects}
 \end{figure}
 
@@ -444,7 +441,7 @@ Total    & 26     & 2708 \\ \hline
 
 \subsection{A - Food consumption during the lock-down}
 
-In order to check if any significant effect is obtained on the coefficients of Tab.  \ref{selling_DID_table_delta_phantom} by the slight increase of food consumption during the lockdown,  we considered a hypothetical scenario where this increase did not happen (e.g. the selling for March to June were identical to February): as one can point out by comparing the Tab. \ref{selling_DID_table_delta_phantom} with Tab, \ref{selling_DID_table_delta} no significant difference can be found. Thus since the real scenario where this increase happened (the real one) and the scenario where this did not happen (hypothetical one) are indistinguishable,  we can consider this increase negligible for the estimation of the DID $\delta$ coefficients 
+In order to check if any significant effect is obtained on the coefficients of Tab.  \ref{selling_DID_table_delta_phantom} by the slight increase of food consumption during the lockdown,  we considered a hypothetical scenario where this increase did not happen (e.g sales value for March to June were identical to February): as one can point out by comparing the Tab. \ref{selling_DID_table_delta_phantom} with Tab, \ref{selling_DID_table_delta} no significant difference can be found. Thus since the real scenario where this increase happened (the real one) and the scenario where this did not happen (hypothetical one) are indistinguishable,  we can consider this increase negligible for the estimation of the DID $\delta$ coefficients 
 
 \begin{landscape}
 \begin{table}[]
@@ -473,7 +470,7 @@ $\delta$ coefficients as obtained by the DID  regression, for the selling data d
 
 \subsection{B - Pre-trend check}
 
-In order to perform a further assessment on the credibility of the DID coefficients obtained in Tab. \ref{selling_DID_table_delta} we make a comparison between the trends of the difference of food sales and the other sectors, before ($\Delta$ Slope before $T_{T1}$) and after the three lock-down at $T_{T1}$,$T_{T2}$ and $T_{T3}$.  As can be seen from the following tables (Tab.  \ref{ASS_Clothing}, \ref{ASS_Footwear},  \ref{ASS_Appliances},   \ref{ASS_Photooptics}, \ref{ASS_Household_K},  \ref{ASS_Household_T} and \ref{ASS_Games})  the lock-down $\Delta$ at $T_{T1}$ and $T_{T2}$ are much larger with respect to the pre-trend $\Delta$ before.  Thus the DID coefficients obtained in Tab \ref{selling_DID_table_delta} can be considered credible.  Concerning $T_{T3}$,  as said in the main text,  we considered significant only the values for Clothing and Footwear.
+In order to perform a further assessment on the credibility of the DID coefficients obtained in Tab. \ref{selling_DID_table_delta} we make a comparison between the trends of the difference of food sales value and the other sectors, before ($\Delta$ Slope before $T_{T1}$) and after the three lock-down at $T_{T1}$,$T_{T2}$ and $T_{T3}$.  As can be seen from the following tables (Tab.  \ref{ASS_Clothing}, \ref{ASS_Footwear},  \ref{ASS_Appliances},   \ref{ASS_Photooptics}, \ref{ASS_Household_K},  \ref{ASS_Household_T} and \ref{ASS_Games})  the lock-down $\Delta$ at $T_{T1}$ and $T_{T2}$ are much larger with respect to the pre-trend $\Delta$ before.  Thus the DID coefficients obtained in Tab \ref{selling_DID_table_delta} can be considered credible.  Concerning $T_{T3}$,  as said in the main text,  we considered significant only the values for Clothing and Footwear.
 
 \begin{table}
 \centering
@@ -582,7 +579,7 @@ In order to assets the common trend the credibility of the DID coefficient we pe
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{Figures/DID_selling_placebo.pdf}
-\caption{Timing for placebo test for food vs clothing sales: $T_{4}$ is placed at $T=-4$ and $T=-2$,  $T_{5}$ at $T=-3$ and  $T_{6}$ at $T=-1$).  For the other sales sector the placebo timing is identical} 
+\caption{Timing for placebo test for food vs clothing sales value: $T_{4}$ is placed at $T=-4$ and $T=-2$,  $T_{5}$ at $T=-3$ and  $T_{6}$ at $T=-1$).  For the other sales value sector the placebo timing is identical} 
 \label{DID_selling_placebo}
 \end{figure}
 
@@ -590,7 +587,7 @@ In order to assets the common trend the credibility of the DID coefficient we pe
 \begin{table}
 \caption{
 \begin{flushleft}
-$\delta$ cofficients as obtained by the DID  regression, for the selling data de-seasoned,  according to equation \ref{DID-eq} \\ for a placebo timings as showed in Fig.  \ref{DID_selling_placebo}
+$\delta$ cofficients as obtained by the DID  regression, for sales value data de-seasoned,  according to equation \ref{DID-eq} \\ for a placebo timings as showed in Fig.  \ref{DID_selling_placebo}
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
@@ -612,7 +609,7 @@ $\delta$ cofficients as obtained by the DID  regression, for the selling data de
 \begin{figure}
 \centering
 \includegraphics[width=0.5\textwidth]{Figures/DID_subsidies_placebo.pdf}
-\caption{Timing for placebo test for the total subsidies paid (in hour) \textit{Cassa integrazione Ordinaria} (blue) vs  \textit{Cassa integrazione Straordinaria Solidarietà} (purple)  sales: $T_{4}$ is placed at $T=-2$,  $T_{5}$ at $T=-1$ and  $T_{6}$ at $T=0$).  For the other categories the placebo timing is identical} 
+\caption{Timing for placebo test for the total redundancy funds paid (in hour) \textit{Cassa integrazione Ordinaria} (blue) vs  \textit{Cassa integrazione Straordinaria Solidarietà} (purple)  sales value: $T_{4}$ is placed at $T=-2$,  $T_{5}$ at $T=-1$ and  $T_{6}$ at $T=0$).  For the other categories the placebo timing is identical} 
 \label{DID_subsidies_placebo}
 \end{figure}
 
@@ -620,7 +617,7 @@ $\delta$ cofficients as obtained by the DID  regression, for the selling data de
 \begin{table}[]
 \caption{
 \begin{flushleft}
-$\delta$ cofficients, expressed in millions as obtained by the DID  regression, for subsidies (controlling the extraordinary solidarity) \\ according to equation \ref{DID-eq} for a placebo timings as showed in Fig.  \ref{DID_subsidies_placebo}
+$\delta$ cofficients, expressed in millions as obtained by the DID  regression, for redundancy funds (controlling the extraordinary solidarity) \\ according to equation \ref{DID-eq} for a placebo timings as showed in Fig.  \ref{DID_subsidies_placebo}
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
@@ -638,13 +635,13 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
 
 \subsection{D - DID coefficients}
 
-Here we report the estimation of the other parameters,  obtained in the DID regression for sales and subsidies,  that were not put in to the main text
+Here we report the estimation of the other parameters,  obtained in the DID regression for sales value and redundancy funds,  that were not put in to the main text
 
 \begin{landscape}
 \begin{table}[]
 \caption{
 \begin{flushleft}
-$\alpha$ , $\beta_{0}$ and $\beta_{1}$  obtained by the DID regression,  for sales data de-seasoned,  according to equation \ref{DID-eq} \\ for the different lock-down timings. 
+$\alpha$ , $\beta_{0}$ and $\beta_{1}$  obtained by the DID regression,  for sales value data de-seasoned,  according to equation \ref{DID-eq} \\ for the different lock-down timings. 
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
@@ -665,7 +662,7 @@ $\alpha$ , $\beta_{0}$ and $\beta_{1}$  obtained by the DID regression,  for sal
 \begin{table}[]
 \caption{
 \begin{flushleft}
-$\beta_{2}$ and $\beta_{3}$ obtained by the DID regression,  for  sales data de-seasoned,  according to equation \ref{DID-eq} \\ for the different lock-down timings. 
+$\beta_{2}$ and $\beta_{3}$ obtained by the DID regression,  for  sales value data de-seasoned,  according to equation \ref{DID-eq} \\ for the different lock-down timings. 
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l}
@@ -686,7 +683,7 @@ $\beta_{2}$ and $\beta_{3}$ obtained by the DID regression,  for  sales data de-
 \begin{table}[]
 \caption{
 \begin{flushleft}
-$\alpha$ , $\beta_{0}$ and $\beta_{1}$, expressed in millions, as obtained by the DID regression,  for subsidies  according to equation \ref{DID-eq} \\ for the different lock-down timings. 
+$\alpha$ , $\beta_{0}$ and $\beta_{1}$, expressed in millions, as obtained by the DID regression,  for redundancy funds  according to equation \ref{DID-eq} \\ for the different lock-down timings. 
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
@@ -705,7 +702,7 @@ $\alpha$ , $\beta_{0}$ and $\beta_{1}$, expressed in millions, as obtained by th
 \begin{table}[]
 \caption{
 \begin{flushleft}
-$\beta_{2}$ and $\beta_{3}$ obtained by the DID regression,  for subsidies  according to equation \ref{DID-eq} \\ for the different lock-down timings. 
+$\beta_{2}$ and $\beta_{3}$ obtained by the DID regression,  for redundancy funds  according to equation \ref{DID-eq} \\ for the different lock-down timings. 
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l}
@@ -725,48 +722,48 @@ $\beta_{2}$ and $\beta_{3}$ obtained by the DID regression,  for subsidies  acco
 
 \subsection{E - De-seasoning}
 
-In this section of we report the results of the de-seasoning for raw sales data taken from ISTAT \cite{istat}.  The first panel refer to the raw data (data)  the third to the seasonal component that is perfectly periodical (seasonal),  the forth one to the seasonal component that is not perfectly periodical (remainder) and the second one the trend extracted (trend). This decomposition was made by using an Hilbert-Huang transform as implemented in the \cite{forecast} R package.  The final trend in the second panel was obtained from by subtracting from the raw data the signal obtained in the third and forth panel.  This approach of de-seasoning is known as additive. 
+In this section of we report the results of the de-seasoning for raw sales value data taken from ISTAT \cite{istat}.  The first panel refer to the raw data (data)  the third to the seasonal component that is perfectly periodical (seasonal),  the forth one to the seasonal component that is not perfectly periodical (remainder) and the second one the trend extracted (trend). This decomposition was made by using an Hilbert-Huang transform as implemented in the \cite{forecast} R package.  The final trend in the second panel was obtained from by subtracting from the raw data the signal obtained in the third and forth panel.  This approach of de-seasoning is known as additive. 
 
 
 \begin{figure}
  \centering
  \includegraphics[width=\textwidth]{Figures/Deseasoning/Alimentare.pdf}
-\caption{De-seasoning components for food sales} 
+\caption{De-seasoning components for food sales value} 
 \label{Phase_transition}
 \end{figure}
 
 \begin{figure}
  \centering
  \includegraphics[width=\textwidth]{Figures/Deseasoning/Abbigliamento.pdf}
-\caption{De-seasoning component for clothing sales} 
+\caption{De-seasoning component for clothing sales value} 
 \label{Phase_transition}
 \end{figure}
 
 \begin{figure}
  \centering
  \includegraphics[width=\textwidth]{Figures/Deseasoning/Calzature.pdf}
-\caption{De-seasoning components for footwear sales} 
+\caption{De-seasoning components for footwear sales value} 
 \label{Phase_transition}
 \end{figure}
 
 \begin{figure}
  \centering
  \includegraphics[width=\textwidth]{Figures/Deseasoning/Elettrodomestici.pdf}
-\caption{De-seasoning components for appliances sales} 
+\caption{De-seasoning components for appliances sales value} 
 \label{Phase_transition}
 \end{figure}
 
 \begin{figure}
  \centering
  \includegraphics[width=\textwidth]{Figures/Deseasoning/Fotoottica.pdf}
-\caption{De-seasoning components for photo-optics sales} 
+\caption{De-seasoning components for photo-optics sales value} 
 \label{Phase_transition}
 \end{figure}
 
 \begin{figure}
  \centering
  \includegraphics[width=\textwidth]{Figures/Deseasoning/Casalinghi.pdf}
-\caption{de-seasoning components  for Homeware sales } 
+\caption{de-seasoning components  for Homeware sales value} 
 \label{Phase_transition}
 \end{figure}
 
@@ -774,14 +771,14 @@ In this section of we report the results of the de-seasoning for raw sales data 
 \begin{figure}
  \centering
  \includegraphics[width=\textwidth]{Figures/Deseasoning/Utilenseria.pdf}
-\caption{De-seasoning components for household tools sales} 
+\caption{De-seasoning components for household tools sales value} 
 \label{Phase_transition}
 \end{figure}
 
 \begin{figure}
  \centering
  \includegraphics[width=\textwidth]{Figures/Deseasoning/Giocattoli.pdf}
-\caption{De-seasoning components for games sales } 
+\caption{De-seasoning components for games sales value } 
 \label{Phase_transition}
 \end{figure}
 
