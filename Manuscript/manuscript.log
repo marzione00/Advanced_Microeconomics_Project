@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  22 MAR 2021 19:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  22 MAR 2021 21:56
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -1344,7 +1344,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.253 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+l.253 ...t      & $\delta_{2} $ & $SE_{\delta_{2}$
                                                    & t      &  $\delta_{3}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1355,7 +1355,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.253 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+l.253 ...      &  $\delta_{3}$ & $ SE_{\delta_{3}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1521,7 +1521,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.335 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+l.335 ...t      & $\delta_{2} $ & $SE_{\delta_{2}$
                                                    & t      &  $\delta_{3}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1532,7 +1532,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.335 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+l.335 ...t      &  $\delta_{3}$ & $SE_{\delta_{3}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1614,161 +1614,9 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 430.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.434                 & Active & \sigma
-                                          & Lazy &  \sigma \\ \hline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.434                 & Active & \sigma   &
-                                            Lazy &  \sigma \\ \hline
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.434                 & Active & \sigma   &
-                                            Lazy &  \sigma \\ \hline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.434                 & Active & \sigma   &
-                                            Lazy &  \sigma \\ \hline
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.434 ...     & Active & \sigma   & Lazy &  \sigma
-                                                   \\ \hline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.434 ...ive & \sigma   & Lazy &  \sigma \\ \hline
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.434 ...ive & \sigma   & Lazy &  \sigma \\ \hline
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.434 ...ive & \sigma   & Lazy &  \sigma \\ \hline
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 447.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.451              & Active &  \sigma
-                                       & Lazy &   \sigma  \\ \hline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.451              & Active &  \sigma  &
-                                         Lazy &   \sigma  \\ \hline
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.451              & Active &  \sigma  &
-                                         Lazy &   \sigma  \\ \hline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.451              & Active &  \sigma  &
-                                         Lazy &   \sigma  \\ \hline
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.451 ...    & Active &  \sigma  & Lazy &   \sigma
-                                                    \\ \hline
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.451 ...e &  \sigma  & Lazy &   \sigma  \\ \hline
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.451 ...e &  \sigma  & Lazy &   \sigma  \\ \hline
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.451 ...e &  \sigma  & Lazy &   \sigma  \\ \hline
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
 [22 <./Figures/Epidemics_1_1_1.pdf> <./Figures/Epidemics_1.5_1.5_1.5.pdf>]
 [23 <./Figures/Selling_Scenario_1_1_1.pdf> <./Figures/Selling_Scenario_1.5_1.5_
@@ -1960,7 +1808,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.488 ...   & $\delta_{2} $ & $\sigma_{\delta_{2}$
+l.488 ...t      & $\delta_{2} $ & $SE_{\delta_{2}$
                                                    & t      &  $\delta_{3}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1971,7 +1819,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.488 ...   &  $\delta_{3}$ & $\sigma_{\delta_{3}$
+l.488 ...t      &  $\delta_{3}$ & $SE_{\delta_{3}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2089,7 +1937,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.630 ...   & $\delta_{5} $ & $\sigma_{\delta_{5}$
+l.630 ...t      & $\delta_{5} $ & $SE_{\delta_{5}$
                                                    & t      &  $\delta_{6}$ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2100,7 +1948,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.630 ...   &  $\delta_{6}$ & $\sigma_{\delta_{6}$
+l.630 ...t      &  $\delta_{6}$ & $SE_{\delta_{6}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2207,19 +2055,8 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.660 ...   & $\delta_{4} $ & $\sigma_{\delta_{4}$
+l.660 ...t      & $\delta_{4} $ & $SE_{\delta_{4}$
                                                    & t      &  $\delta_{5}$ ...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.660 ...   &  $\delta_{5}$ & $\sigma_{\delta_{5}$
-                                                    & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2323,7 +2160,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.684 ...     &  $\beta_{1}$ & $\sigma_{\beta_{1}$
+l.684 ...& t      &  $\beta_{1}$ & $SE_{\beta_{1}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2512,7 +2349,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.726 ...     &  $\beta_{1}$ & $\sigma_{\beta_{1}$
+l.726 ...& t      &  $\beta_{1}$ & $SE_{\beta_{1}$
                                                     & t     \\ \hline
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2701,7 +2538,7 @@ ts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona
 /iwonab.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonar.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on manuscript.pdf (49 pages, 489517 bytes).
+Output written on manuscript.pdf (49 pages, 489926 bytes).
 PDF statistics:
  820 PDF objects out of 1000 (max. 8388607)
  158 named destinations out of 1000 (max. 500000)

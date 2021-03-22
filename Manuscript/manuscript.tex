@@ -183,7 +183,7 @@ We have obtained a model that combines the epidemiological aspects and the econo
 
 \section{Pictures and Tables}
 
-In all tables the following significance code will be used:  *** for 0.001,  ** for 0.01 and * for 0.05
+In all tables the following significance code will be used:  *** for 0.001,  ** for 0.01 and * for 0.05. SE stands for Standard Error
 
 \begin{figure}
      \centering
@@ -250,7 +250,7 @@ $\delta$ coefficients as obtained by the DID  regression, for sales value data (
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
-                                       & $\delta_{1} $&   $ \sigma_{\delta_{1}}$   & t      & $\delta_{2} $ & $\sigma_{\delta_{2}$ & t      &  $\delta_{3}$ & $\sigma_{\delta_{3}$  & t     \\ \hline
+                                       & $\delta_{1} $&   $ SE_{\delta_{1}}$   & t      & $\delta_{2} $ & $SE_{\delta_{2}$ & t      &  $\delta_{3}$ & $ SE_{\delta_{3}$  & t     \\ \hline
 {\color[HTML]{3531FF} Clothing}        & -40.16 *** & 2.01  & -19.99 & -60.07 *** & 2.77  & -21.64 & -16.45 *** & 2.77  & -5.92 \\ \hline
 {\color[HTML]{009901} Footwear}        & -38.70 *** & 1.73  & -22.35 & -65.78 *** & 2.39  & -27.49 & -20.62 *** & 2.39  & -8.62 \\ \hline
 {\color[HTML]{F56B00} Appliances}      & -20.32 *** & 2.50  & -8.11  & -27.34 *** & 3.45  & -7.90  & -3.68  & 3.45  & -1.06  \\ \hline
@@ -332,7 +332,7 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
-                                       & $\delta_{1} $&   $ \sigma_{\delta_{1}}$   & t      & $\delta_{2} $ & $\sigma_{\delta_{2}$ & t      &  $\delta_{3}$ & $\sigma_{\delta_{3}$  & t     \\ \hline
+                                       & $\delta_{1} $&   $ SE_{\delta_{1}}$   & t      & $\delta_{2} $ & $SE_{\delta_{2}$ & t      &  $\delta_{3}$ & $SE_{\delta_{3}$  & t     \\ \hline
 {\color[HTML]{343434} Total}        & 706 ***   & 3.8     & 181  & 217  ***  & 3.8     & 55.98 & 144  ***  & 3.88     & 37.07 \\ \hline
 {\color[HTML]{343434} Manufacture}  & 494  ***  & 3.4     & 143 & 162  ***  & 3.4     & 46.91    & 111   *** & 3.4     & 32.17  \\ \hline
 {\color[HTML]{343434} Trade}        & 16.4  *** & 0.21  & 75.35  & 3.68 ***  & 0.21  & 16.9 & 2.88  *** & 0.21  & 13.27 \\ \hline
@@ -374,7 +374,7 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
          \includegraphics[width=\textwidth]{Figures/Selling_Scenario_1.5_1.5_1.5.pdf}}
          \caption{Lazy PM}
      \end{subfigure}
-\caption{Sales value effects for the scenarios where an active vs lazy PM is considered (with the baseline $100=2015$).  These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (divided by 4).  The error bars were calculated by considering the error propagation 
+\caption{Sales value effects for the scenarios where an active vs lazy PM is considered (with the baseline $100=2015$).  These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (divided by 4).  The standard error bars were calculated by considering the error propagation 
  }
 \label{Selling_sector_effects}
 \end{figure}
@@ -392,7 +392,7 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
          \includegraphics[width=\textwidth]{Figures/CIG_1.5_1.5_1.5.pdf}}
          \caption{Lazy PM}
      \end{subfigure}
-\caption{Redundancy funds variation(in terms of hours paid) for the scenarios where an active vs. lazy PM is considered. These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (scaled in order to obtain the week value). The error bars, although they are not clearly visible because they are too reduced,  were calculated by considering the error propagation}
+\caption{Redundancy funds variation (in terms of million of hours paid) for the scenarios where an active vs. lazy PM is considered. These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (scaled in order to obtain the week value). The standard error bars, although they are not clearly visible because they are too reduced,  were calculated by considering the error propagation}
 \label{CIG_sector_effects}
 \end{figure}
 
@@ -429,9 +429,9 @@ Total    & 26     & 2708 \\ \hline
 
 \begin{table}[]
 \begin{center}
-\caption{Sales value effects for the scenarios where an active vs lazy PM is considered (with the baseline $100=2015$).  These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (divided by 4).  The errors were calculated by considering the error propagation}
+\caption{Sales value effects for the scenarios where an active vs lazy PM is considered (with the baseline $100=2015$).  These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (divided by 4).  The standard errors were calculated by considering the error propagation}
 \begin{tabular}{l|l|l|l|l}
-                & Active & \sigma   & Lazy &  \sigma \\ \hline
+                & Active & SE   & Lazy &  SE \\ \hline
 Clothing        & -481   & 26 & -45  & 9 \\ \hline
 Footwear        & -264   & 23 & -49  & 8 \\ \hline
 Appliances      & -242   & 29 & -20  & 2 \\ \hline
@@ -446,9 +446,9 @@ Games           & -342   & 41 & -48  & 3
 
 \begin{table}[]
 \begin{center}
-\caption{Redundancy funds variation(in terms of hours paid) for the scenarios where an active vs. lazy PM is considered. These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (scaled in order to obtain the week value). The errors  were calculated by considering the error propagation.}
+\caption{Redundancy funds variation (in terms of million of hours paid) for the scenarios where an active vs. lazy PM is considered. These effects were calculated by running a DID regression for the different national lock-down imposed during March-June 2020 and then multiplying the number of lock-down weeks obtained from the SIRD scenario with the coefficients obtained from the DID (scaled in order to obtain the week value). The standard errors were calculated by considering the error propagation.}
 \begin{tabular}{l|l|l|l|l}
-             & Active &  \sigma  & Lazy &   \sigma  \\ \hline
+             & Active &  SE  & Lazy &   SE  \\ \hline
 Total        & 2938   & 38 & 889  & 9.7 \\ \hline
 Manufacture  & 2180   & 38 & 648  & 9.7 \\ \hline
 Trade        & 52     & 3  & 19   & 0.8 \\ \hline
@@ -485,7 +485,7 @@ $\delta$ coefficients as obtained by the DID  regression, for the selling data d
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
-                                       & $\delta_{1} $&   $ \sigma_{\delta_{1}}$   & t      & $\delta_{2} $ & $\sigma_{\delta_{2}$ & t      &  $\delta_{3}$ & $\sigma_{\delta_{3}$  & t     \\ \hline
+                                       & $\delta_{1} $&   $ SE_{\delta_{1}}$   & t      & $\delta_{2} $ & $SE_{\delta_{2}$ & t      &  $\delta_{3}$ & $SE_{\delta_{3}$  & t     \\ \hline
 {\color[HTML]{3531FF} Clothing}        & -39.71 ***  & 2.00  & -19.76 & -59.34 *** & 2.77  & -21.37 & -15.50  *** & 2.77 & -5.58 \\ \hline
 {\color[HTML]{009901} Footwear}        & -38.24 *** & 1.73  & -22.08 & -65.05  *** & 2.39  & -27.18 & -19.68 *** & 2.39  & -8.22 \\ \hline
 {\color[HTML]{F56B00} Appliances}      & -19.86 *** & 2.50  & -7.93 & -26.61 *** & 3.45  & -7.69  & -2.73 & 3.45  & -0.79 \\ \hline
@@ -512,7 +512,7 @@ In order to perform a further assessment on the credibility of the DID coefficie
 \centering
 \caption{Clothing}
 \begin{tabular}{l|l|l}
-                & Value  & $\sigma$ \\ \hline
+                & Value  & $SE$ \\ \hline
 $\Delta$ Slope before T1 & -0.33  *** & 0.08  \\ \hline
 $\Delta_{T1}$   & -36.33 *** & 2.15  \\ \hline 
 $\Delta_{T2}$   & -56.23 *** & 2.77   \\ \hline
@@ -525,7 +525,7 @@ $\Delta_{T3}$   & -11.95 *** & 2.86 \\ \hline
 \centering
 \caption{Footwear}
 \begin{tabular}{l|l|l}
-                & Value  &  $\sigma$ \ \\ \hline
+                & Value  &  $SE$ \ \\ \hline
 $\Delta$ Slope before T1 & -0.18 * & 0.08  \\ \hline
 $\Delta_{T1}$   & -38.70 *** & 1.91   \\ \hline
 $\Delta_{T2}$   & -63.21 ***  & 2.47  \\ \hline
@@ -539,7 +539,7 @@ $\Delta_{T3}$   & -17.61 *** & 2.54  \\ \hline
 \centering
 \caption{Appliances}
 \begin{tabular}{l|l|l}
-                & Value  & $\sigma$ \\ \hline
+                & Value  & $SE$ \\ \hline
 $\Delta$ Slope before T1 & -0.12  & 0. 07 \\ \hline
 $\Delta_{T1}$   & -19.21 *** & 3.10   \\ \hline
 $\Delta_{T2}$   & -26.23 *** & 4.00  \\ \hline
@@ -552,7 +552,7 @@ $\Delta_{T3}$   & -2.37 & 4.12  \\ \hline
 \centering
 \caption{Photo-optics}
 \begin{tabular}{l|l|l}
-                & Value  & $\sigma$ \\ \hline
+                & Value  & $SE$ \\ \hline
 $\Delta$ Slope before T1 & -0.40 ***  & 0.07 \\ \hline
 $\Delta_{T1}$   & -29.94 *** & 2.73   \\ \hline
 $\Delta_{T2}$   & -48.11 *** & 3.52  \\ \hline
@@ -565,7 +565,7 @@ $\Delta_{T3}$   & -2.93 & 3.63 \\ \hline
 \centering
 \caption{Household kids}
 \begin{tabular}{l|l|l}
-                & Value  & $\sigma$ \\ \hline
+                & Value  & $SE$ \\ \hline
 $\Delta$ Slope before T1 & -0.16 ** & 0.04  \\ \hline
 $\Delta_{T1}$   & -10.51 *** & 1.55  \\ \hline
 $\Delta_{T2}$   & -19.00 *** & 2.14  \\ \hline
@@ -579,7 +579,7 @@ $\Delta_{T3}$   & -3.61 & 2.14 \\ \hline
 \centering
 \caption{Household tools}
 \begin{tabular}{l|l|l}
-                & Value  & $\sigma$ \\ \hline
+                & Value  & $SE$ \\ \hline
 $\Delta$ Slope before T1 & -0.21 *** & 0.05  \\ \hline
 $\Delta_{T1}$   & -13.02 *** & 3.53 \\ \hline
 $\Delta_{T2}$   & -30.23 ** & 4.88  \\ \hline
@@ -593,7 +593,7 @@ $\Delta_{T3}$   & 2.33 & 4.88 \\ \hline
 \centering
 \caption{Games}
 \begin{tabular}{l|l|l}
-                & Value  & $\sigma$ \\ \hline
+                & Value  & $SE$ \\ \hline
 $\Delta$ Slope before T1 & -0.37 ** & 0.10 \\ \hline
 $\Delta_{T1}$   & -27.56 *** & 3.63 \\ \hline
 $\Delta_{T2}$   & -64.31 *** & 5.01  \\ \hline
@@ -627,7 +627,7 @@ $\delta$ cofficients as obtained by the DID  regression, for sales value data de
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
-& $\delta_{4} $&   $ \sigma_{\delta_{4}}$   & t      & $\delta_{5} $ & $\sigma_{\delta_{5}$ & t      &  $\delta_{6}$ & $\sigma_{\delta_{6}$  & t     \\ \hline
+& $\delta_{4} $&   $ SE_{\delta_{4}}$   & t      & $\delta_{5} $ & $SE_{\delta_{5}$ & t      &  $\delta_{6}$ & $SE_{\delta_{6}$  & t     \\ \hline
 {\color[HTML]{3531FF} Clothing}        & 4.87  & 17.47  & 0.28 & 3.94 & 12.65 & 0.31 & 0.70 & 17.48  & 0.04 \\ \hline
 {\color[HTML]{009901} Footwear}        & 5.31 & 18.16 & 0.29 & 5.05  & 13.14 & 0.38 & 2.00  &  18. 16 & 0.11 \\ \hline
 {\color[HTML]{F56B00} Appliances}      & 4.64 & 8.66  & 0.54 & 1.14 & 6.26  & 0.18  & -0.81  & 8.66 & -0.09  \\ \hline
@@ -657,7 +657,7 @@ $\delta$ cofficients, expressed in millions as obtained by the DID  regression, 
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
-                                       & $\delta_{4} $&   $ \sigma_{\delta_{4}}$   & t      & $\delta_{4} $ & $\sigma_{\delta_{4}$ & t      &  $\delta_{5}$ & $\sigma_{\delta_{5}$  & t     \\ \hline
+                                       & $\delta_{4} $&   $ SE_{\delta_{4}}$   & t      & $\delta_{4} $ & $SE_{\delta_{4}$ & t      &  $\delta_{5}$ & $SE_{\delta_{5}}$  & t     \\ \hline
 {\color[HTML]{343434} Total}        & -48   & 163    &  -0.30  & -47   & 163   & -0.29 & -47  & 163    & -0.29 \\ \hline
 {\color[HTML]{343434} Manufacture}  & -34   & 114    &  -0.30  & -35   & 114   & -0.30 & -34  & 114     & -0.30   \\ \hline
 {\color[HTML]{343434} Trade}        & -1.2   & 3  & -0.31  & -0.9   & 3.7  & -0.23 & -0.9   & 3.7  & -0.26 \\ \hline
@@ -681,7 +681,7 @@ $\alpha$ , $\beta_{0}$ and $\beta_{1}$  obtained by the DID regression,  for sal
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
-& $\alpha $&   $ \sigma_{\alpha}$   & t      & $\beta_{0}$ & $\sigma_{\beta_{0}}$ & t      &  $\beta_{1}$ & $\sigma_{\beta_{1}$  & t     \\ \hline
+& $\alpha $&   $ SE_{\alpha}$   & t      & $\beta_{0}$ & $SE_{\beta_{0}}$ & t      &  $\beta_{1}$ & $SE_{\beta_{1}$  & t     \\ \hline
 {\color[HTML]{3531FF} Clothing}        & 102.88 *** & 0.42  & 240.20 & -3.66 *** & 0.60  & -6.05 & 1.47 & 1.96 & 0.75  \\ \hline
 {\color[HTML]{009901} Footwear}        & 102.88 *** & 0.37  & 278.66 & -2.05 *** & 0.52  & -3.93 & 1.47 & 1.69 & 0.87 \\ \hline
 {\color[HTML]{F56B00} Appliances}      & 102.88 *** & 0.53  & 192.78 & 1.71 * & 0.75  & 2.27 & 1.47  & 2.44  & 0.60  \\ \hline
@@ -702,7 +702,7 @@ $\beta_{2}$ and $\beta_{3}$ obtained by the DID regression,  for  sales value da
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l}
-& $\beta_{2}$ &   $ \sigma_{\beta_{2}}$   & t      & $\beta_{3}$ & $ \sigma_{\beta_{3}}$ & t         \\ \hline
+& $\beta_{2}$ &   $ SE_{\beta_{2}}$   & t      & $\beta_{3}$ & $ SE_{\beta_{3}}$ & t         \\ \hline
 {\color[HTML]{3531FF} Clothing}        & 1.2012  & 1.4206  & 0.84 & 1.69 & 1.96  & 0.86 \\ \hline
 {\color[HTML]{009901} Footwear}        & 1.20 & 1.22 &  0.98 & 1.69 &  1.69   & 1.00  \\ \hline
 {\color[HTML]{F56B00} Appliances}      & 1.20 & 1.77 & 0.67   & 1.69 & 2.44 & 0.69  \\ \hline
@@ -723,7 +723,7 @@ $\alpha$ , $\beta_{0}$ and $\beta_{1}$, expressed in millions, as obtained by th
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l|l|l|l}
-                                       & $\alpha$ &   $ \sigma_{\alpha}$   & t      & $\beta_{0}$ & $\sigma_{\beta_{0}}$ & t      &  $\beta_{1}$ & $\sigma_{\beta_{1}$  & t     \\ \hline
+                                       & $\alpha$ &   $ SE_{\alpha}$   & t      & $\beta_{0}$ & $SE_{\beta_{0}}$ & t      &  $\beta_{1}$ & $SE_{\beta_{1}$  & t     \\ \hline
 {\color[HTML]{343434} Total}        & 4.43 *** &  0.58   & 7.56  & 4.03 ***  &  0.83 & 4.87  & -2.14   &  2.74    & -0.78  \\ \hline
 {\color[HTML]{343434} Manufacture}  & 3.47  ***  &  0.52  & 6.67 & 3.02 ***   &  0.73    & 4.10 & -1.75   & 2.44     & -0.72   \\ \hline
 {\color[HTML]{343434} Trade}        & 0.19 ***  & 0.03  & 5.73  & -0.11 **  & 0.05  & -2.48  & -0.09  & 0.15  & -0.63 \\ \hline
@@ -742,7 +742,7 @@ $\beta_{2}$ and $\beta_{3}$ obtained by the DID regression,  for redundancy fund
 \end{flushleft}
 }
 \begin{tabular}{l|l|l|l|l|l|l}
-& $\beta_{2}$ &   $ \sigma_{\beta_{2}}$   & t      & $\beta_{3}$ & $ \sigma_{\beta_{3}}$ & t         \\ \hline
+& $\beta_{2}$ &   $ SE_{\beta_{2}}$   & t      & $\beta_{3}$ & $ SE_{\beta_{3}}$ & t         \\ \hline
 {\color[HTML]{343434} Total}        & -2.06   &  2.74   & -0.75  & -2.85    &  2.74    & -1.04  \\ \hline
 {\color[HTML]{343434} Manufacture}  & -2.46   &  2.44    & -0.72  & -3.05    &  2.44    & -1.25   \\ \hline
 {\color[HTML]{343434} Trade}        & -0.07   & 0.15   & -0.46  & 0.02  & -0.15 & -0.13  \\ \hline
