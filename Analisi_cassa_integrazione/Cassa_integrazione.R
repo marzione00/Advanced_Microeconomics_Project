@@ -106,6 +106,17 @@ summary(did_Full_placebo)
 ggplot(data=Dati_cassa_integrazione_Full  ,aes(x=Time,y=CIG_S))+geom_line(size=2,color = "red")+
   geom_line(size=2,color = "blue",aes(x=Time,y=CIG_O))+
   geom_line(size=2,color = "purple",aes(x=Time,y=CIG_SL))+
+  geom_vline(xintercept = 2, linetype="dashed", color = "red", size=1)+
+  geom_vline(xintercept = 3, linetype="dashed", color = "orange", size=1)+ 
+  geom_vline(xintercept = 4, linetype="dashed", color = "darkgreen", size=1)+
+  labs(y = "Hours Paid ")+ labs(x = "Time (months)")+
+  theme_bw(base_size = 18) 
+
+
+
+ggplot(data=Dati_cassa_integrazione_Full  ,aes(x=Time,y=CIG_S))+geom_line(size=2,color = "red")+
+  geom_line(size=2,color = "blue",aes(x=Time,y=CIG_O))+
+  geom_line(size=2,color = "purple",aes(x=Time,y=CIG_SL))+
   geom_vline(xintercept = -2, linetype="dashed", color = "red", size=1)+
   geom_vline(xintercept = -1, linetype="dashed", color = "orange", size=1)+ 
   geom_vline(xintercept = 0, linetype="dashed", color = "darkgreen", size=1)+

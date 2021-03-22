@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  22 MAR 2021 10:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  22 MAR 2021 12:12
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -2520,10 +2520,10 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19815 strings out of 479334
- 361121 string characters out of 2865057
+ 19814 strings out of 479334
+ 361107 string characters out of 2865057
  972915 words of memory out of 3000000
- 36685 multiletter control sequences out of 15000+200000
+ 36684 multiletter control sequences out of 15000+200000
  525073 words of font info for 194 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  111i,23n,116p,10607b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2541,7 +2541,7 @@ ts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona
 /iwonab.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonar.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on manuscript.pdf (49 pages, 488311 bytes).
+Output written on manuscript.pdf (49 pages, 488300 bytes).
 PDF statistics:
  816 PDF objects out of 1000 (max. 8388607)
  156 named destinations out of 1000 (max. 500000)
