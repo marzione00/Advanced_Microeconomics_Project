@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  23 MAR 2021 09:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.2.22)  23 MAR 2021 17:51
 entering extended mode
 **./manuscript.tex
 (manuscript.tex
@@ -1195,23 +1195,23 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[13]
-<Figures/Abbigliamento.pdf, id=246, 487.8225pt x 409.53pt>
+[13] [14]
+<Figures/Abbigliamento.pdf, id=250, 487.8225pt x 409.53pt>
 File: Figures/Abbigliamento.pdf Graphic file (type pdf)
 <use Figures/Abbigliamento.pdf>
 Package pdftex.def Info: Figures/Abbigliamento.pdf  used on input line 192.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
-<Figures/Calzature.pdf, id=247, 487.8225pt x 409.53pt>
+<Figures/Calzature.pdf, id=251, 487.8225pt x 409.53pt>
 File: Figures/Calzature.pdf Graphic file (type pdf)
 <use Figures/Calzature.pdf>
 Package pdftex.def Info: Figures/Calzature.pdf  used on input line 199.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
-<Figures/Elettrodomestici.pdf, id=248, 487.8225pt x 409.53pt>
+<Figures/Elettrodomestici.pdf, id=252, 487.8225pt x 409.53pt>
 File: Figures/Elettrodomestici.pdf Graphic file (type pdf)
 <use Figures/Elettrodomestici.pdf>
 Package pdftex.def Info: Figures/Elettrodomestici.pdf  used on input line 205.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
-<Figures/Fotoottica.pdf, id=249, 487.8225pt x 409.53pt>
+<Figures/Fotoottica.pdf, id=253, 487.8225pt x 409.53pt>
 File: Figures/Fotoottica.pdf Graphic file (type pdf)
 <use Figures/Fotoottica.pdf>
 Package pdftex.def Info: Figures/Fotoottica.pdf  used on input line 212.
@@ -1226,7 +1226,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Casalinghi.pdf, id=250, 487.8225pt x 409.53pt>
+<Figures/Casalinghi.pdf, id=254, 487.8225pt x 409.53pt>
 File: Figures/Casalinghi.pdf Graphic file (type pdf)
 <use Figures/Casalinghi.pdf>
 Package pdftex.def Info: Figures/Casalinghi.pdf  used on input line 219.
@@ -1240,19 +1240,19 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Utilenseria.pdf, id=251, 487.8225pt x 409.53pt>
+<Figures/Utilenseria.pdf, id=255, 487.8225pt x 409.53pt>
 File: Figures/Utilenseria.pdf Graphic file (type pdf)
 <use Figures/Utilenseria.pdf>
 Package pdftex.def Info: Figures/Utilenseria.pdf  used on input line 226.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
-<Figures/Giocattoli.pdf, id=256, 487.8225pt x 409.53pt>
+<Figures/Giocattoli.pdf, id=260, 487.8225pt x 409.53pt>
 File: Figures/Giocattoli.pdf Graphic file (type pdf)
 <use Figures/Giocattoli.pdf>
 Package pdftex.def Info: Figures/Giocattoli.pdf  used on input line 238.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
-[14] [15 <./Figures/Abbigliamento.pdf> <./Figures/Calzature.pdf> <./Figures/Ele
+[15] [16 <./Figures/Abbigliamento.pdf> <./Figures/Calzature.pdf> <./Figures/Ele
 ttrodomestici.pdf> <./Figures/Fotoottica.pdf> <./Figures/Casalinghi.pdf> <./Fig
-ures/Utilenseria.pdf>] [16 <./Figures/Giocattoli.pdf>]
+ures/Utilenseria.pdf>] [17 <./Figures/Giocattoli.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 246.
@@ -1363,13 +1363,13 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[17]
-<Figures/CIG_Manifattura.pdf, id=316, 487.8225pt x 409.53pt>
+[18]
+<Figures/CIG_Manifattura.pdf, id=320, 487.8225pt x 409.53pt>
 File: Figures/CIG_Manifattura.pdf Graphic file (type pdf)
 <use Figures/CIG_Manifattura.pdf>
 Package pdftex.def Info: Figures/CIG_Manifattura.pdf  used on input line 274.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
-<Figures/CIG_Commercio.pdf, id=317, 487.8225pt x 409.53pt>
+<Figures/CIG_Commercio.pdf, id=321, 487.8225pt x 409.53pt>
 File: Figures/CIG_Commercio.pdf Graphic file (type pdf)
 <use Figures/CIG_Commercio.pdf>
 Package pdftex.def Info: Figures/CIG_Commercio.pdf  used on input line 280.
@@ -1384,12 +1384,12 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/CIG_Costruzioni.pdf, id=318, 487.8225pt x 409.53pt>
+<Figures/CIG_Costruzioni.pdf, id=322, 487.8225pt x 409.53pt>
 File: Figures/CIG_Costruzioni.pdf Graphic file (type pdf)
 <use Figures/CIG_Costruzioni.pdf>
 Package pdftex.def Info: Figures/CIG_Costruzioni.pdf  used on input line 285.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
-<Figures/CIG_TOT.pdf, id=319, 487.8225pt x 409.53pt>
+<Figures/CIG_TOT.pdf, id=323, 487.8225pt x 409.53pt>
 File: Figures/CIG_TOT.pdf Graphic file (type pdf)
 <use Figures/CIG_TOT.pdf>
 Package pdftex.def Info: Figures/CIG_TOT.pdf  used on input line 291.
@@ -1403,17 +1403,17 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Phase_transition.pdf, id=320, 325.215pt x 348.30125pt>
+<Figures/Phase_transition.pdf, id=324, 325.215pt x 348.30125pt>
 File: Figures/Phase_transition.pdf Graphic file (type pdf)
 <use Figures/Phase_transition.pdf>
 Package pdftex.def Info: Figures/Phase_transition.pdf  used on input line 300.
 (pdftex.def)             Requested size: 185.0pt x 198.13518pt.
-<Figures/R_t_1_1_1.pdf, id=325, 307.1475pt x 358.33875pt>
+<Figures/R_t_1_1_1.pdf, id=329, 307.1475pt x 358.33875pt>
 File: Figures/R_t_1_1_1.pdf Graphic file (type pdf)
 <use Figures/R_t_1_1_1.pdf>
 Package pdftex.def Info: Figures/R_t_1_1_1.pdf  used on input line 310.
 (pdftex.def)             Requested size: 166.49887pt x 194.24913pt.
-<Figures/R_t_1.5_1.5_1.5.pdf, id=326, 307.1475pt x 358.33875pt>
+<Figures/R_t_1.5_1.5_1.5.pdf, id=330, 307.1475pt x 358.33875pt>
 File: Figures/R_t_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/R_t_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/R_t_1.5_1.5_1.5.pdf  used on input line 316.
@@ -1427,9 +1427,9 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[18 <./Figures/CIG_Manifattura.pdf> <./Figures/CIG_Commercio.pdf> <./Figures/CI
-G_Costruzioni.pdf> <./Figures/CIG_TOT.pdf>] [19 <./Figures/Phase_transition.pdf
->] [20 <./Figures/R_t_1_1_1.pdf> <./Figures/R_t_1.5_1.5_1.5.pdf>]
+[19 <./Figures/CIG_Manifattura.pdf> <./Figures/CIG_Commercio.pdf> <./Figures/CI
+G_Costruzioni.pdf> <./Figures/CIG_TOT.pdf>] [20 <./Figures/Phase_transition.pdf
+>] [21 <./Figures/R_t_1_1_1.pdf> <./Figures/R_t_1.5_1.5_1.5.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 328.
@@ -1540,13 +1540,13 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[21]
-<Figures/Epidemics_1_1_1.pdf, id=385, 326.21875pt x 474.77374pt>
+[22]
+<Figures/Epidemics_1_1_1.pdf, id=389, 326.21875pt x 474.77374pt>
 File: Figures/Epidemics_1_1_1.pdf Graphic file (type pdf)
 <use Figures/Epidemics_1_1_1.pdf>
 Package pdftex.def Info: Figures/Epidemics_1_1_1.pdf  used on input line 350.
 (pdftex.def)             Requested size: 166.49887pt x 242.327pt.
-<Figures/Epidemics_1.5_1.5_1.5.pdf, id=386, 326.21875pt x 474.77374pt>
+<Figures/Epidemics_1.5_1.5_1.5.pdf, id=390, 326.21875pt x 474.77374pt>
 File: Figures/Epidemics_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/Epidemics_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/Epidemics_1.5_1.5_1.5.pdf  used on input line 
@@ -1562,13 +1562,13 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/Selling_Scenario_1_1_1.pdf, id=387, 487.8225pt x 409.53pt>
+<Figures/Selling_Scenario_1_1_1.pdf, id=391, 487.8225pt x 409.53pt>
 File: Figures/Selling_Scenario_1_1_1.pdf Graphic file (type pdf)
 <use Figures/Selling_Scenario_1_1_1.pdf>
 Package pdftex.def Info: Figures/Selling_Scenario_1_1_1.pdf  used on input line
  368.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
-<Figures/Selling_Scenario_1.5_1.5_1.5.pdf, id=388, 487.8225pt x 409.53pt>
+<Figures/Selling_Scenario_1.5_1.5_1.5.pdf, id=392, 487.8225pt x 409.53pt>
 File: Figures/Selling_Scenario_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/Selling_Scenario_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/Selling_Scenario_1.5_1.5_1.5.pdf  used on inpu
@@ -1583,12 +1583,12 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-<Figures/CIG_effect_1_1_1.pdf, id=389, 487.8225pt x 409.53pt>
+<Figures/CIG_effect_1_1_1.pdf, id=393, 487.8225pt x 409.53pt>
 File: Figures/CIG_effect_1_1_1.pdf Graphic file (type pdf)
 <use Figures/CIG_effect_1_1_1.pdf>
 Package pdftex.def Info: Figures/CIG_effect_1_1_1.pdf  used on input line 386.
 (pdftex.def)             Requested size: 166.49887pt x 139.77576pt.
-<Figures/CIG_1.5_1.5_1.5.pdf, id=390, 487.8225pt x 409.53pt>
+<Figures/CIG_1.5_1.5_1.5.pdf, id=394, 487.8225pt x 409.53pt>
 File: Figures/CIG_1.5_1.5_1.5.pdf Graphic file (type pdf)
 <use Figures/CIG_1.5_1.5_1.5.pdf>
 Package pdftex.def Info: Figures/CIG_1.5_1.5_1.5.pdf  used on input line 392.
@@ -1618,10 +1618,10 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 447.
 
-[22 <./Figures/Epidemics_1_1_1.pdf> <./Figures/Epidemics_1.5_1.5_1.5.pdf>]
-[23 <./Figures/Selling_Scenario_1_1_1.pdf> <./Figures/Selling_Scenario_1.5_1.5_
+[23 <./Figures/Epidemics_1_1_1.pdf> <./Figures/Epidemics_1.5_1.5_1.5.pdf>]
+[24 <./Figures/Selling_Scenario_1_1_1.pdf> <./Figures/Selling_Scenario_1.5_1.5_
 1.5.pdf> <./Figures/CIG_effect_1_1_1.pdf> <./Figures/CIG_1.5_1.5_1.5.pdf>]
-[24] (manuscript.bbl [25
+[25] (manuscript.bbl [26
 
 
 
@@ -1673,7 +1673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 \T1/fvm/m/n/12 Attivita / Pubblicazioni / RapportiStudi / ContrattiPubblici /
  []
 
-[26]
+[27]
 
 ! Package inputenc Error: Unicode character А (U+0410)
 (inputenc)                not set up for use with LaTeX.
@@ -1728,7 +1728,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[27] [28]
+[28] [29]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 481.
@@ -1827,7 +1827,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[29]
+[30]
 ! Undefined control sequence.
 l.502 \clearall
                
@@ -1837,17 +1837,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[30
+[31
 
 
-] [31]
-<Figures/DID_selling_placebo.pdf, id=522, 316.18124pt x 555.07375pt>
+] [32]
+<Figures/DID_selling_placebo.pdf, id=526, 316.18124pt x 555.07375pt>
 File: Figures/DID_selling_placebo.pdf Graphic file (type pdf)
 <use Figures/DID_selling_placebo.pdf>
 Package pdftex.def Info: Figures/DID_selling_placebo.pdf  used on input line 61
 7.
 (pdftex.def)             Requested size: 185.0pt x 324.78035pt.
- [32
+ [33
 
  <./Figures/DID_selling_placebo.pdf>]
 
@@ -1956,14 +1956,14 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[33]
-<Figures/DID_subsidies_placebo.pdf, id=541, 307.1475pt x 358.33875pt>
+[34]
+<Figures/DID_subsidies_placebo.pdf, id=545, 307.1475pt x 358.33875pt>
 File: Figures/DID_subsidies_placebo.pdf Graphic file (type pdf)
 <use Figures/DID_subsidies_placebo.pdf>
 Package pdftex.def Info: Figures/DID_subsidies_placebo.pdf  used on input line 
 647.
 (pdftex.def)             Requested size: 185.0pt x 215.83601pt.
- [34 <./Figures/DID_subsidies_placebo.pdf>]
+ [35 <./Figures/DID_subsidies_placebo.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 653.
@@ -2063,7 +2063,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[35] [36
+[36] [37
 
 
 
@@ -2168,7 +2168,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[37]
+[38]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 698.
@@ -2257,7 +2257,7 @@ l.703 }
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[38]
+[39]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 719.
@@ -2357,7 +2357,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[39]
+[40]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 738.
@@ -2446,56 +2446,56 @@ l.743 }
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[40]
-<Figures/Deseasoning/Alimentare.pdf, id=596, 307.1475pt x 358.33875pt>
+[41]
+<Figures/Deseasoning/Alimentare.pdf, id=600, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Alimentare.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Alimentare.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Alimentare.pdf  used on input line
  766.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
-<Figures/Deseasoning/Abbigliamento.pdf, id=597, 307.1475pt x 358.33875pt>
+<Figures/Deseasoning/Abbigliamento.pdf, id=601, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Abbigliamento.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Abbigliamento.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Abbigliamento.pdf  used on input l
 ine 773.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
-<Figures/Deseasoning/Calzature.pdf, id=598, 307.1475pt x 358.33875pt>
+<Figures/Deseasoning/Calzature.pdf, id=602, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Calzature.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Calzature.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Calzature.pdf  used on input line 
 780.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
-<Figures/Deseasoning/Elettrodomestici.pdf, id=599, 307.1475pt x 358.33875pt>
+<Figures/Deseasoning/Elettrodomestici.pdf, id=603, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Elettrodomestici.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Elettrodomestici.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Elettrodomestici.pdf  used on inpu
 t line 787.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
-<Figures/Deseasoning/Fotoottica.pdf, id=600, 307.1475pt x 358.33875pt>
+<Figures/Deseasoning/Fotoottica.pdf, id=604, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Fotoottica.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Fotoottica.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Fotoottica.pdf  used on input line
  794.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
-<Figures/Deseasoning/Casalinghi.pdf, id=601, 307.1475pt x 358.33875pt>
+<Figures/Deseasoning/Casalinghi.pdf, id=605, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Casalinghi.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Casalinghi.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Casalinghi.pdf  used on input line
  801.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
-<Figures/Deseasoning/Utilenseria.pdf, id=602, 307.1475pt x 358.33875pt>
+<Figures/Deseasoning/Utilenseria.pdf, id=606, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Utilenseria.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Utilenseria.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Utilenseria.pdf  used on input lin
 e 809.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
-<Figures/Deseasoning/Giocattoli.pdf, id=603, 307.1475pt x 358.33875pt>
+<Figures/Deseasoning/Giocattoli.pdf, id=607, 307.1475pt x 358.33875pt>
 File: Figures/Deseasoning/Giocattoli.pdf Graphic file (type pdf)
 <use Figures/Deseasoning/Giocattoli.pdf>
 Package pdftex.def Info: Figures/Deseasoning/Giocattoli.pdf  used on input line
  816.
 (pdftex.def)             Requested size: 370.0pt x 431.6939pt.
- [41
+ [42
 
 
 
@@ -2505,11 +2505,16 @@ Package pdftex.def Info: Figures/Deseasoning/Giocattoli.pdf  used on input line
 
 
 
-] [42 <./Figures/Deseasoning/Alimentare.pdf>] [43 <./Figures/Deseasoning/Abbigl
-iamento.pdf>] [44 <./Figures/Deseasoning/Calzature.pdf>] [45 <./Figures/Deseaso
-ning/Elettrodomestici.pdf>] [46 <./Figures/Deseasoning/Fotoottica.pdf>] [47 <./
-Figures/Deseasoning/Casalinghi.pdf>] [48 <./Figures/Deseasoning/Utilenseria.pdf
->] [49 <./Figures/Deseasoning/Giocattoli.pdf>] (manuscript.aux)
+] [43 <./Figures/Deseasoning/Alimentare.pdf>] [44 <./Figures/Deseasoning/Abbigl
+iamento.pdf>] [45 <./Figures/Deseasoning/Calzature.pdf>] [46 <./Figures/Deseaso
+ning/Elettrodomestici.pdf>] [47 <./Figures/Deseasoning/Fotoottica.pdf>] [48 <./
+Figures/Deseasoning/Casalinghi.pdf>] [49 <./Figures/Deseasoning/Utilenseria.pdf
+>] [50 <./Figures/Deseasoning/Giocattoli.pdf>] (manuscript.aux
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2517,10 +2522,10 @@ Package rerunfilecheck Info: File `manuscript.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19818 strings out of 479334
- 361191 string characters out of 2865057
+ 19820 strings out of 479334
+ 361212 string characters out of 2865057
  972915 words of memory out of 3000000
- 36686 multiletter control sequences out of 15000+200000
+ 36687 multiletter control sequences out of 15000+200000
  525073 words of font info for 194 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  111i,23n,116p,10607b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2538,9 +2543,9 @@ ts/type1/bera/fvmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona
 /iwonab.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/nowacki/iwona/iwonar.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on manuscript.pdf (49 pages, 489919 bytes).
+Output written on manuscript.pdf (50 pages, 490761 bytes).
 PDF statistics:
- 820 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
+ 824 PDF objects out of 1000 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
  25879 words of extra memory for PDF output out of 29859 (max. 10000000)
 

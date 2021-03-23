@@ -5,13 +5,13 @@
 \contentsline {section}{\numberline {3}{Data description}}{10}{section.3}%
 \contentsline {section}{\numberline {4}{Results and Discussion}}{11}{section.4}%
 \contentsline {subsection}{\numberline {4.1}{DID}}{11}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}{Scenarios}}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}{Scenarios}}{12}{subsection.4.2}%
 \contentsline {section}{\numberline {5}{Conclusions}}{13}{section.5}%
-\contentsline {section}{\numberline {6}{Pictures and Tables}}{14}{section.6}%
-\contentsline {section}{\numberline {7}{Supporting information}}{28}{section.7}%
-\contentsline {subsection}{\numberline {7.1}{A - Food consumption during the lock-down}}{28}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}{B - Pre-trend check}}{30}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}{C - Placebo tests for DID}}{32}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}{D - DID coefficients}}{36}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}{E - De-seasoning}}{41}{subsection.7.5}%
+\contentsline {section}{\numberline {6}{Pictures and Tables}}{15}{section.6}%
+\contentsline {section}{\numberline {7}{Supporting information}}{29}{section.7}%
+\contentsline {subsection}{\numberline {7.1}{A - Food consumption during the lock-down}}{29}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}{B - Pre-trend check}}{31}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}{C - Placebo tests for DID}}{33}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}{D - DID coefficients}}{37}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}{E - De-seasoning}}{42}{subsection.7.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
