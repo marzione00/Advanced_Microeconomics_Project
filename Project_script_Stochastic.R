@@ -20,9 +20,9 @@ CIG_effect<-data.frame(matrix(ncol = 0,nrow=4))
 colnames(buffer) <- c("time", "S","I","R","D")
 pop_tot<-60000000
 delta_inf<-0
-k<-c(1,1,1)
+#k<-c(1,1,1)
 #k<-c(0.9,0.9,0.9)
-#k<-c(1.5,1.5,1.5)
+k<-c(1.5,1.5,1.5)
 #k<-c(0.1,0.1,0.1)
 #rate_infection_threshold<-0.00000007
 rate_infection_threshold<-0.000007
@@ -196,7 +196,7 @@ strong_lockdown_weeks
 lockdown_weeks
 buffer$D[370]
 print("Costo morti kEUR")
-buffer$D[370]*300
+buffer$D[370]*332
 print("Costo ricoveri kEUR")
 buffer$R[370]*28.180
 
